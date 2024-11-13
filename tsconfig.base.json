@@ -28,6 +28,21 @@
             "@avans-nx-workshop/backend/user": [
                 "libs/backend/user/src/index.ts"
             ],
+            "@avans-nx-workshop/common-ui": [
+                "libs/frontend/common-ui/src/index.ts"
+            ],
+            "@avans-nx-workshop/frontend-common": [
+                "libs/frontend/frontend-common/src/index.ts"
+            ],
+            "@avans-nx-workshop/frontend-features": [
+                "libs/frontend/frontend-features/src/index.ts"
+            ],
+            "@avans-nx-workshop/frontend-features-components": [
+                "libs/frontend/frontend-features-components/src/index.ts"
+            ],
+            "@avans-nx-workshop/frontend-ui": [
+                "libs/frontend/frontend-ui/src/index.ts"
+            ],
             "@avans-nx-workshop/share-a-meal/auth": [
                 "libs/share-a-meal/auth/src/index.ts"
             ],
