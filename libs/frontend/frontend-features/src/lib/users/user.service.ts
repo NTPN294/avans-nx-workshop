@@ -41,11 +41,11 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
   
     constructor() {
       console.log('Service constructor aangeroepen');
+      console.log(this.users);
     }
   
     getUsers(): IUserInfo[] {
       console.log('getUsers aangeroepen');
-      console.log(this.users);
       return this.users;
     }
   
