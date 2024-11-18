@@ -1,0 +1,22 @@
+[NX Daemon Server] - 2024-11-18T10:05:14.696Z - Started listening on: \\.\pipe\nx\C:\Users\ntpn2\AppData\Local\Temp\d375990175\d.sock
+[NX Daemon Server] - 2024-11-18T10:05:14.699Z - [WATCHER]: Subscribed to changes within: C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (native)
+[NX Daemon Server] - 2024-11-18T10:05:14.701Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T10:05:14.701Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-18T10:05:14.703Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T10:05:14.706Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-18T10:05:14.707Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-18T10:05:14.707Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-11-18T10:05:14.707Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-18T10:05:14.707Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (sources)
+[NX Daemon Server] - 2024-11-18T10:05:14.707Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (outputs)
+[NX Daemon Server] - 2024-11-18T10:33:12.284Z - Started listening on: \\.\pipe\nx\C:\Users\ntpn2\AppData\Local\Temp\d375990175\d.sock
+[NX Daemon Server] - 2024-11-18T10:33:12.286Z - [WATCHER]: Subscribed to changes within: C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (native)
+[NX Daemon Server] - 2024-11-18T10:33:12.289Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T10:33:12.290Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-18T10:33:12.290Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T10:33:12.292Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-18T10:33:12.293Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-18T10:33:12.294Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-11-18T10:33:12.294Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-18T10:33:12.294Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (sources)
+[NX Daemon Server] - 2024-11-18T10:33:12.294Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (outputs)
