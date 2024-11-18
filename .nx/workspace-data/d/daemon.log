@@ -783,3 +783,1510 @@
 [NX Daemon Server] - 2024-11-18T20:52:26.835Z - [SYNC]: project graph hash is the same, not collecting task sync generators
 [NX Daemon Server] - 2024-11-18T20:52:26.835Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX Daemon Server] - 2024-11-18T20:52:26.835Z - Time taken for 'total execution time for createProjectGraph()' 45.620700000003126ms
+[NX Daemon Server] - 2024-11-18T20:53:27.003Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:54:20.783Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.ts was modified
+[NX Daemon Server] - 2024-11-18T20:54:20.783Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:54:20.985Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:54:20.985Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.ts
+[NX Daemon Server] - 2024-11-18T20:54:20.985Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:54:20.989Z - Time taken for 'hash changed files from watcher' 0.4006999999983236ms
+[NX Daemon Server] - 2024-11-18T20:54:21.010Z - Time taken for 'build-project-configs' 18.637099999992643ms
+[NX Daemon Server] - 2024-11-18T20:54:21.015Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:54:21.055Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:54:21.056Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:54:21.056Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:54:21.056Z - Time taken for 'total execution time for createProjectGraph()' 37.53200000000652ms
+[NX Daemon Server] - 2024-11-18T20:54:25.374Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:54:25.375Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.ts was modified
+[NX Daemon Server] - 2024-11-18T20:54:25.791Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:54:25.791Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.ts
+[NX Daemon Server] - 2024-11-18T20:54:25.791Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:54:25.795Z - Time taken for 'hash changed files from watcher' 0.38759999998728745ms
+[NX Daemon Server] - 2024-11-18T20:54:25.814Z - Time taken for 'build-project-configs' 15.488199999992503ms
+[NX Daemon Server] - 2024-11-18T20:54:25.852Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:54:25.853Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:54:25.853Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:54:25.853Z - Time taken for 'total execution time for createProjectGraph()' 32.46350000001257ms
+[NX Daemon Server] - 2024-11-18T20:55:25.610Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:56:06.829Z - [WATCHER]: apps/my-app/src/styles.css was modified
+[NX Daemon Server] - 2024-11-18T20:56:06.829Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:56:07.636Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:56:07.636Z - [REQUEST]: apps/my-app/src/styles.css
+[NX Daemon Server] - 2024-11-18T20:56:07.636Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:56:07.641Z - Time taken for 'hash changed files from watcher' 0.3667000000132248ms
+[NX Daemon Server] - 2024-11-18T20:56:07.659Z - Time taken for 'build-project-configs' 16.670000000012806ms
+[NX Daemon Server] - 2024-11-18T20:56:07.702Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:56:07.703Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:56:07.703Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:56:07.703Z - Time taken for 'total execution time for createProjectGraph()' 34.73089999999502ms
+[NX Daemon Server] - 2024-11-18T20:56:25.713Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:56:25.714Z - [WATCHER]: apps/my-app/src/styles.css was modified
+[NX Daemon Server] - 2024-11-18T20:56:27.319Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:56:27.319Z - [REQUEST]: apps/my-app/src/styles.css
+[NX Daemon Server] - 2024-11-18T20:56:27.319Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:56:27.324Z - Time taken for 'hash changed files from watcher' 0.43049999995855615ms
+[NX Daemon Server] - 2024-11-18T20:56:27.344Z - Time taken for 'build-project-configs' 18.57850000000326ms
+[NX Daemon Server] - 2024-11-18T20:56:27.378Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:56:27.379Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:56:27.379Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:56:27.379Z - Time taken for 'total execution time for createProjectGraph()' 24.5ms
+[NX Daemon Server] - 2024-11-18T20:56:42.593Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:56:42.594Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.html was modified
+[NX Daemon Server] - 2024-11-18T20:56:42.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:56:45.800Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:56:45.800Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.html
+[NX Daemon Server] - 2024-11-18T20:56:45.800Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:56:45.805Z - Time taken for 'hash changed files from watcher' 0.43219999998109415ms
+[NX Daemon Server] - 2024-11-18T20:56:45.824Z - Time taken for 'build-project-configs' 17.224499999952968ms
+[NX Daemon Server] - 2024-11-18T20:56:45.867Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:56:45.868Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:56:45.868Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:56:45.868Z - Time taken for 'total execution time for createProjectGraph()' 37.151499999978114ms
+[NX Daemon Server] - 2024-11-18T20:57:12.084Z - [WATCHER]: apps/my-app/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2024-11-18T20:57:12.085Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:57:12.238Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:57:18.496Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:57:18.496Z - [REQUEST]: apps/my-app/src/app/app.routes.ts
+[NX Daemon Server] - 2024-11-18T20:57:18.496Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:57:18.499Z - Time taken for 'hash changed files from watcher' 0.3834999999962747ms
+[NX Daemon Server] - 2024-11-18T20:57:18.518Z - Time taken for 'build-project-configs' 16.382400000002235ms
+[NX Daemon Server] - 2024-11-18T20:57:18.559Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:57:18.560Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:57:18.560Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:57:18.560Z - Time taken for 'total execution time for createProjectGraph()' 33.75359999999637ms
+[NX Daemon Server] - 2024-11-18T20:57:20.390Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:57:20.391Z - [WATCHER]: apps/my-app/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2024-11-18T20:57:20.499Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:57:26.804Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:57:26.804Z - [REQUEST]: apps/my-app/src/app/app.routes.ts
+[NX Daemon Server] - 2024-11-18T20:57:26.804Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:57:26.809Z - Time taken for 'hash changed files from watcher' 0.5213000000221655ms
+[NX Daemon Server] - 2024-11-18T20:57:26.827Z - Time taken for 'build-project-configs' 16.75329999998212ms
+[NX Daemon Server] - 2024-11-18T20:57:26.870Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:57:26.871Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:57:26.871Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:57:26.871Z - Time taken for 'total execution time for createProjectGraph()' 36.81469999998808ms
+[NX Daemon Server] - 2024-11-18T20:58:19.608Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.css was modified
+[NX Daemon Server] - 2024-11-18T20:58:19.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:58:20.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:58:21.400Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:58:21.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:58:21.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:58:26.021Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:58:26.021Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.css
+[NX Daemon Server] - 2024-11-18T20:58:26.022Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:58:26.026Z - Time taken for 'hash changed files from watcher' 0.3637000000453554ms
+[NX Daemon Server] - 2024-11-18T20:58:26.045Z - Time taken for 'build-project-configs' 16.898099999991246ms
+[NX Daemon Server] - 2024-11-18T20:58:26.091Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:58:26.091Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:58:26.091Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:58:26.091Z - Time taken for 'total execution time for createProjectGraph()' 37.913000000000466ms
+[NX Daemon Server] - 2024-11-18T20:58:33.825Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.css was modified
+[NX Daemon Server] - 2024-11-18T20:58:33.825Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:58:40.235Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:58:40.235Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.css
+[NX Daemon Server] - 2024-11-18T20:58:40.235Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:58:40.239Z - Time taken for 'hash changed files from watcher' 0.4469999999855645ms
+[NX Daemon Server] - 2024-11-18T20:58:40.262Z - Time taken for 'build-project-configs' 18.79460000002291ms
+[NX Daemon Server] - 2024-11-18T20:58:40.303Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:58:40.304Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:58:40.304Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:58:40.304Z - Time taken for 'total execution time for createProjectGraph()' 34.5732999999891ms
+[NX Daemon Server] - 2024-11-18T20:58:55.444Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.html was modified
+[NX Daemon Server] - 2024-11-18T20:58:55.444Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:58:55.568Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:59:01.855Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:59:01.855Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.html
+[NX Daemon Server] - 2024-11-18T20:59:01.855Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:59:01.859Z - Time taken for 'hash changed files from watcher' 0.4481000000378117ms
+[NX Daemon Server] - 2024-11-18T20:59:01.880Z - Time taken for 'build-project-configs' 18.15529999998398ms
+[NX Daemon Server] - 2024-11-18T20:59:01.917Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:59:01.918Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:59:01.918Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:59:01.918Z - Time taken for 'total execution time for createProjectGraph()' 30.714199999987613ms
+[NX Daemon Server] - 2024-11-18T20:59:19.082Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:59:19.083Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.html was modified
+[NX Daemon Server] - 2024-11-18T20:59:19.209Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:59:25.496Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:59:25.496Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.html
+[NX Daemon Server] - 2024-11-18T20:59:25.496Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:59:25.500Z - Time taken for 'hash changed files from watcher' 0.6207999999751337ms
+[NX Daemon Server] - 2024-11-18T20:59:25.521Z - Time taken for 'build-project-configs' 18.40530000004219ms
+[NX Daemon Server] - 2024-11-18T20:59:25.557Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:59:25.557Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:59:25.557Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:59:25.558Z - Time taken for 'total execution time for createProjectGraph()' 30.104200000001583ms
+[NX Daemon Server] - 2024-11-18T20:59:35.853Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.css was modified
+[NX Daemon Server] - 2024-11-18T20:59:35.853Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:59:36.039Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T20:59:42.267Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T20:59:42.267Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.css
+[NX Daemon Server] - 2024-11-18T20:59:42.267Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T20:59:42.270Z - Time taken for 'hash changed files from watcher' 0.3391000000410713ms
+[NX Daemon Server] - 2024-11-18T20:59:42.292Z - Time taken for 'build-project-configs' 18.882200000050943ms
+[NX Daemon Server] - 2024-11-18T20:59:42.329Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T20:59:42.330Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T20:59:42.330Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T20:59:42.330Z - Time taken for 'total execution time for createProjectGraph()' 30.847799999988638ms
+[NX Daemon Server] - 2024-11-18T21:00:36.156Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:00:36.221Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:00:43.120Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-11-18T21:00:43.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:00:43.182Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:00:43.183Z - [WATCHER]: apps/my-app/src/app/components/dashboard/img2.svg was modified
+[NX Daemon Server] - 2024-11-18T21:00:49.147Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:00:49.148Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:00:49.272Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:00:49.534Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:00:49.534Z - [REQUEST]: apps/my-app/src/app/components/dashboard/img1.svg,apps/my-app/src/app/components/dashboard/img3.svg,apps/my-app/src/app/components/dashboard/img2.svg,apps/my-app/src/app/components/dashboard/dashboard.component.html
+[NX Daemon Server] - 2024-11-18T21:00:49.534Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:00:49.538Z - Time taken for 'hash changed files from watcher' 0.49210000003222376ms
+[NX Daemon Server] - 2024-11-18T21:00:49.564Z - Time taken for 'build-project-configs' 22.474000000045635ms
+[NX Daemon Server] - 2024-11-18T21:00:49.606Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:00:49.606Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:00:49.606Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:00:49.607Z - Time taken for 'total execution time for createProjectGraph()' 34.45019999996293ms
+[NX Daemon Server] - 2024-11-18T21:01:04.288Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:01:04.290Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:01:10.705Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:01:10.705Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.html
+[NX Daemon Server] - 2024-11-18T21:01:10.705Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:01:10.709Z - Time taken for 'hash changed files from watcher' 0.4253999999491498ms
+[NX Daemon Server] - 2024-11-18T21:01:10.734Z - Time taken for 'build-project-configs' 21.577899999916553ms
+[NX Daemon Server] - 2024-11-18T21:01:10.783Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:01:10.784Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:01:10.784Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:01:10.784Z - Time taken for 'total execution time for createProjectGraph()' 40.92869999993127ms
+[NX Daemon Server] - 2024-11-18T21:01:33.034Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:01:33.035Z - [WATCHER]: apps/my-app/src/app/components/dashboard/img1.svg was deleted
+[NX Daemon Server] - 2024-11-18T21:01:33.190Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-11-18T21:01:33.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:01:36.074Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:01:36.076Z - [WATCHER]: apps/my-app/src/app/components/dashboard/img1.jpg was modified
+[NX Daemon Server] - 2024-11-18T21:01:39.447Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:01:39.447Z - [REQUEST]: apps/my-app/src/app/components/dashboard/img1.jpg
+[NX Daemon Server] - 2024-11-18T21:01:39.447Z - [REQUEST]: apps/my-app/src/app/components/dashboard/img1.svg,apps/my-app/src/app/components/dashboard/img2.svg,apps/my-app/src/app/components/dashboard/img3.svg
+[NX Daemon Server] - 2024-11-18T21:01:39.451Z - Time taken for 'hash changed files from watcher' 0.39830000000074506ms
+[NX Daemon Server] - 2024-11-18T21:01:39.483Z - Time taken for 'build-project-configs' 20.17379999998957ms
+[NX Daemon Server] - 2024-11-18T21:01:39.523Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:01:39.523Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:01:39.523Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:01:39.523Z - Time taken for 'total execution time for createProjectGraph()' 33.758499999996275ms
+[NX Daemon Server] - 2024-11-18T21:01:58.246Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:01:58.248Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:01:58.386Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:02:04.649Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:02:04.649Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.html
+[NX Daemon Server] - 2024-11-18T21:02:04.649Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:02:04.653Z - Time taken for 'hash changed files from watcher' 0.41090000001713634ms
+[NX Daemon Server] - 2024-11-18T21:02:04.672Z - Time taken for 'build-project-configs' 16.822900000028312ms
+[NX Daemon Server] - 2024-11-18T21:02:04.710Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:02:04.711Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:02:04.711Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:02:04.711Z - Time taken for 'total execution time for createProjectGraph()' 30.851599999936298ms
+[NX Daemon Server] - 2024-11-18T21:02:08.076Z - [WATCHER]: apps/my-app/src/app/components/dashboard/img1.jpg was deleted
+[NX Daemon Server] - 2024-11-18T21:02:08.076Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:02:14.478Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:02:14.478Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:02:14.478Z - [REQUEST]: apps/my-app/src/app/components/dashboard/img1.jpg
+[NX Daemon Server] - 2024-11-18T21:02:14.482Z - Time taken for 'hash changed files from watcher' 0.292200000025332ms
+[NX Daemon Server] - 2024-11-18T21:02:14.502Z - Time taken for 'build-project-configs' 17.200199999962933ms
+[NX Daemon Server] - 2024-11-18T21:02:14.531Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:02:14.532Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:02:14.532Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:02:14.532Z - Time taken for 'total execution time for createProjectGraph()' 21.870299999951385ms
+[NX Daemon Server] - 2024-11-18T21:02:19.541Z - [WATCHER]: apps/my-app/src/app/components/dashboard/dashboard.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:02:19.542Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:02:19.634Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:02:25.952Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:02:25.952Z - [REQUEST]: apps/my-app/src/app/components/dashboard/dashboard.component.html
+[NX Daemon Server] - 2024-11-18T21:02:25.952Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:02:25.956Z - Time taken for 'hash changed files from watcher' 0.36379999993368983ms
+[NX Daemon Server] - 2024-11-18T21:02:25.977Z - Time taken for 'build-project-configs' 18.402099999948405ms
+[NX Daemon Server] - 2024-11-18T21:02:26.021Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:02:26.021Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:02:26.021Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:02:26.022Z - Time taken for 'total execution time for createProjectGraph()' 36.885799999930896ms
+[NX Daemon Server] - 2024-11-18T21:02:45.826Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:02:45.827Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:02:45.996Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:02:52.229Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:02:52.229Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:02:52.229Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:02:52.232Z - Time taken for 'hash changed files from watcher' 0.430299999890849ms
+[NX Daemon Server] - 2024-11-18T21:02:52.248Z - Time taken for 'build-project-configs' 13.03159999998752ms
+[NX Daemon Server] - 2024-11-18T21:02:52.285Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:02:52.286Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:02:52.286Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:02:52.286Z - Time taken for 'total execution time for createProjectGraph()' 31.530300000100397ms
+[NX Daemon Server] - 2024-11-18T21:03:46.134Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:04:08.302Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:04:08.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:04:08.473Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:04:14.709Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:04:14.709Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:04:14.709Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:04:14.713Z - Time taken for 'hash changed files from watcher' 0.3539999999338761ms
+[NX Daemon Server] - 2024-11-18T21:04:14.734Z - Time taken for 'build-project-configs' 17.54700000002049ms
+[NX Daemon Server] - 2024-11-18T21:04:14.775Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:04:14.776Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:04:14.776Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:04:14.776Z - Time taken for 'total execution time for createProjectGraph()' 35.57979999994859ms
+[NX Daemon Server] - 2024-11-18T21:04:58.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:04:58.139Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:04:58.328Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:05:04.549Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:05:04.549Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.ts
+[NX Daemon Server] - 2024-11-18T21:05:04.549Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:05:04.553Z - Time taken for 'hash changed files from watcher' 0.41729999997187406ms
+[NX Daemon Server] - 2024-11-18T21:05:04.571Z - Time taken for 'build-project-configs' 15.603499999968335ms
+[NX Daemon Server] - 2024-11-18T21:05:04.610Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:05:04.611Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:05:04.611Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:05:04.611Z - Time taken for 'total execution time for createProjectGraph()' 33.741999999969266ms
+[NX Daemon Server] - 2024-11-18T21:05:12.821Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:05:12.823Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:05:14.296Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:05:14.298Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:05:19.231Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:05:19.231Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.css
+[NX Daemon Server] - 2024-11-18T21:05:19.231Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:05:19.235Z - Time taken for 'hash changed files from watcher' 0.3972000000067055ms
+[NX Daemon Server] - 2024-11-18T21:05:19.254Z - Time taken for 'build-project-configs' 16.5962999999756ms
+[NX Daemon Server] - 2024-11-18T21:05:19.293Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:05:19.294Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:05:19.294Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:05:19.294Z - Time taken for 'total execution time for createProjectGraph()' 33.336000000010245ms
+[NX Daemon Server] - 2024-11-18T21:06:10.009Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:06:10.009Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:16.419Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:06:16.419Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.css
+[NX Daemon Server] - 2024-11-18T21:06:16.419Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:06:16.423Z - Time taken for 'hash changed files from watcher' 0.3440000000409782ms
+[NX Daemon Server] - 2024-11-18T21:06:16.442Z - Time taken for 'build-project-configs' 16.20369999995455ms
+[NX Daemon Server] - 2024-11-18T21:06:16.482Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:06:16.483Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:06:16.483Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:06:16.483Z - Time taken for 'total execution time for createProjectGraph()' 33.65679999999702ms
+[NX Daemon Server] - 2024-11-18T21:06:21.233Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:06:21.233Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:21.451Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:27.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:06:27.635Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:06:27.635Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:06:27.639Z - Time taken for 'hash changed files from watcher' 0.3312000000150874ms
+[NX Daemon Server] - 2024-11-18T21:06:27.656Z - Time taken for 'build-project-configs' 14.690500000026077ms
+[NX Daemon Server] - 2024-11-18T21:06:27.696Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:06:27.697Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:06:27.697Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:06:27.697Z - Time taken for 'total execution time for createProjectGraph()' 33.98060000000987ms
+[NX Daemon Server] - 2024-11-18T21:06:28.146Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:28.148Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:06:28.272Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:29.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:34.559Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:06:34.559Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:06:34.559Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:06:34.562Z - Time taken for 'hash changed files from watcher' 0.39259999990463257ms
+[NX Daemon Server] - 2024-11-18T21:06:34.579Z - Time taken for 'build-project-configs' 14.757499999948777ms
+[NX Daemon Server] - 2024-11-18T21:06:34.615Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:06:34.615Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:06:34.615Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:06:34.615Z - Time taken for 'total execution time for createProjectGraph()' 29.908900000038557ms
+[NX Daemon Server] - 2024-11-18T21:06:48.024Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:06:48.025Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:48.181Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:06:54.433Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:06:54.433Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:06:54.433Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:06:54.437Z - Time taken for 'hash changed files from watcher' 0.4183000000193715ms
+[NX Daemon Server] - 2024-11-18T21:06:54.455Z - Time taken for 'build-project-configs' 15.183799999998882ms
+[NX Daemon Server] - 2024-11-18T21:06:54.496Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:06:54.497Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:06:54.497Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:06:54.497Z - Time taken for 'total execution time for createProjectGraph()' 35.11790000007022ms
+[NX Daemon Server] - 2024-11-18T21:07:22.776Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:07:22.777Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:07:22.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:07:29.182Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:07:29.182Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:07:29.182Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:07:29.186Z - Time taken for 'hash changed files from watcher' 0.33249999990221113ms
+[NX Daemon Server] - 2024-11-18T21:07:29.207Z - Time taken for 'build-project-configs' 18.0958999999566ms
+[NX Daemon Server] - 2024-11-18T21:07:29.248Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:07:29.248Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:07:29.248Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:07:29.248Z - Time taken for 'total execution time for createProjectGraph()' 34.936299999943ms
+[NX Daemon Server] - 2024-11-18T21:07:50.817Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:07:50.819Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:07:50.943Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:07:57.230Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:07:57.231Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:07:57.231Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:07:57.235Z - Time taken for 'hash changed files from watcher' 0.3468999998876825ms
+[NX Daemon Server] - 2024-11-18T21:07:57.259Z - Time taken for 'build-project-configs' 21.77740000002086ms
+[NX Daemon Server] - 2024-11-18T21:07:57.300Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:07:57.301Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:07:57.301Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:07:57.301Z - Time taken for 'total execution time for createProjectGraph()' 33.540999999968335ms
+[NX Daemon Server] - 2024-11-18T21:08:27.188Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:08:27.189Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:08:27.343Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:08:33.596Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:08:33.596Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:08:33.596Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:08:33.600Z - Time taken for 'hash changed files from watcher' 0.4115000000456348ms
+[NX Daemon Server] - 2024-11-18T21:08:33.622Z - Time taken for 'build-project-configs' 18.728000000002794ms
+[NX Daemon Server] - 2024-11-18T21:08:33.662Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:08:33.663Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:08:33.663Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:08:33.663Z - Time taken for 'total execution time for createProjectGraph()' 33.900999999954365ms
+[NX Daemon Server] - 2024-11-18T21:08:35.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:08:35.996Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:08:36.119Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:08:42.399Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:08:42.399Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:08:42.399Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:08:42.402Z - Time taken for 'hash changed files from watcher' 0.331499999971129ms
+[NX Daemon Server] - 2024-11-18T21:08:42.422Z - Time taken for 'build-project-configs' 17.204400000046007ms
+[NX Daemon Server] - 2024-11-18T21:08:42.462Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:08:42.462Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:08:42.462Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:08:42.462Z - Time taken for 'total execution time for createProjectGraph()' 32.050900000031106ms
+[NX Daemon Server] - 2024-11-18T21:09:21.385Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:09:21.386Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:09:22.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:09:27.788Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:09:27.788Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.ts
+[NX Daemon Server] - 2024-11-18T21:09:27.788Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:09:27.791Z - Time taken for 'hash changed files from watcher' 0.3651000000536442ms
+[NX Daemon Server] - 2024-11-18T21:09:27.808Z - Time taken for 'build-project-configs' 14.154199999989942ms
+[NX Daemon Server] - 2024-11-18T21:09:27.836Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:09:27.837Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:09:27.837Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:09:27.837Z - Time taken for 'total execution time for createProjectGraph()' 21.052600000053644ms
+[NX Daemon Server] - 2024-11-18T21:09:31.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:09:31.310Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:09:31.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:09:37.725Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:09:37.725Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.css
+[NX Daemon Server] - 2024-11-18T21:09:37.725Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:09:37.729Z - Time taken for 'hash changed files from watcher' 0.4161999998614192ms
+[NX Daemon Server] - 2024-11-18T21:09:37.747Z - Time taken for 'build-project-configs' 16.156900000059977ms
+[NX Daemon Server] - 2024-11-18T21:09:37.788Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:09:37.788Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:09:37.788Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:09:37.789Z - Time taken for 'total execution time for createProjectGraph()' 33.65499999979511ms
+[NX Daemon Server] - 2024-11-18T21:09:52.371Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:09:52.373Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:09:52.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:09:58.775Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:09:58.775Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:09:58.775Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:09:58.779Z - Time taken for 'hash changed files from watcher' 0.4612999998498708ms
+[NX Daemon Server] - 2024-11-18T21:09:58.796Z - Time taken for 'build-project-configs' 14.226100000087172ms
+[NX Daemon Server] - 2024-11-18T21:09:58.836Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:09:58.836Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:09:58.836Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:09:58.836Z - Time taken for 'total execution time for createProjectGraph()' 31.476699999999255ms
+[NX Daemon Server] - 2024-11-18T21:10:19.059Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:10:19.059Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:10:19.294Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:10:25.461Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:10:25.461Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:10:25.461Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:10:25.464Z - Time taken for 'hash changed files from watcher' 0.5653999999631196ms
+[NX Daemon Server] - 2024-11-18T21:10:25.483Z - Time taken for 'build-project-configs' 15.072699999902397ms
+[NX Daemon Server] - 2024-11-18T21:10:25.524Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:10:25.524Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:10:25.524Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:10:25.524Z - Time taken for 'total execution time for createProjectGraph()' 35.39559999993071ms
+[NX Daemon Server] - 2024-11-18T21:10:34.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:10:34.181Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:10:34.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:10:40.588Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:10:40.588Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:10:40.588Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:10:40.592Z - Time taken for 'hash changed files from watcher' 0.31900000013411045ms
+[NX Daemon Server] - 2024-11-18T21:10:40.609Z - Time taken for 'build-project-configs' 15.181300000054762ms
+[NX Daemon Server] - 2024-11-18T21:10:40.648Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:10:40.648Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:10:40.648Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:10:40.649Z - Time taken for 'total execution time for createProjectGraph()' 32.72389999986626ms
+[NX Daemon Server] - 2024-11-18T21:10:59.678Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:10:59.679Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:10:59.802Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:00.974Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:01.029Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:05.152Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:05.153Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:11:05.276Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:06.088Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:11:06.088Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:11:06.088Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:11:06.091Z - Time taken for 'hash changed files from watcher' 0.424400000134483ms
+[NX Daemon Server] - 2024-11-18T21:11:06.111Z - Time taken for 'build-project-configs' 16.38840000005439ms
+[NX Daemon Server] - 2024-11-18T21:11:06.151Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:11:06.152Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:11:06.152Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:11:06.152Z - Time taken for 'total execution time for createProjectGraph()' 34.5879000001587ms
+[NX Daemon Server] - 2024-11-18T21:11:12.739Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:11:12.739Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:12.865Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:19.145Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:11:19.145Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:11:19.145Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:11:19.148Z - Time taken for 'hash changed files from watcher' 0.4103000001050532ms
+[NX Daemon Server] - 2024-11-18T21:11:19.167Z - Time taken for 'build-project-configs' 16.380299999844283ms
+[NX Daemon Server] - 2024-11-18T21:11:19.207Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:11:19.208Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:11:19.208Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:11:19.208Z - Time taken for 'total execution time for createProjectGraph()' 33.23710000002757ms
+[NX Daemon Server] - 2024-11-18T21:11:33.569Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:11:33.569Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:33.692Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:11:39.976Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:11:39.976Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:11:39.976Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:11:39.979Z - Time taken for 'hash changed files from watcher' 0.4266999999526888ms
+[NX Daemon Server] - 2024-11-18T21:11:39.998Z - Time taken for 'build-project-configs' 15.269599999999627ms
+[NX Daemon Server] - 2024-11-18T21:11:40.036Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:11:40.036Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:11:40.036Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:11:40.036Z - Time taken for 'total execution time for createProjectGraph()' 32.668600000208244ms
+[NX Daemon Server] - 2024-11-18T21:12:33.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:06.724Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:06.725Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:13:06.878Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:09.905Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:09.906Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:13:10.032Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:13.132Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:13:13.132Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:13:13.132Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:13:13.136Z - Time taken for 'hash changed files from watcher' 0.36139999981969595ms
+[NX Daemon Server] - 2024-11-18T21:13:13.159Z - Time taken for 'build-project-configs' 19.799299999838695ms
+[NX Daemon Server] - 2024-11-18T21:13:13.211Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:13:13.212Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:13:13.212Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:13:13.212Z - Time taken for 'total execution time for createProjectGraph()' 45.77319999993779ms
+[NX Daemon Server] - 2024-11-18T21:13:25.401Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-list.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:13:25.401Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:31.805Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:13:31.806Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-list.component.css
+[NX Daemon Server] - 2024-11-18T21:13:31.806Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:13:31.809Z - Time taken for 'hash changed files from watcher' 0.37739999988116324ms
+[NX Daemon Server] - 2024-11-18T21:13:31.829Z - Time taken for 'build-project-configs' 16.10700000007637ms
+[NX Daemon Server] - 2024-11-18T21:13:31.869Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:13:31.870Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:13:31.870Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:13:31.870Z - Time taken for 'total execution time for createProjectGraph()' 35.23879999993369ms
+[NX Daemon Server] - 2024-11-18T21:13:32.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:32.087Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-11-18T21:13:32.196Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:13:32.196Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:13:32.196Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-list.component.css
+[NX Daemon Server] - 2024-11-18T21:13:32.199Z - Time taken for 'hash changed files from watcher' 0.3807000000961125ms
+[NX Daemon Server] - 2024-11-18T21:13:32.218Z - Time taken for 'build-project-configs' 16.419199999887496ms
+[NX Daemon Server] - 2024-11-18T21:13:32.258Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:13:32.259Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:13:32.259Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:13:32.259Z - Time taken for 'total execution time for createProjectGraph()' 33.725600000005215ms
+[NX Daemon Server] - 2024-11-18T21:13:42.553Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:42.555Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:13:42.695Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:42.759Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:13:42.759Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts
+[NX Daemon Server] - 2024-11-18T21:13:42.759Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:13:42.761Z - Time taken for 'hash changed files from watcher' 0.41029999987222254ms
+[NX Daemon Server] - 2024-11-18T21:13:42.778Z - Time taken for 'build-project-configs' 12.815500000026077ms
+[NX Daemon Server] - 2024-11-18T21:13:42.815Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:13:42.815Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:13:42.815Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:13:42.816Z - Time taken for 'total execution time for createProjectGraph()' 32.176100000040606ms
+[NX Daemon Server] - 2024-11-18T21:13:59.594Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:13:59.594Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:59.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:13:59.998Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:13:59.998Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts
+[NX Daemon Server] - 2024-11-18T21:13:59.998Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:14:00.001Z - Time taken for 'hash changed files from watcher' 0.36910000001080334ms
+[NX Daemon Server] - 2024-11-18T21:14:00.023Z - Time taken for 'build-project-configs' 17.53980000014417ms
+[NX Daemon Server] - 2024-11-18T21:14:00.066Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:14:00.067Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:14:00.067Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:14:00.067Z - Time taken for 'total execution time for createProjectGraph()' 38.2780999999959ms
+[NX Daemon Server] - 2024-11-18T21:14:24.757Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:14:24.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:24.896Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:25.567Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:14:25.567Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:14:25.567Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:14:25.569Z - Time taken for 'hash changed files from watcher' 0.40009999996982515ms
+[NX Daemon Server] - 2024-11-18T21:14:25.589Z - Time taken for 'build-project-configs' 15.64159999997355ms
+[NX Daemon Server] - 2024-11-18T21:14:25.631Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:14:25.632Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:14:25.632Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:14:25.632Z - Time taken for 'total execution time for createProjectGraph()' 34.72680000006221ms
+[NX Daemon Server] - 2024-11-18T21:14:26.125Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:34.451Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:14:34.451Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:34.591Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:36.022Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:14:36.022Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:36.052Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:14:36.052Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:14:36.052Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:14:36.055Z - Time taken for 'hash changed files from watcher' 0.5834999999497086ms
+[NX Daemon Server] - 2024-11-18T21:14:36.095Z - Time taken for 'build-project-configs' 35.82230000011623ms
+[NX Daemon Server] - 2024-11-18T21:14:36.138Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:14:36.138Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:14:36.138Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:14:36.138Z - Time taken for 'total execution time for createProjectGraph()' 36.48310000007041ms
+[NX Daemon Server] - 2024-11-18T21:14:50.012Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:14:50.012Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:50.135Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:52.390Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:14:52.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:52.515Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:53.217Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:14:53.217Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:14:53.217Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:14:53.220Z - Time taken for 'hash changed files from watcher' 0.4309000000357628ms
+[NX Daemon Server] - 2024-11-18T21:14:53.238Z - Time taken for 'build-project-configs' 14.844400000059977ms
+[NX Daemon Server] - 2024-11-18T21:14:53.279Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:14:53.280Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:14:53.280Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:14:53.280Z - Time taken for 'total execution time for createProjectGraph()' 33.255599999800324ms
+[NX Daemon Server] - 2024-11-18T21:14:57.009Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:57.011Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:14:57.135Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:14:58.308Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:15:03.420Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:15:03.420Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:15:03.420Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:15:03.423Z - Time taken for 'hash changed files from watcher' 0.3616999997757375ms
+[NX Daemon Server] - 2024-11-18T21:15:03.443Z - Time taken for 'build-project-configs' 16.42740000016056ms
+[NX Daemon Server] - 2024-11-18T21:15:03.486Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:15:03.486Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:15:03.487Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:15:03.487Z - Time taken for 'total execution time for createProjectGraph()' 35.73799999989569ms
+[NX Daemon Server] - 2024-11-18T21:15:32.292Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:15:32.292Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:15:32.463Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:15:38.694Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:15:38.694Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:15:38.694Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:15:38.698Z - Time taken for 'hash changed files from watcher' 0.37569999997504056ms
+[NX Daemon Server] - 2024-11-18T21:15:38.716Z - Time taken for 'build-project-configs' 14.432299999985844ms
+[NX Daemon Server] - 2024-11-18T21:15:38.757Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:15:38.757Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:15:38.758Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:15:38.758Z - Time taken for 'total execution time for createProjectGraph()' 35.355999999912456ms
+[NX Daemon Server] - 2024-11-18T21:16:19.825Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:16:19.826Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:16:19.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:16:26.239Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:16:26.239Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:16:26.239Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:16:26.242Z - Time taken for 'hash changed files from watcher' 0.337000000057742ms
+[NX Daemon Server] - 2024-11-18T21:16:26.261Z - Time taken for 'build-project-configs' 15.868400000035763ms
+[NX Daemon Server] - 2024-11-18T21:16:26.312Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:16:26.312Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:16:26.312Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:16:26.312Z - Time taken for 'total execution time for createProjectGraph()' 43.433700000168756ms
+[NX Daemon Server] - 2024-11-18T21:16:48.274Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:16:48.275Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:16:48.477Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:16:49.734Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:16:54.682Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:16:54.682Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:16:54.682Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:16:54.686Z - Time taken for 'hash changed files from watcher' 0.3475000001490116ms
+[NX Daemon Server] - 2024-11-18T21:16:54.704Z - Time taken for 'build-project-configs' 16.02780000003986ms
+[NX Daemon Server] - 2024-11-18T21:16:54.746Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:16:54.746Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:16:54.746Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:16:54.747Z - Time taken for 'total execution time for createProjectGraph()' 34.33089999994263ms
+[NX Daemon Server] - 2024-11-18T21:17:00.446Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:17:00.448Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:17:00.588Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:17:06.251Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:17:06.252Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:17:06.858Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:17:06.866Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:17:06.866Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:17:06.869Z - Time taken for 'hash changed files from watcher' 0.3680000000167638ms
+[NX Daemon Server] - 2024-11-18T21:17:06.888Z - Time taken for 'build-project-configs' 15.729499999899417ms
+[NX Daemon Server] - 2024-11-18T21:17:06.920Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:17:06.921Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:17:06.921Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:17:06.921Z - Time taken for 'total execution time for createProjectGraph()' 24.135699999984354ms
+[NX Daemon Server] - 2024-11-18T21:17:50.621Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:17:50.622Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:17:50.778Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:17:51.917Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:17:57.031Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:17:57.031Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:17:57.031Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:17:57.034Z - Time taken for 'hash changed files from watcher' 0.40260000014677644ms
+[NX Daemon Server] - 2024-11-18T21:17:57.053Z - Time taken for 'build-project-configs' 14.677300000097603ms
+[NX Daemon Server] - 2024-11-18T21:17:57.096Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:17:57.096Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:17:57.096Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:17:57.096Z - Time taken for 'total execution time for createProjectGraph()' 36.93580000009388ms
+[NX Daemon Server] - 2024-11-18T21:18:04.301Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:18:04.301Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:18:04.442Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:18:06.846Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:18:06.846Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:18:10.702Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:18:10.702Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:18:10.702Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:18:10.705Z - Time taken for 'hash changed files from watcher' 0.37369999988004565ms
+[NX Daemon Server] - 2024-11-18T21:18:10.724Z - Time taken for 'build-project-configs' 16.982099999906495ms
+[NX Daemon Server] - 2024-11-18T21:18:10.755Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:18:10.756Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:18:10.756Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:18:10.756Z - Time taken for 'total execution time for createProjectGraph()' 22.18130000005476ms
+[NX Daemon Server] - 2024-11-18T21:19:07.065Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:19:35.437Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:19:35.437Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:19:35.593Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:19:41.853Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:19:41.853Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:19:41.853Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:19:41.857Z - Time taken for 'hash changed files from watcher' 0.40489999996498227ms
+[NX Daemon Server] - 2024-11-18T21:19:41.874Z - Time taken for 'build-project-configs' 14.943699999945238ms
+[NX Daemon Server] - 2024-11-18T21:19:41.916Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:19:41.917Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:19:41.917Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:19:41.917Z - Time taken for 'total execution time for createProjectGraph()' 34.88799999980256ms
+[NX Daemon Server] - 2024-11-18T21:20:23.967Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:20:23.967Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:20:24.152Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:20:25.298Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:20:30.377Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:20:30.377Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:20:30.377Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:20:30.380Z - Time taken for 'hash changed files from watcher' 0.43690000008791685ms
+[NX Daemon Server] - 2024-11-18T21:20:30.398Z - Time taken for 'build-project-configs' 14.646200000075623ms
+[NX Daemon Server] - 2024-11-18T21:20:30.435Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:20:30.435Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:20:30.435Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:20:30.435Z - Time taken for 'total execution time for createProjectGraph()' 31.02740000002086ms
+[NX Daemon Server] - 2024-11-18T21:21:19.718Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T21:21:19.724Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-18T21:21:21.002Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T21:21:21.002Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-18T21:21:21.002Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T21:21:21.005Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-18T21:21:21.005Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-18T21:21:21.007Z - Time taken for 'total for creating and serializing project graph' 0.3693999999668449ms
+[NX Daemon Server] - 2024-11-18T21:21:21.007Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-18T21:21:21.007Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-11-18T21:21:21.048Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-11-18T21:21:21.049Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-11-18T21:21:21.049Z - Handled HASH_TASKS. Handling time: 13. Response time: 1.
+[NX Daemon Server] - 2024-11-18T21:21:21.242Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-11-18T21:21:21.243Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-11-18T21:21:21.243Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-18T21:21:21.726Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-18T21:21:21.727Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T21:21:21.727Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-18T21:21:21.729Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-18T21:21:21.729Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-18T21:21:21.730Z - Time taken for 'total for creating and serializing project graph' 0.33080000011250377ms
+[NX Daemon Server] - 2024-11-18T21:21:21.731Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-18T21:21:21.731Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-11-18T21:21:26.717Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:21:26.772Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:21:58.138Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:21:58.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:21:58.247Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:21:58.247Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:21:58.247Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:21:58.250Z - Time taken for 'hash changed files from watcher' 0.36740000010468066ms
+[NX Daemon Server] - 2024-11-18T21:21:58.270Z - Time taken for 'build-project-configs' 17.008200000040233ms
+[NX Daemon Server] - 2024-11-18T21:21:58.319Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:21:58.320Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:21:58.320Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:21:58.320Z - Time taken for 'total execution time for createProjectGraph()' 41.33389999996871ms
+[NX Daemon Server] - 2024-11-18T21:21:58.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:21:59.834Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:22:05.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:22:05.087Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:22:05.273Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:22:05.289Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:22:05.289Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:22:05.289Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:22:05.292Z - Time taken for 'hash changed files from watcher' 0.37250000005587935ms
+[NX Daemon Server] - 2024-11-18T21:22:05.313Z - Time taken for 'build-project-configs' 16.965199999976903ms
+[NX Daemon Server] - 2024-11-18T21:22:05.370Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:22:05.371Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:22:05.371Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:22:05.371Z - Time taken for 'total execution time for createProjectGraph()' 45.67200000002049ms
+[NX Daemon Server] - 2024-11-18T21:22:08.046Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:22:08.047Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:22:08.451Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:22:08.451Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:22:08.451Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:22:08.454Z - Time taken for 'hash changed files from watcher' 0.3326999999117106ms
+[NX Daemon Server] - 2024-11-18T21:22:08.472Z - Time taken for 'build-project-configs' 14.554600000148639ms
+[NX Daemon Server] - 2024-11-18T21:22:08.507Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:22:08.507Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:22:08.507Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:22:08.507Z - Time taken for 'total execution time for createProjectGraph()' 30.23519999999553ms
+[NX Daemon Server] - 2024-11-18T21:22:09.290Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:23:08.924Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:23:08.926Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:23:09.095Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:23:09.732Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:23:09.732Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:23:09.732Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:23:09.735Z - Time taken for 'hash changed files from watcher' 0.42599999997764826ms
+[NX Daemon Server] - 2024-11-18T21:23:09.751Z - Time taken for 'build-project-configs' 12.240800000028685ms
+[NX Daemon Server] - 2024-11-18T21:23:09.788Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:23:09.789Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:23:09.789Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:23:09.789Z - Time taken for 'total execution time for createProjectGraph()' 30.00760000012815ms
+[NX Daemon Server] - 2024-11-18T21:23:17.987Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css was modified
+[NX Daemon Server] - 2024-11-18T21:23:17.987Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:23:18.128Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:23:19.260Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:23:19.602Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:23:19.602Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.css
+[NX Daemon Server] - 2024-11-18T21:23:19.602Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:23:19.606Z - Time taken for 'hash changed files from watcher' 0.4945000000298023ms
+[NX Daemon Server] - 2024-11-18T21:23:19.626Z - Time taken for 'build-project-configs' 17.026899999938905ms
+[NX Daemon Server] - 2024-11-18T21:23:19.666Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:23:19.667Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:23:19.667Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:23:19.667Z - Time taken for 'total execution time for createProjectGraph()' 33.07630000007339ms
+[NX Daemon Server] - 2024-11-18T21:24:02.387Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:24:02.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:02.620Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:03.813Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:05.601Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:24:05.601Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts
+[NX Daemon Server] - 2024-11-18T21:24:05.601Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:24:05.607Z - Time taken for 'hash changed files from watcher' 0.4066000001039356ms
+[NX Daemon Server] - 2024-11-18T21:24:05.637Z - Time taken for 'build-project-configs' 22.79660000000149ms
+[NX Daemon Server] - 2024-11-18T21:24:05.683Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:24:05.684Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:24:05.684Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:24:05.684Z - Time taken for 'total execution time for createProjectGraph()' 45.621599999954924ms
+[NX Daemon Server] - 2024-11-18T21:24:21.598Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:21.599Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:24:21.756Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:26.492Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:24:26.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:27.749Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:28.013Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:24:28.013Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts
+[NX Daemon Server] - 2024-11-18T21:24:28.013Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:24:28.018Z - Time taken for 'hash changed files from watcher' 0.4324000000488013ms
+[NX Daemon Server] - 2024-11-18T21:24:28.052Z - Time taken for 'build-project-configs' 30.85399999981746ms
+[NX Daemon Server] - 2024-11-18T21:24:28.113Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:24:28.114Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:24:28.114Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:24:28.114Z - Time taken for 'total execution time for createProjectGraph()' 53.710800000000745ms
+[NX Daemon Server] - 2024-11-18T21:24:35.828Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:24:35.828Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:35.950Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:42.231Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:24:42.231Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts
+[NX Daemon Server] - 2024-11-18T21:24:42.231Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:24:42.235Z - Time taken for 'hash changed files from watcher' 0.36869999999180436ms
+[NX Daemon Server] - 2024-11-18T21:24:42.252Z - Time taken for 'build-project-configs' 14.268000000156462ms
+[NX Daemon Server] - 2024-11-18T21:24:42.294Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:24:42.295Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:24:42.295Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:24:42.295Z - Time taken for 'total execution time for createProjectGraph()' 35.32360000000335ms
+[NX Daemon Server] - 2024-11-18T21:24:44.529Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:24:44.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:44.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:45.845Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:24:50.945Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:24:50.945Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts
+[NX Daemon Server] - 2024-11-18T21:24:50.945Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:24:50.949Z - Time taken for 'hash changed files from watcher' 0.53539999993518ms
+[NX Daemon Server] - 2024-11-18T21:24:50.969Z - Time taken for 'build-project-configs' 17.162999999942258ms
+[NX Daemon Server] - 2024-11-18T21:24:51.011Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:24:51.012Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:24:51.012Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:24:51.012Z - Time taken for 'total execution time for createProjectGraph()' 36.75059999991208ms
+[NX Daemon Server] - 2024-11-18T21:25:09.553Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:25:09.554Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:25:09.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:25:10.829Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:25:15.962Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:25:15.962Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts
+[NX Daemon Server] - 2024-11-18T21:25:15.962Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:25:15.967Z - Time taken for 'hash changed files from watcher' 0.40489999996498227ms
+[NX Daemon Server] - 2024-11-18T21:25:15.985Z - Time taken for 'build-project-configs' 16.538100000005215ms
+[NX Daemon Server] - 2024-11-18T21:25:16.024Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:25:16.025Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:25:16.025Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:25:16.025Z - Time taken for 'total execution time for createProjectGraph()' 32.23990000016056ms
+[NX Daemon Server] - 2024-11-18T21:25:54.933Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:25:54.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:25:55.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:25:56.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:25:56.458Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:01.348Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:26:01.348Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:26:01.348Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:26:01.352Z - Time taken for 'hash changed files from watcher' 0.40400000009685755ms
+[NX Daemon Server] - 2024-11-18T21:26:01.372Z - Time taken for 'build-project-configs' 17.745499999960884ms
+[NX Daemon Server] - 2024-11-18T21:26:01.410Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:26:01.411Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:26:01.411Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:26:01.411Z - Time taken for 'total execution time for createProjectGraph()' 31.367499999934807ms
+[NX Daemon Server] - 2024-11-18T21:26:24.411Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:26:24.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:24.565Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:30.819Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:26:30.819Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:26:30.819Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:26:30.823Z - Time taken for 'hash changed files from watcher' 0.46000000019557774ms
+[NX Daemon Server] - 2024-11-18T21:26:30.847Z - Time taken for 'build-project-configs' 21.44109999993816ms
+[NX Daemon Server] - 2024-11-18T21:26:30.886Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:26:30.887Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:26:30.887Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:26:30.887Z - Time taken for 'total execution time for createProjectGraph()' 33.01219999999739ms
+[NX Daemon Server] - 2024-11-18T21:26:38.234Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:26:38.234Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:38.357Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:39.479Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:44.639Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:26:44.639Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:26:44.639Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:26:44.643Z - Time taken for 'hash changed files from watcher' 0.3404999999329448ms
+[NX Daemon Server] - 2024-11-18T21:26:44.662Z - Time taken for 'build-project-configs' 17.890699999872595ms
+[NX Daemon Server] - 2024-11-18T21:26:44.701Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:26:44.702Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:26:44.702Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:26:44.702Z - Time taken for 'total execution time for createProjectGraph()' 30.94360000011511ms
+[NX Daemon Server] - 2024-11-18T21:26:52.867Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:26:52.867Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:53.004Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:26:59.280Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:26:59.280Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:26:59.280Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:26:59.283Z - Time taken for 'hash changed files from watcher' 0.3761999998241663ms
+[NX Daemon Server] - 2024-11-18T21:26:59.305Z - Time taken for 'build-project-configs' 18.335899999830872ms
+[NX Daemon Server] - 2024-11-18T21:26:59.342Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:26:59.343Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:26:59.343Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:26:59.343Z - Time taken for 'total execution time for createProjectGraph()' 31.73619999969378ms
+[NX Daemon Server] - 2024-11-18T21:27:11.362Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:27:11.363Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:11.530Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:12.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:17.768Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:27:17.768Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:27:17.768Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:27:17.772Z - Time taken for 'hash changed files from watcher' 0.31550000002607703ms
+[NX Daemon Server] - 2024-11-18T21:27:17.792Z - Time taken for 'build-project-configs' 17.900200000032783ms
+[NX Daemon Server] - 2024-11-18T21:27:17.831Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:27:17.832Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:27:17.832Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:27:17.832Z - Time taken for 'total execution time for createProjectGraph()' 31.819099999964237ms
+[NX Daemon Server] - 2024-11-18T21:27:26.439Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:27:26.440Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:26.562Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:32.853Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:27:32.853Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:27:32.853Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:27:32.856Z - Time taken for 'hash changed files from watcher' 0.4048000001348555ms
+[NX Daemon Server] - 2024-11-18T21:27:32.877Z - Time taken for 'build-project-configs' 16.695199999958277ms
+[NX Daemon Server] - 2024-11-18T21:27:32.915Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:27:32.915Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:27:32.916Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:27:32.916Z - Time taken for 'total execution time for createProjectGraph()' 33.73769999993965ms
+[NX Daemon Server] - 2024-11-18T21:27:36.069Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:27:36.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:36.226Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:37.361Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:27:42.477Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:27:42.477Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:27:42.477Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:27:42.480Z - Time taken for 'hash changed files from watcher' 0.49369999999180436ms
+[NX Daemon Server] - 2024-11-18T21:27:42.503Z - Time taken for 'build-project-configs' 19.98950000014156ms
+[NX Daemon Server] - 2024-11-18T21:27:42.539Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:27:42.540Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:27:42.540Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:27:42.540Z - Time taken for 'total execution time for createProjectGraph()' 30.062600000295788ms
+[NX Daemon Server] - 2024-11-18T21:28:07.795Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:07.796Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:28:07.950Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:14.201Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:28:14.201Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:28:14.201Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:28:14.204Z - Time taken for 'hash changed files from watcher' 0.38290000008419156ms
+[NX Daemon Server] - 2024-11-18T21:28:14.222Z - Time taken for 'build-project-configs' 13.601500000339001ms
+[NX Daemon Server] - 2024-11-18T21:28:14.262Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:28:14.262Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:28:14.262Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:28:14.262Z - Time taken for 'total execution time for createProjectGraph()' 33.5293000000529ms
+[NX Daemon Server] - 2024-11-18T21:28:17.146Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:28:17.146Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:17.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:18.435Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:21.375Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:28:21.375Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:21.514Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:23.551Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:28:23.551Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:28:23.551Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:28:23.554Z - Time taken for 'hash changed files from watcher' 0.49350000033155084ms
+[NX Daemon Server] - 2024-11-18T21:28:23.573Z - Time taken for 'build-project-configs' 15.784200000111014ms
+[NX Daemon Server] - 2024-11-18T21:28:23.613Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:28:23.613Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:28:23.613Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:28:23.614Z - Time taken for 'total execution time for createProjectGraph()' 33.77669999981299ms
+[NX Daemon Server] - 2024-11-18T21:28:26.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:26.301Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:28:26.410Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:27.513Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:29.619Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:29.620Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:28:29.745Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:32.704Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:28:32.704Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:28:32.704Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:28:32.707Z - Time taken for 'hash changed files from watcher' 0.3451999998651445ms
+[NX Daemon Server] - 2024-11-18T21:28:32.725Z - Time taken for 'build-project-configs' 13.991200000047684ms
+[NX Daemon Server] - 2024-11-18T21:28:32.763Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:28:32.763Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:28:32.763Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:28:32.763Z - Time taken for 'total execution time for createProjectGraph()' 31.221599999815226ms
+[NX Daemon Server] - 2024-11-18T21:28:37.458Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:28:37.458Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:38.681Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:43.864Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:28:43.864Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:28:43.864Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:28:43.866Z - Time taken for 'hash changed files from watcher' 0.3333999998867512ms
+[NX Daemon Server] - 2024-11-18T21:28:43.884Z - Time taken for 'build-project-configs' 14.226599999703467ms
+[NX Daemon Server] - 2024-11-18T21:28:43.924Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:28:43.924Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:28:43.925Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:28:43.925Z - Time taken for 'total execution time for createProjectGraph()' 32.185099999886006ms
+[NX Daemon Server] - 2024-11-18T21:28:48.177Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:28:48.177Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:48.346Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:49.513Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:28:54.591Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:28:54.591Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:28:54.591Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:28:54.594Z - Time taken for 'hash changed files from watcher' 0.478899999987334ms
+[NX Daemon Server] - 2024-11-18T21:28:54.614Z - Time taken for 'build-project-configs' 16.963999999687076ms
+[NX Daemon Server] - 2024-11-18T21:28:54.650Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:28:54.651Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:28:54.651Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:28:54.651Z - Time taken for 'total execution time for createProjectGraph()' 30.119699999690056ms
+[NX Daemon Server] - 2024-11-18T21:29:01.691Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:29:01.692Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:29:01.862Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:29:02.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:29:08.099Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:29:08.099Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:29:08.099Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:29:08.102Z - Time taken for 'hash changed files from watcher' 0.5046999999321997ms
+[NX Daemon Server] - 2024-11-18T21:29:08.125Z - Time taken for 'build-project-configs' 18.350600000005215ms
+[NX Daemon Server] - 2024-11-18T21:29:08.161Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:29:08.162Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:29:08.162Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:29:08.162Z - Time taken for 'total execution time for createProjectGraph()' 31.081799999810755ms
+[NX Daemon Server] - 2024-11-18T21:29:39.518Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:29:39.519Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:29:39.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:29:40.756Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:29:45.934Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:29:45.934Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:29:45.934Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:29:45.937Z - Time taken for 'hash changed files from watcher' 0.5062000001780689ms
+[NX Daemon Server] - 2024-11-18T21:29:45.959Z - Time taken for 'build-project-configs' 17.59250000026077ms
+[NX Daemon Server] - 2024-11-18T21:29:45.998Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:29:45.999Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:29:45.999Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:29:45.999Z - Time taken for 'total execution time for createProjectGraph()' 33.99200000008568ms
+[NX Daemon Server] - 2024-11-18T21:30:17.976Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:30:17.977Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:30:18.147Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:30:19.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:30:24.393Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:30:24.393Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts
+[NX Daemon Server] - 2024-11-18T21:30:24.393Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:30:24.397Z - Time taken for 'hash changed files from watcher' 0.5516999997198582ms
+[NX Daemon Server] - 2024-11-18T21:30:24.420Z - Time taken for 'build-project-configs' 20.229200000409037ms
+[NX Daemon Server] - 2024-11-18T21:30:24.458Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:30:24.458Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:30:24.458Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:30:24.458Z - Time taken for 'total execution time for createProjectGraph()' 30.607799999881536ms
+[NX Daemon Server] - 2024-11-18T21:30:50.013Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:30:50.013Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:30:50.199Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:30:51.351Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:30:56.416Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:30:56.416Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:30:56.416Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:30:56.421Z - Time taken for 'hash changed files from watcher' 0.4296999997459352ms
+[NX Daemon Server] - 2024-11-18T21:30:56.444Z - Time taken for 'build-project-configs' 20.53440000023693ms
+[NX Daemon Server] - 2024-11-18T21:30:56.486Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:30:56.486Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:30:56.486Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:30:56.486Z - Time taken for 'total execution time for createProjectGraph()' 35.30959999980405ms
+[NX Daemon Server] - 2024-11-18T21:31:17.008Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:31:17.009Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:31:17.164Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:31:18.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:31:23.423Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:31:23.423Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-list/user-list.component.html
+[NX Daemon Server] - 2024-11-18T21:31:23.423Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:31:23.427Z - Time taken for 'hash changed files from watcher' 0.35789999971166253ms
+[NX Daemon Server] - 2024-11-18T21:31:23.450Z - Time taken for 'build-project-configs' 18.556199999991804ms
+[NX Daemon Server] - 2024-11-18T21:31:23.490Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:31:23.490Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:31:23.490Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:31:23.490Z - Time taken for 'total execution time for createProjectGraph()' 34.92510000010952ms
+[NX Daemon Server] - 2024-11-18T21:31:42.275Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:31:42.276Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:31:42.475Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:31:43.705Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:31:48.686Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:31:48.686Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:31:48.686Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:31:48.690Z - Time taken for 'hash changed files from watcher' 0.5328999999910593ms
+[NX Daemon Server] - 2024-11-18T21:31:48.717Z - Time taken for 'build-project-configs' 23.165000000037253ms
+[NX Daemon Server] - 2024-11-18T21:31:48.772Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:31:48.772Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:31:48.772Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:31:48.773Z - Time taken for 'total execution time for createProjectGraph()' 43.654500000178814ms
+[NX Daemon Server] - 2024-11-18T21:32:05.273Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:32:05.274Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:32:05.461Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:32:06.671Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:32:11.683Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:32:11.683Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:32:11.683Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:32:11.686Z - Time taken for 'hash changed files from watcher' 0.41699999989941716ms
+[NX Daemon Server] - 2024-11-18T21:32:11.712Z - Time taken for 'build-project-configs' 20.78000000026077ms
+[NX Daemon Server] - 2024-11-18T21:32:11.754Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:32:11.754Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:32:11.754Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:32:11.754Z - Time taken for 'total execution time for createProjectGraph()' 36.47410000022501ms
+[NX Daemon Server] - 2024-11-18T21:32:49.708Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:32:49.710Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:32:49.880Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:32:51.107Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:32:56.124Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:32:56.124Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:32:56.124Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:32:56.128Z - Time taken for 'hash changed files from watcher' 0.4635000000707805ms
+[NX Daemon Server] - 2024-11-18T21:32:56.151Z - Time taken for 'build-project-configs' 19.767899999860674ms
+[NX Daemon Server] - 2024-11-18T21:32:56.187Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:32:56.188Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:32:56.188Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:32:56.188Z - Time taken for 'total execution time for createProjectGraph()' 30.531200000084937ms
+[NX Daemon Server] - 2024-11-18T21:33:09.252Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:33:09.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:33:10.512Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:33:15.659Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:33:15.659Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:33:15.659Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:33:15.662Z - Time taken for 'hash changed files from watcher' 0.5011999998241663ms
+[NX Daemon Server] - 2024-11-18T21:33:15.682Z - Time taken for 'build-project-configs' 17.056399999652058ms
+[NX Daemon Server] - 2024-11-18T21:33:15.723Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:33:15.724Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:33:15.724Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:33:15.724Z - Time taken for 'total execution time for createProjectGraph()' 32.910900000017136ms
+[NX Daemon Server] - 2024-11-18T21:34:22.764Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:34:22.764Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:23.990Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:25.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:25.123Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:34:25.262Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:26.426Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:29.170Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:34:29.170Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:34:29.170Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:34:29.173Z - Time taken for 'hash changed files from watcher' 0.3586999997496605ms
+[NX Daemon Server] - 2024-11-18T21:34:29.194Z - Time taken for 'build-project-configs' 17.866799999959767ms
+[NX Daemon Server] - 2024-11-18T21:34:29.232Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:34:29.232Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:34:29.232Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:34:29.232Z - Time taken for 'total execution time for createProjectGraph()' 31.185899999924004ms
+[NX Daemon Server] - 2024-11-18T21:34:43.445Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:43.446Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:34:43.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:44.734Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:34:49.858Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:34:49.858Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:34:49.858Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:34:49.861Z - Time taken for 'hash changed files from watcher' 0.3227000003680587ms
+[NX Daemon Server] - 2024-11-18T21:34:49.884Z - Time taken for 'build-project-configs' 20.085800000000745ms
+[NX Daemon Server] - 2024-11-18T21:34:49.924Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:34:49.925Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:34:49.925Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:34:49.925Z - Time taken for 'total execution time for createProjectGraph()' 32.34539999999106ms
+[NX Daemon Server] - 2024-11-18T21:35:03.326Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:03.327Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:35:03.481Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:04.599Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:09.742Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:35:09.742Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:35:09.742Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:35:09.745Z - Time taken for 'hash changed files from watcher' 0.4104999997653067ms
+[NX Daemon Server] - 2024-11-18T21:35:09.765Z - Time taken for 'build-project-configs' 16.753399999812245ms
+[NX Daemon Server] - 2024-11-18T21:35:09.803Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:35:09.804Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:35:09.804Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:35:09.804Z - Time taken for 'total execution time for createProjectGraph()' 31.623500000219792ms
+[NX Daemon Server] - 2024-11-18T21:35:24.665Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:35:24.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:24.851Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:25.997Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:31.076Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:35:31.076Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:35:31.076Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:35:31.080Z - Time taken for 'hash changed files from watcher' 0.41110000014305115ms
+[NX Daemon Server] - 2024-11-18T21:35:31.101Z - Time taken for 'build-project-configs' 18.400499999988824ms
+[NX Daemon Server] - 2024-11-18T21:35:31.139Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:35:31.140Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:35:31.140Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:35:31.140Z - Time taken for 'total execution time for createProjectGraph()' 32.342300000134856ms
+[NX Daemon Server] - 2024-11-18T21:35:36.403Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:35:36.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:36.573Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:37.722Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:35:42.815Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:35:42.816Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:35:42.816Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:35:42.818Z - Time taken for 'hash changed files from watcher' 0.4089000001549721ms
+[NX Daemon Server] - 2024-11-18T21:35:42.861Z - Time taken for 'build-project-configs' 36.94829999981448ms
+[NX Daemon Server] - 2024-11-18T21:35:42.929Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:35:42.930Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:35:42.930Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:35:42.930Z - Time taken for 'total execution time for createProjectGraph()' 55.47649999987334ms
+[NX Daemon Server] - 2024-11-18T21:36:11.042Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:36:11.043Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:36:12.367Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:36:14.869Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:36:14.870Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:36:16.270Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:36:17.453Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:36:17.453Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:36:17.453Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:36:17.456Z - Time taken for 'hash changed files from watcher' 0.5583999999798834ms
+[NX Daemon Server] - 2024-11-18T21:36:17.477Z - Time taken for 'build-project-configs' 17.43390000006184ms
+[NX Daemon Server] - 2024-11-18T21:36:17.504Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:36:17.505Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:36:17.505Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:36:17.505Z - Time taken for 'total execution time for createProjectGraph()' 21.92299999995157ms
+[NX Daemon Server] - 2024-11-18T21:37:36.924Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:37:36.925Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:37:37.158Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:37:38.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:37:43.330Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:37:43.330Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts
+[NX Daemon Server] - 2024-11-18T21:37:43.330Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:37:43.333Z - Time taken for 'hash changed files from watcher' 0.399100000038743ms
+[NX Daemon Server] - 2024-11-18T21:37:43.352Z - Time taken for 'build-project-configs' 16.692999999970198ms
+[NX Daemon Server] - 2024-11-18T21:37:43.390Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:37:43.390Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:37:43.390Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:37:43.390Z - Time taken for 'total execution time for createProjectGraph()' 30.473400000017136ms
+[NX Daemon Server] - 2024-11-18T21:38:08.191Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:08.192Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:38:08.377Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:09.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:14.597Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:38:14.597Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts
+[NX Daemon Server] - 2024-11-18T21:38:14.597Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:38:14.601Z - Time taken for 'hash changed files from watcher' 0.37609999999403954ms
+[NX Daemon Server] - 2024-11-18T21:38:14.622Z - Time taken for 'build-project-configs' 18.063000000081956ms
+[NX Daemon Server] - 2024-11-18T21:38:14.663Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:38:14.664Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:38:14.664Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:38:14.664Z - Time taken for 'total execution time for createProjectGraph()' 34.42160000000149ms
+[NX Daemon Server] - 2024-11-18T21:38:28.943Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:28.944Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:38:29.130Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:30.250Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:35.351Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:38:35.351Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:38:35.351Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:38:35.354Z - Time taken for 'hash changed files from watcher' 0.3670000000856817ms
+[NX Daemon Server] - 2024-11-18T21:38:35.377Z - Time taken for 'build-project-configs' 19.198100000154227ms
+[NX Daemon Server] - 2024-11-18T21:38:35.416Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:38:35.416Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:38:35.416Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:38:35.417Z - Time taken for 'total execution time for createProjectGraph()' 33.944499999750406ms
+[NX Daemon Server] - 2024-11-18T21:38:35.724Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:35.725Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:38:35.894Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:37.010Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:42.138Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:38:42.139Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:38:42.139Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:38:42.141Z - Time taken for 'hash changed files from watcher' 0.36820000037550926ms
+[NX Daemon Server] - 2024-11-18T21:38:42.162Z - Time taken for 'build-project-configs' 16.230299999937415ms
+[NX Daemon Server] - 2024-11-18T21:38:42.197Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:38:42.197Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:38:42.197Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:38:42.197Z - Time taken for 'total execution time for createProjectGraph()' 30.674600000027567ms
+[NX Daemon Server] - 2024-11-18T21:38:55.307Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:55.307Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:38:55.558Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:38:56.723Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:39:01.719Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:39:01.719Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts
+[NX Daemon Server] - 2024-11-18T21:39:01.719Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:39:01.722Z - Time taken for 'hash changed files from watcher' 0.4276000000536442ms
+[NX Daemon Server] - 2024-11-18T21:39:01.738Z - Time taken for 'build-project-configs' 12.315100000239909ms
+[NX Daemon Server] - 2024-11-18T21:39:01.777Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:39:01.778Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:39:01.778Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:39:01.778Z - Time taken for 'total execution time for createProjectGraph()' 31.905999999959022ms
+[NX Daemon Server] - 2024-11-18T21:39:04.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:39:04.226Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts was modified
+[NX Daemon Server] - 2024-11-18T21:39:04.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:39:05.594Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:39:10.628Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:39:10.628Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts
+[NX Daemon Server] - 2024-11-18T21:39:10.628Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:39:10.631Z - Time taken for 'hash changed files from watcher' 0.3338000001385808ms
+[NX Daemon Server] - 2024-11-18T21:39:10.649Z - Time taken for 'build-project-configs' 15.227400000207126ms
+[NX Daemon Server] - 2024-11-18T21:39:10.691Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:39:10.692Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:39:10.692Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:39:10.692Z - Time taken for 'total execution time for createProjectGraph()' 35.12559999991208ms
+[NX Daemon Server] - 2024-11-18T21:39:30.021Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:39:30.022Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:39:30.191Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:39:31.312Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:39:36.424Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:39:36.424Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:39:36.424Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:39:36.427Z - Time taken for 'hash changed files from watcher' 0.368199999909848ms
+[NX Daemon Server] - 2024-11-18T21:39:36.443Z - Time taken for 'build-project-configs' 12.82010000012815ms
+[NX Daemon Server] - 2024-11-18T21:39:36.478Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:39:36.478Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:39:36.478Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:39:36.478Z - Time taken for 'total execution time for createProjectGraph()' 28.83739999961108ms
+[NX Daemon Server] - 2024-11-18T21:40:22.189Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:40:22.189Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:40:22.375Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:40:23.526Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:40:28.591Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:40:28.591Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:40:28.591Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:40:28.593Z - Time taken for 'hash changed files from watcher' 0.3125ms
+[NX Daemon Server] - 2024-11-18T21:40:28.612Z - Time taken for 'build-project-configs' 14.369299999903888ms
+[NX Daemon Server] - 2024-11-18T21:40:28.650Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:40:28.650Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:40:28.650Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:40:28.650Z - Time taken for 'total execution time for createProjectGraph()' 31.632000000216067ms
+[NX Daemon Server] - 2024-11-18T21:40:29.753Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:40:29.754Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:40:29.893Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:40:31.013Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:40:36.163Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:40:36.163Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:40:36.163Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:40:36.166Z - Time taken for 'hash changed files from watcher' 0.40730000007897615ms
+[NX Daemon Server] - 2024-11-18T21:40:36.187Z - Time taken for 'build-project-configs' 17.628500000108033ms
+[NX Daemon Server] - 2024-11-18T21:40:36.224Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:40:36.225Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:40:36.225Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:40:36.225Z - Time taken for 'total execution time for createProjectGraph()' 30.82370000006631ms
+[NX Daemon Server] - 2024-11-18T21:41:14.628Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:41:14.628Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:14.799Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:15.977Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:21.035Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:41:21.035Z - [REQUEST]: apps/my-app/src/app/components/about/about.component.html
+[NX Daemon Server] - 2024-11-18T21:41:21.035Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:41:21.038Z - Time taken for 'hash changed files from watcher' 0.31000000005587935ms
+[NX Daemon Server] - 2024-11-18T21:41:21.056Z - Time taken for 'build-project-configs' 13.687200000043958ms
+[NX Daemon Server] - 2024-11-18T21:41:21.094Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:41:21.095Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:41:21.095Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:41:21.095Z - Time taken for 'total execution time for createProjectGraph()' 32.84139999980107ms
+[NX Daemon Server] - 2024-11-18T21:41:22.607Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:41:22.607Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:22.718Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:23.822Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:25.752Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:41:25.752Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:26.953Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:41:29.020Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:41:29.020Z - [REQUEST]: apps/my-app/src/app/components/about/about.component.html
+[NX Daemon Server] - 2024-11-18T21:41:29.020Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:41:29.023Z - Time taken for 'hash changed files from watcher' 0.4100000001490116ms
+[NX Daemon Server] - 2024-11-18T21:41:29.041Z - Time taken for 'build-project-configs' 14.053499999921769ms
+[NX Daemon Server] - 2024-11-18T21:41:29.079Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:41:29.080Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:41:29.080Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:41:29.080Z - Time taken for 'total execution time for createProjectGraph()' 33.00930000003427ms
+[NX Daemon Server] - 2024-11-18T21:44:22.459Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:44:22.459Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:22.615Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:23.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:28.866Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:44:28.866Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html
+[NX Daemon Server] - 2024-11-18T21:44:28.866Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:44:28.870Z - Time taken for 'hash changed files from watcher' 0.34950000001117587ms
+[NX Daemon Server] - 2024-11-18T21:44:28.887Z - Time taken for 'build-project-configs' 14.086899999994785ms
+[NX Daemon Server] - 2024-11-18T21:44:28.931Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:44:28.933Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:44:28.933Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:44:28.933Z - Time taken for 'total execution time for createProjectGraph()' 32.92050000000745ms
+[NX Daemon Server] - 2024-11-18T21:44:37.102Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:37.103Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user.service.ts was modified
+[NX Daemon Server] - 2024-11-18T21:44:37.382Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:38.541Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:38.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:43.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:44:43.506Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user.service.ts
+[NX Daemon Server] - 2024-11-18T21:44:43.506Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:44:43.509Z - Time taken for 'hash changed files from watcher' 0.4366000001318753ms
+[NX Daemon Server] - 2024-11-18T21:44:43.530Z - Time taken for 'build-project-configs' 16.82979999994859ms
+[NX Daemon Server] - 2024-11-18T21:44:43.575Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:44:43.575Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:44:43.575Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:44:43.575Z - Time taken for 'total execution time for createProjectGraph()' 38.867599999997765ms
+[NX Daemon Server] - 2024-11-18T21:44:59.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:44:59.758Z - [WATCHER]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html was modified
+[NX Daemon Server] - 2024-11-18T21:44:59.977Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:45:01.125Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T21:45:06.162Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T21:45:06.162Z - [REQUEST]: libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.html
+[NX Daemon Server] - 2024-11-18T21:45:06.163Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T21:45:06.165Z - Time taken for 'hash changed files from watcher' 0.46600000001490116ms
+[NX Daemon Server] - 2024-11-18T21:45:06.182Z - Time taken for 'build-project-configs' 13.027199999894947ms
+[NX Daemon Server] - 2024-11-18T21:45:06.217Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T21:45:06.217Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T21:45:06.217Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T21:45:06.218Z - Time taken for 'total execution time for createProjectGraph()' 28.4234000002034ms
+[NX Daemon Server] - 2024-11-18T22:02:32.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:02:32.192Z - [WATCHER]: apps/my-app/src/app/components/about/3dice.png was modified
+[NX Daemon Server] - 2024-11-18T22:02:38.605Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T22:02:38.605Z - [REQUEST]: apps/my-app/src/app/components/about/3dice.png
+[NX Daemon Server] - 2024-11-18T22:02:38.605Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T22:02:38.608Z - Time taken for 'hash changed files from watcher' 0.4100000001490116ms
+[NX Daemon Server] - 2024-11-18T22:02:38.627Z - Time taken for 'build-project-configs' 16.82810000050813ms
+[NX Daemon Server] - 2024-11-18T22:02:38.666Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T22:02:38.667Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T22:02:38.667Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T22:02:38.667Z - Time taken for 'total execution time for createProjectGraph()' 31.59470000024885ms
+[NX Daemon Server] - 2024-11-18T22:02:50.094Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:02:50.095Z - [WATCHER]: apps/my-app/src/app/components/about/3dice.png was deleted
+[NX Daemon Server] - 2024-11-18T22:02:53.321Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:02:53.322Z - [WATCHER]: apps/my-app/src/app/components/about/3dice.jpg was modified
+[NX Daemon Server] - 2024-11-18T22:02:56.509Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T22:02:56.510Z - [REQUEST]: apps/my-app/src/app/components/about/3dice.jpg
+[NX Daemon Server] - 2024-11-18T22:02:56.510Z - [REQUEST]: apps/my-app/src/app/components/about/3dice.png
+[NX Daemon Server] - 2024-11-18T22:02:56.512Z - Time taken for 'hash changed files from watcher' 0.4169999994337559ms
+[NX Daemon Server] - 2024-11-18T22:02:56.535Z - Time taken for 'build-project-configs' 19.81749999988824ms
+[NX Daemon Server] - 2024-11-18T22:02:56.573Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T22:02:56.574Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T22:02:56.574Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T22:02:56.574Z - Time taken for 'total execution time for createProjectGraph()' 31.360100000165403ms
+[NX Daemon Server] - 2024-11-18T22:03:02.015Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:03:02.016Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T22:03:02.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:03:03.380Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:03:08.424Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T22:03:08.425Z - [REQUEST]: apps/my-app/src/app/components/about/about.component.html
+[NX Daemon Server] - 2024-11-18T22:03:08.425Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T22:03:08.428Z - Time taken for 'hash changed files from watcher' 0.46939999982714653ms
+[NX Daemon Server] - 2024-11-18T22:03:08.449Z - Time taken for 'build-project-configs' 18.443099999800324ms
+[NX Daemon Server] - 2024-11-18T22:03:08.488Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T22:03:08.488Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T22:03:08.488Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T22:03:08.488Z - Time taken for 'total execution time for createProjectGraph()' 30.5625ms
+[NX Daemon Server] - 2024-11-18T22:03:11.112Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T22:03:11.113Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:03:11.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:03:17.519Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T22:03:17.519Z - [REQUEST]: apps/my-app/src/app/components/about/about.component.html
+[NX Daemon Server] - 2024-11-18T22:03:17.519Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T22:03:17.522Z - Time taken for 'hash changed files from watcher' 0.41839999984949827ms
+[NX Daemon Server] - 2024-11-18T22:03:17.545Z - Time taken for 'build-project-configs' 18.120199999772012ms
+[NX Daemon Server] - 2024-11-18T22:03:17.585Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T22:03:17.585Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T22:03:17.586Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T22:03:17.586Z - Time taken for 'total execution time for createProjectGraph()' 33.25750000029802ms
+[NX Daemon Server] - 2024-11-18T22:04:11.407Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:05:41.194Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T22:05:41.195Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:05:47.608Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T22:05:47.608Z - [REQUEST]: apps/my-app/src/app/components/about/about.component.html
+[NX Daemon Server] - 2024-11-18T22:05:47.608Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T22:05:47.611Z - Time taken for 'hash changed files from watcher' 0.41629999969154596ms
+[NX Daemon Server] - 2024-11-18T22:05:47.627Z - Time taken for 'build-project-configs' 12.602900000289083ms
+[NX Daemon Server] - 2024-11-18T22:05:47.653Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T22:05:47.654Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T22:05:47.654Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T22:05:47.654Z - Time taken for 'total execution time for createProjectGraph()' 19.550099999643862ms
+[NX Daemon Server] - 2024-11-18T22:06:21.362Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:21.364Z - [WATCHER]: apps/my-app/src/app/components/about/asset was deleted
+[NX Daemon Server] - 2024-11-18T22:06:24.138Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-11-18T22:06:24.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:27.150Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:27.151Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T22:06:27.276Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:27.774Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T22:06:27.774Z - [REQUEST]: apps/my-app/src/app/components/about/assets/3dice.jpg,apps/my-app/src/app/components/about/about.component.html
+[NX Daemon Server] - 2024-11-18T22:06:27.774Z - [REQUEST]: apps/my-app/src/app/components/about/asset,apps/my-app/src/app/components/about/3dice.jpg
+[NX Daemon Server] - 2024-11-18T22:06:27.777Z - Time taken for 'hash changed files from watcher' 0.6098000006750226ms
+[NX Daemon Server] - 2024-11-18T22:06:27.797Z - Time taken for 'build-project-configs' 15.762699999846518ms
+[NX Daemon Server] - 2024-11-18T22:06:27.842Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T22:06:27.843Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T22:06:27.843Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T22:06:27.843Z - Time taken for 'total execution time for createProjectGraph()' 37.39240000024438ms
+[NX Daemon Server] - 2024-11-18T22:06:28.396Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:36.488Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T22:06:36.490Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-18T22:06:38.059Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T22:06:38.059Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-18T22:06:38.060Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T22:06:38.062Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-18T22:06:38.063Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-18T22:06:38.064Z - Time taken for 'total for creating and serializing project graph' 0.36090000066906214ms
+[NX Daemon Server] - 2024-11-18T22:06:38.064Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-18T22:06:38.065Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-11-18T22:06:38.107Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-11-18T22:06:38.107Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-11-18T22:06:38.107Z - Handled HASH_TASKS. Handling time: 14. Response time: 0.
+[NX Daemon Server] - 2024-11-18T22:06:39.011Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-11-18T22:06:39.011Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-11-18T22:06:39.011Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-18T22:06:39.501Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-18T22:06:39.501Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T22:06:39.502Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-18T22:06:39.503Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-18T22:06:39.504Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-18T22:06:39.506Z - Time taken for 'total for creating and serializing project graph' 0.32659999933093786ms
+[NX Daemon Server] - 2024-11-18T22:06:39.506Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-18T22:06:39.507Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-11-18T22:06:44.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:47.535Z - [WATCHER]: apps/my-app/src/app/components/about/about.component.html was modified
+[NX Daemon Server] - 2024-11-18T22:06:47.535Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:47.646Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-18T22:06:47.646Z - [REQUEST]: apps/my-app/src/app/components/about/about.component.html
+[NX Daemon Server] - 2024-11-18T22:06:47.646Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-18T22:06:47.649Z - Time taken for 'hash changed files from watcher' 0.3932000007480383ms
+[NX Daemon Server] - 2024-11-18T22:06:47.669Z - Time taken for 'build-project-configs' 16.378100000321865ms
+[NX Daemon Server] - 2024-11-18T22:06:47.709Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-18T22:06:47.709Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-18T22:06:47.709Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-18T22:06:47.709Z - Time taken for 'total execution time for createProjectGraph()' 33.76379999984056ms
+[NX Daemon Server] - 2024-11-18T22:06:48.077Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:06:49.290Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-18T22:11:24.700Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-18T22:11:24.702Z - Closed a connection. Number of open connections: 0
