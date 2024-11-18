@@ -9,11 +9,13 @@
         "test": "nx run-many -t test"
     },
     "engines": {
-    "node": "^20.0.0",
-    "npm": "^10.0.0"
-},
+        "node": "^20.0.0",
+        "npm": "^10.0.0"
+    },
     "private": true,
     "dependencies": {
+        "@actions/core": "^1.6.0",
+        "@actions/http-client": "^2.2.3",
         "@angular/animations": "18.2.12",
         "@angular/common": "18.2.12",
         "@angular/compiler": "18.2.12",
