@@ -10,13 +10,17 @@ import { Subscription } from 'rxjs';
 export class UserListComponent implements OnInit, OnDestroy {
     users: IUserInfo[] | undefined = undefined;
     sub: Subscription = new Subscription();
+    loading: boolean = true; // To track the loading state
 
     constructor(private userService: UserService) {}
     ngOnInit(): void {
         this.sub?.add(
             this.userService
             .getUsersAsync()
-            .subscribe((users) => { this.users = users; })
+            .subscribe((users) => { 
+              this.users = users; 
+              this.loading = false;
+            })
         )
         // this.users = this.userService.getUsers();
       }
