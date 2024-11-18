@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { delay, Observable, of } from 'rxjs';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 
 @Injectable({
@@ -60,5 +60,10 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
       console.log('getUserById aangeroepen');
       return this.users.filter((user) => user._id === id.toString())[0];
     }
+
+    getUsersAsync(): Observable<IUserInfo[]> {
+        console.log('getUsersAsync aangeroepen');
+       return of (this.users).pipe(delay(2000));
+      }
   }
   
