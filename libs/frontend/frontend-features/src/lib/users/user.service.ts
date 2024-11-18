@@ -12,7 +12,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
           name: 'Eerste',
           emailAddress: 'usereen@host.com',
           role: UserRole.Admin,
-          profileImgUrl: '',
+          profileImgUrl: 'url1',
           gender: UserGender.Male,
           isActive: false,
           password: '1234'
@@ -22,7 +22,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
         name: 'tweede',
         emailAddress: 'usereen2@host.com',
         role: UserRole.Admin,
-        profileImgUrl: '',
+        profileImgUrl: 'url2',
         gender: UserGender.Male,
         isActive: false,
         password: '1234'
@@ -32,7 +32,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
         name: 'derde',
         emailAddress: 'usereen3@host.com',
         role: UserRole.Admin,
-        profileImgUrl: '',
+        profileImgUrl: 'url3',
         gender: UserGender.Male,
         isActive: false,
         password: '1234'

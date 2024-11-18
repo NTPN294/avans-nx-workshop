@@ -6,7 +6,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 @Component({
     selector: 'avans-nx-workshop-user-edit',
     templateUrl: './user-edit.component.html',
-    styles: []
+    styleUrls: ['./user-edit.component.css'],
 })
 export class UserEditComponent implements OnInit {
     userId: string | null = null;
