@@ -15,7 +15,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
           profileImgUrl: '',
           gender: UserGender.Male,
           isActive: false,
-          password: ''
+          password: '1234'
       },
       {
         _id: "2",
@@ -25,7 +25,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
         profileImgUrl: '',
         gender: UserGender.Male,
         isActive: false,
-        password: ''
+        password: '1234'
     },
     {
         _id: "3",
@@ -35,7 +35,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
         profileImgUrl: '',
         gender: UserGender.Male,
         isActive: false,
-        password: ''
+        password: '1234'
     }
     ];
   

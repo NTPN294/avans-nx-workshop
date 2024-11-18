@@ -3,7 +3,6 @@
     "version": "0.0.0",
     "license": "MIT",
     "scripts": {
-        "deploy": "nx run share-a-meal-web:build",
         "build": "nx run-many -t build",
         "build:my-app": "nx run my-app:build:production",
         "test": "nx run-many -t test"
@@ -14,8 +13,6 @@
     },
     "private": true,
     "dependencies": {
-        "@actions/core": "^1.6.0",
-        "@actions/http-client": "^2.2.3",
         "@angular/animations": "18.2.12",
         "@angular/common": "18.2.12",
         "@angular/compiler": "18.2.12",

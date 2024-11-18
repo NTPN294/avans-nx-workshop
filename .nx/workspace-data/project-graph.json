@@ -1427,33 +1427,6 @@
         "hash": "sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA=="
       }
     },
-    "npm:@actions/core": {
-      "type": "npm",
-      "name": "npm:@actions/core",
-      "data": {
-        "version": "1.6.0",
-        "packageName": "@actions/core",
-        "hash": "sha512-NB1UAZomZlCV/LmJqkLhNTqtKfFXJZAUPcfl/zqG7EfsQdeUJtaWO98SGbuQ3pydJ3fHl2CvI/51OKYlCYYcaw=="
-      }
-    },
-    "npm:@actions/http-client@1.0.11": {
-      "type": "npm",
-      "name": "npm:@actions/http-client@1.0.11",
-      "data": {
-        "version": "1.0.11",
-        "packageName": "@actions/http-client",
-        "hash": "sha512-VRYHGQV1rqnROJqdMvGUbY/Kn8vriQe/F9HR2AlYHzmKuM/p3kjNuXhmdBfcVgsvRWTz5C5XW5xvndZrVBuAYg=="
-      }
-    },
-    "npm:@actions/http-client": {
-      "type": "npm",
-      "name": "npm:@actions/http-client",
-      "data": {
-        "version": "2.2.3",
-        "packageName": "@actions/http-client",
-        "hash": "sha512-mx8hyJi/hjFvbPokCg4uRd4ZX78t+YyRPtnKWwIl+RzNaVuFpQHfmlGVfsKEJN8LwTCvL+DfVgAM04XaHkm6bA=="
-      }
-    },
     "npm:@adobe/css-tools": {
       "type": "npm",
       "name": "npm:@adobe/css-tools",
@@ -4584,15 +4557,6 @@
         "version": "8.57.1",
         "packageName": "@eslint/js",
         "hash": "sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q=="
-      }
-    },
-    "npm:@fastify/busboy": {
-      "type": "npm",
-      "name": "npm:@fastify/busboy",
-      "data": {
-        "version": "2.1.1",
-        "packageName": "@fastify/busboy",
-        "hash": "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA=="
       }
     },
     "npm:@gar/promisify": {
@@ -15413,15 +15377,6 @@
         "hash": "sha512-i3P9Kgw3ytjELUfpuKVDNBJvk4u5bXL6gskv572mcevPbSKCV3zt3djhmlEQ65yERjIbOSncy7U4cQJaB1CBCg=="
       }
     },
-    "npm:tunnel": {
-      "type": "npm",
-      "name": "npm:tunnel",
-      "data": {
-        "version": "0.0.6",
-        "packageName": "tunnel",
-        "hash": "sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg=="
-      }
-    },
     "npm:tunnel-agent": {
       "type": "npm",
       "name": "npm:tunnel-agent",
@@ -15492,15 +15447,6 @@
         "version": "2.0.2",
         "packageName": "uid",
         "hash": "sha512-u3xV3X7uzvi5b1MncmZo3i2Aw222Zk1keqLA1YkHldREkAhAqi65wuPfe7lHx8H/Wzy+8CE7S7uS3jekIM5s8g=="
-      }
-    },
-    "npm:undici": {
-      "type": "npm",
-      "name": "npm:undici",
-      "data": {
-        "version": "5.28.4",
-        "packageName": "undici",
-        "hash": "sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g=="
       }
     },
     "npm:undici-types": {
@@ -16496,32 +16442,6 @@
       {
         "source": "my-app",
         "target": "npm:jest-preset-angular",
-        "type": "static"
-      }
-    ],
-    "npm:@actions/core": [
-      {
-        "source": "npm:@actions/core",
-        "target": "npm:@actions/http-client@1.0.11",
-        "type": "static"
-      }
-    ],
-    "npm:@actions/http-client@1.0.11": [
-      {
-        "source": "npm:@actions/http-client@1.0.11",
-        "target": "npm:tunnel",
-        "type": "static"
-      }
-    ],
-    "npm:@actions/http-client": [
-      {
-        "source": "npm:@actions/http-client",
-        "target": "npm:tunnel",
-        "type": "static"
-      },
-      {
-        "source": "npm:@actions/http-client",
-        "target": "npm:undici",
         "type": "static"
       }
     ],
@@ -35529,13 +35449,6 @@
       {
         "source": "npm:uid",
         "target": "npm:@lukeed/csprng",
-        "type": "static"
-      }
-    ],
-    "npm:undici": [
-      {
-        "source": "npm:undici",
-        "target": "npm:@fastify/busboy",
         "type": "static"
       }
     ],

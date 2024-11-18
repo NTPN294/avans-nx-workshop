@@ -6,9 +6,10 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 @Component({
     selector: 'avans-nx-workshop-user-details',
     templateUrl: './user-details.component.html',
-    styles: [],
-    
+    styleUrls: ['./user-details.component.css'],
+  
 })
+
 export class UserDetailsComponent implements OnInit {
     userId: string | null = null;
     user: IUserInfo | null = null;

@@ -1,25 +1,51 @@
-<div class="component detail">
-    <div class="row">
-      <div class="col-8"><p>detail works!</p></div>
-      <div class="col-4">
-        <a
-          class="btn btn-primary btn-sm float-right"
-          href="#"
-          role="button"
-          routerLink="edit"
-          >Edit</a
-        >
-    <a
-      class="btn btn-outline-secondary btn-sm float-right"
-      href="#"
-      role="button"
-      routerLink=".."
-      >Terug</a
-    >
-      </div>
+<div class="container">
+  <div class="row justify-content-end">
+    <div class="col-auto">
+      <a
+        class="btn btn-primary btn-sm"
+        href="#"
+        role="button"
+        routerLink="edit"
+        >Edit</a
+      >
+      <a
+        class="btn btn-outline-secondary btn-sm"
+        href="#"
+        role="button"
+        routerLink=".."
+        >Terug</a
+      >
     </div>
-  
-    <h1>{{ user?.name }}</h1>
-    <p>email: {{ user?.emailAddress }}</p>
   </div>
-  
+<div class="row">
+  <h1>Gebruiker gegevens</h1>
+</div>
+  <div class="row">
+    <table>
+      <tr>
+        <td>Id</td><td>{{ user?._id }}</td>
+      </tr>
+      <tr>
+        <td>Naam</td><td>{{user?.name}}</td>
+      </tr>
+      <tr>
+        <td>Email adress</td><td>{{user?.emailAddress}}</td>
+      </tr>
+      <tr>
+        <td>Wachtwoord</td><td>{{user?.password}}</td>
+      </tr>
+      <tr>
+        <td>Geslacht</td><td>{{user?.gender}}</td>
+      </tr>
+      <tr>
+        <td>Rol</td><td>{{user?.role}}</td>
+      </tr>
+      <tr>
+        <td>Is actief</td><td>{{user?.isActive}}</td>
+      </tr>
+      <tr>
+        <td>Profiel foto</td><td>{{user?.profileImgUrl}}</td>
+      </tr>
+    </table>
+     </div>
+</div>

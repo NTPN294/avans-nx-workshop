@@ -1,0 +1,34 @@
+table {
+  width: 100%;  /* Table will take full width */
+  table-layout: auto;  /* Allow columns to resize based on content */
+  background: black !important;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+/* Alternate row colors */
+tr:nth-child(odd) {
+  background-color: #f2f2f2;  /* Light grey for odd rows */
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;  /* White for even rows */
+}
+
+/* Optional: Set header background */
+th {
+  background-color: #4CAF50;  /* Green background for headers */
+  color: white;  /* White text for the header */
+}
+
+/* Limit image width */
+td img {
+  max-width: 100px;  /* Optional: limit image width */
+  max-height: 100px; /* Optional: limit image height */
+}

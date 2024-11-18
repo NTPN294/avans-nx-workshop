@@ -11,7 +11,10 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 export class UserEditComponent implements OnInit {
     userId: string | null = null;
     user: IUserInfo | null = null;
-  
+    userRoles = Object.values(UserRole);;
+    userGenders = Object.values(UserGender);
+    userActive = [true, false];
+
     constructor(
       private route: ActivatedRoute,
       private router: Router,
@@ -19,18 +22,15 @@ export class UserEditComponent implements OnInit {
     ) {}
   
     ngOnInit(): void {
-      /**
-       * We gebruiken de EditComponent om een bestaande record te wijzigen
-       * én om een nieuwe record te maken.
-       * Een bestaande record heeft een :id in de URL, bv '/users/1/edit'
-       * Als die er dus is gaan we de user ophalen en bewerken.
-       * Als er geen :id in de URL zit (via '/users/new') maken we een nieuwe record.
-       */
       this.route.paramMap.subscribe((params) => {
         this.userId = params.get('id');
         if (this.userId) {
           // Bestaande user
           this.user = this.userService.getUserById(Number(this.userId));
+          this.userRoles = this.userRoles.filter(role => role !== this.user?.role);
+          this.userGenders = this.userGenders.filter(gen => gen !== this.user?.gender);
+          this.userActive = this.userActive.filter(act => act !== this.user?.isActive);
+
         } else {
           // Nieuwe user
           this.user = null;

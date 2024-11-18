@@ -1,21 +1,4 @@
-<div class="component edit">
-    <div class="row">
-      <div class="col-md-6"><p>Edit works!</p></div>
-    </div>
-  
-    <h1>{{ user?.name }}</h1>
-  
-    <div class="row">
-      <div class="col-6">
-        <input
-          type="email"
-          class="form-control"
-          value="{{ user?.emailAddress }}"
-          placeholder="Your email adress"
-        />
-      </div>
-    </div>
-  
+  <div class="container"> 
     <div class="row justify-content-end">
       <div class="col-6">
         <!-- Bij Save roepen we de save() functie aan, en navigeren
@@ -37,6 +20,81 @@
           >Cancel</a
         >
       </div>
+
+      <h1>Gebruiker gegevens aanpassen</h1>
+      <br>        
+      
+      <div>
+        <table>
+          <tr>
+            <td>Id</td><td>{{ user?._id }}</td>
+          </tr>
+          <tr>
+            <td>Naam</td><td><input
+              type="text"
+              class="form-control"
+              value="{{ user?.name }}"
+              placeholder="Jouw naam"
+            /></td>
+          </tr>
+          <tr>
+            <td>Email adress</td><td><input
+              type="email"
+              class="form-control"
+              value="{{ user?.emailAddress }}"
+              placeholder="jouw email adress"
+            /></td>
+          </tr>
+          <tr>
+            <td>Wachtwoord</td><td><input
+              type="text"
+              class="form-control"
+              value="{{ user?.password }}"
+              placeholder="Jouw wachtwoord"
+            /></td>
+          </tr>
+          <tr>
+            <td>Geslacht</td>
+            <td>
+              <select>
+                <option value="{{user?.gender}}">{{user?.gender}}</option>
+                <option *ngFor="let gen of userGenders" value="{{gen}}">{{gen}}</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Rol</td>
+            <td>
+              <select>
+                <option value="{{user?.role}}">{{user?.role}}</option>
+                <option *ngFor="let role of userRoles" value="{{role}}">{{role}}</option>
+              </select>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>Is actief</td>
+            <td>
+              <select>
+                <option value="{{user?.isActive}}">{{user?.isActive}}</option>
+                <option *ngFor="let ac of userActive" value="{{ac}}">{{ac}}</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Profiel foto</td><td>
+              <input
+              type="text"
+              class="form-control"
+              value="{{ user?.profileImgUrl }}"
+              placeholder="Jouw profielfoto"
+            />
+            </td>
+          </tr>
+        </table>
+      </div>
+
     </div>
   </div>
   
