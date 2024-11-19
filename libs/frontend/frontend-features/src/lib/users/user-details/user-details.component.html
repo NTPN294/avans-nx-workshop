@@ -1,27 +1,28 @@
-<div class="container">
-  <div class="row justify-content-end">
-    <div class="col-auto">
-      <a
-        class="btn btn-primary btn-sm"
-        href="#"
-        role="button"
-        routerLink="edit"
-        >Edit</a
-      >
-      <a
-        class="btn btn-outline-secondary btn-sm"
-        href="#"
-        role="button"
-        routerLink=".."
-        >Terug</a
-      >
-    </div>
-  </div>
 <div class="row">
   <h1>Gebruiker gegevens</h1>
 </div>
+
+<div class="row justify-content-end">
+  <div class="col-auto">
+    <a
+      class="btn btn-primary btn-sm purpleButton"
+      href="#"
+      role="button"
+      routerLink="edit"
+      >Edit</a
+    >
+    <a
+      class="btn btn-outline-secondary btn-sm"
+      href="#"
+      role="button"
+      routerLink=".."
+      >Terug</a
+    >
+  </div>
+</div>
+
   <div class="row">
-    <table>
+    <table class="dice">
       <tr>
         <td>Id</td><td>{{ user?._id }}</td>
       </tr>
@@ -48,4 +49,4 @@
       </tr>
     </table>
      </div>
-</div>
+

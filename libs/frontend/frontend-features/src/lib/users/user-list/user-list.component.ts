@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 import {UserService} from '@avans-nx-workshop/frontend-features';
 import { Subscription } from 'rxjs';
@@ -6,7 +6,8 @@ import { Subscription } from 'rxjs';
 @Component({
     selector: 'avans-nx-workshop-user-list',
     templateUrl: './user-list.component.html',
-    styleUrls: ['./user-list.component.css']
+    styleUrls: ['./user-list.component.css'],
+    encapsulation: ViewEncapsulation.None
 })
 export class UserListComponent implements OnInit, OnDestroy {
     users: IUserInfo[] | undefined = undefined;

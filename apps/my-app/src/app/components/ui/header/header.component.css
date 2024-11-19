@@ -1,0 +1,13 @@
+.purple {
+    color: purple;
+    text-decoration: none; /* Removes underline */
+}
+
+.purple:hover {
+    color: magenta;
+}
+
+li {
+    display: flex; 
+    align-items: center; 
+}

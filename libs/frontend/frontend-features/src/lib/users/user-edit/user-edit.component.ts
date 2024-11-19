@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import {UserService} from '@avans-nx-workshop/frontend-features';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
@@ -7,6 +7,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
     selector: 'avans-nx-workshop-user-edit',
     templateUrl: './user-edit.component.html',
     styleUrls: ['./user-edit.component.css'],
+    encapsulation: ViewEncapsulation.None
 })
 export class UserEditComponent implements OnInit {
     userId: string | null = null;

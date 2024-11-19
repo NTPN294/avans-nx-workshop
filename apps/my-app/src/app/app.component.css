@@ -1,0 +1,20 @@
+html, body {
+    height: 100%; /* Ensures the page takes up the full viewport height */
+    margin: 0;    /* Removes default margin to avoid spacing issues */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentSpace{
+    min-height: 80vh;
+}
+
+footer {
+    margin-top: auto; 
+    background-color: #f8f9fa; 
+    padding: 1rem; 
+    height: 10px;
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {UserService} from '@avans-nx-workshop/frontend-features';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
@@ -7,7 +7,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
     selector: 'avans-nx-workshop-user-details',
     templateUrl: './user-details.component.html',
     styleUrls: ['./user-details.component.css'],
-  
+  encapsulation: ViewEncapsulation.None
 })
 
 export class UserDetailsComponent implements OnInit {

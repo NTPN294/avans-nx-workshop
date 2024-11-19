@@ -5,7 +5,7 @@
     } @else if (users?.length === 0){
         <p>Geen users gevonden</p>
     } @else{
-        <table>
+        <table class="dice">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -20,7 +20,7 @@
             <tbody>
                 <tr *ngFor="let user of users">
                     <td>{{ user._id }}</td>
-                    <td><a routerLink="{{user._id}}">
+                    <td><a class="purple" routerLink="{{user._id}}">
                         {{user.name}}</a></td>
                     <td>{{ user.emailAddress }}</td>
                     <td>{{ user.gender}}</td>

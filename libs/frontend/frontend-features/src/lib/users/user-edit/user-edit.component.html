@@ -1,31 +1,27 @@
-  <div class="container"> 
-    <div class="row justify-content-end">
-      <div class="col-auto">
-        <!-- Bij Save roepen we de save() functie aan, en navigeren
-                  terug naar details binnen die functie -->
-        <button
-          class="btn btn-primary btn-sm float-right"
-          href="#"
-          role="button"
-          (click)="save()"
-        >
-          opslaan
-        </button>
-        <!-- Bij Cancel doen we nu nog niets, maar gaan gewoon terug naar de details -->
-        <a
-          class="btn btn-outline-secondary btn-sm float-right"
-          href="#"
-          role="button"
-          routerLink=".."
-          >Terug</a
-        >
-      </div>
+    
+      <h1>Gebruiker gegevens aanpassen</h1>      
+      <div class="row justify-content-end">
+        <div class="col-auto">
+          <button
+            class="btn btn-primary btn-sm float-right purpleButton"
+            href="#"
+            role="button"
+            (click)="save()"
+          >
+            opslaan
+          </button>
+          <a
+            class="btn btn-outline-secondary btn-sm float-right"
+            href="#"
+            role="button"
+            routerLink=".."
+            >Terug</a
+          >
+        </div>
+        </div>
 
-      <h1>Gebruiker gegevens aanpassen</h1>
-      <br>        
-      
       <div>
-        <table>
+        <table class="dice">
           <tr>
             <td>Id</td><td>{{ user?._id }}</td>
           </tr>
@@ -95,6 +91,5 @@
         </table>
       </div>
 
-    </div>
-  </div>
+
   
