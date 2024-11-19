@@ -3823,3 +3823,5 @@
 [NX Daemon Server] - 2024-11-19T16:02:02.603Z - Time taken for 'total execution time for createProjectGraph()' 31.354099999647588ms
 [NX Daemon Server] - 2024-11-19T16:02:05.173Z - Closed a connection. Number of open connections: 1
 [NX Daemon Server] - 2024-11-19T16:02:05.184Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-19T16:04:31.154Z - [WATCHER]: apps/my-app/project.json was modified
+[NX Daemon Server] - 2024-11-19T16:04:31.154Z - [WATCHER]: Processing file changes in outputs

@@ -12,7 +12,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
           name: 'Eerste',
           emailAddress: 'usereen@host.com',
           role: UserRole.Admin,
-          profileImgUrl: 'url1',
+          profileImgUrl: 'https://api-private.atlassian.com/users/3ed7bde5a8c78e8d0d38eca297f62495/avatar',
           gender: UserGender.Male,
           isActive: false,
           password: '1234'
@@ -22,7 +22,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
         name: 'tweede',
         emailAddress: 'usereen2@host.com',
         role: UserRole.Admin,
-        profileImgUrl: 'url2',
+        profileImgUrl: 'https://api-private.atlassian.com/users/3ed7bde5a8c78e8d0d38eca297f62495/avatar',
         gender: UserGender.Male,
         isActive: false,
         password: '1234'
@@ -32,7 +32,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
         name: 'derde',
         emailAddress: 'usereen3@host.com',
         role: UserRole.Admin,
-        profileImgUrl: 'url3',
+        profileImgUrl: 'https://api-private.atlassian.com/users/3ed7bde5a8c78e8d0d38eca297f62495/avatar',
         gender: UserGender.Male,
         isActive: false,
         password: '1234'

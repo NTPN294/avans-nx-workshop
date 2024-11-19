@@ -15,6 +15,10 @@
     background-color: #ece0ea;
 }
 
+.dice td img{
+  max-height: 100px;
+}
+
   .purple{
     color:purple;
     text-decoration: none;
