@@ -4,11 +4,13 @@ import { UserDetailsComponent } from './users/user-details/user-details.componen
 import { UserListComponent } from './users/user-list/user-list.component';
 import { UserEditComponent } from './users/user-edit/user-edit.component';
 import {RouterModule} from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
     imports: [
         CommonModule,
-        RouterModule
+        RouterModule,
+        HttpClientModule
     ],
     declarations: [UserDetailsComponent, UserListComponent, UserEditComponent],
     exports: [UserDetailsComponent, UserListComponent]

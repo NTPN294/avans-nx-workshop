@@ -24,9 +24,6 @@ async function bootstrap() {
     app.useGlobalInterceptors(new ApiResponseInterceptor());
     app.useGlobalPipes(new ValidationPipe());
 
-    // General exception handling
-    // app.useGlobalFilters(new HttpExceptionFilter());
-
     const port = process.env.PORT || 3000;
     await app.listen(port);
     Logger.log(

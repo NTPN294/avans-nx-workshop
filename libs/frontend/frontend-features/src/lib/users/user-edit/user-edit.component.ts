@@ -27,10 +27,12 @@ export class UserEditComponent implements OnInit {
         this.userId = params.get('id');
         if (this.userId) {
           // Bestaande user
-          this.user = this.userService.getUserById(Number(this.userId));
-          this.userRoles = this.userRoles.filter(role => role !== this.user?.role);
-          this.userGenders = this.userGenders.filter(gen => gen !== this.user?.gender);
-          this.userActive = this.userActive.filter(act => act !== this.user?.isActive);
+          this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
+            this.user = user;
+            this.userRoles = this.userRoles.filter(role => role !== this.user?.role);
+            this.userGenders = this.userGenders.filter(gen => gen !== this.user?.gender);
+            this.userActive = this.userActive.filter(act => act !== this.user?.isActive);
+          });
 
         } else {
           // Nieuwe user
