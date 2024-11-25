@@ -21,3 +21,32 @@
   border: purple 2px solid;
   color: white;
 }
+.purpleButton:hover {
+  background: white;
+  color: purple;
+  border: purple 2px solid;
+}
+
+.purpleButton:disabled{
+  background: purple;
+  color: white;
+  border: purple 2px solid;
+}
+
+.grayButton{
+  background: white;
+  color: gray;
+  border: gray 2px solid;
+  margin-left:5px;
+}
+
+.grayButton:hover {
+  background: gray;
+  border: gray 2px solid;
+  color: white;
+}
+
+.is-invalid {
+  border: 1px solid red;
+}
+

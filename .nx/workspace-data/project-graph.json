@@ -15946,6 +15946,11 @@
       },
       {
         "source": "frontend-features",
+        "target": "npm:@angular/forms",
+        "type": "static"
+      },
+      {
+        "source": "frontend-features",
         "target": "api",
         "type": "static"
       },

@@ -23,3 +23,15 @@
     color:purple;
     text-decoration: none;
   }
+
+  .purpleButton {
+    background: purple;
+    border: purple 2px solid;
+    color: white;
+  }
+  
+  .purpleButton:hover {
+    background: white;
+    color: purple;
+    border: purple 2px solid;
+  }

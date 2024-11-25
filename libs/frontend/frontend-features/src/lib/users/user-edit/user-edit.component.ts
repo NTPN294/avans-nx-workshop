@@ -11,8 +11,17 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 })
 export class UserEditComponent implements OnInit {
     userId: string | null = null;
-    user: IUserInfo | null = null;
-    userRoles = Object.values(UserRole);;
+    user: IUserInfo = {
+      _id: 'Nieuwe gebruiker',
+      name: '',
+      emailAddress: '',
+      password: '',
+      gender: UserGender.Unknown,
+      role: UserRole.Unknown,
+      isActive: true,
+      profileImgUrl: '',
+    };
+        userRoles = Object.values(UserRole);;
     userGenders = Object.values(UserGender);
     userActive = [true, false];
 
@@ -25,18 +34,21 @@ export class UserEditComponent implements OnInit {
     ngOnInit(): void {
       this.route.paramMap.subscribe((params) => {
         this.userId = params.get('id');
+        if (this.userId === 'new') {
+          return;
+        }
         if (this.userId) {
           // Bestaande user
           this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
-            this.user = user;
+            if (user) {
+              this.user = user;
+            }
             this.userRoles = this.userRoles.filter(role => role !== this.user?.role);
             this.userGenders = this.userGenders.filter(gen => gen !== this.user?.gender);
             this.userActive = this.userActive.filter(act => act !== this.user?.isActive);
           });
 
         } else {
-          // Nieuwe user
-          this.user = null;
         }
       });
     }

@@ -5,7 +5,9 @@
     } @else if (users?.length === 0){
         <p>Geen users gevonden</p>
     } @else{
-        <table class="dice">
+        <div class="text-end mb-3">
+            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit">Nieuwe gebruiker</a>
+        </div>        <table class="dice">
             <thead>
                 <tr>
                     <th>Id</th>
