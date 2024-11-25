@@ -54,7 +54,8 @@ export class UserEditComponent implements OnInit {
     }
   
     save() {
-      console.log('Hier komt je save actie');
+      this.userService.saveUserAsync(this.user).subscribe();
+
       this.router.navigate(['..'], { relativeTo: this.route });
     }
   }

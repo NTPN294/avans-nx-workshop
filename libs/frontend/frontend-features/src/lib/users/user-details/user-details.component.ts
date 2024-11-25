@@ -20,13 +20,13 @@ export class UserDetailsComponent implements OnInit {
     ) {}
   
     ngOnInit(): void {
-      // Deze manier is statisch: bij navigatie krijgen we niet de nieuwe id uit de URL.
-      // this.userId = this.route.snapshot.paramMap.get('id');
-  
-      // Deze manier maakt gebruik van RxJs Observables.
-      // We komen hier bij services en HTTP op terug.
       this.route.paramMap.subscribe((params) => {
         this.userId = params.get('id');
+
+        if (this.userId === 'new') {
+          return;
+        }
+
         console.log('User ID:', this.userId);
         this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
           this.user = user;

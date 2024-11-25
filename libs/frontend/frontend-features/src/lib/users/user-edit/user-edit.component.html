@@ -77,17 +77,37 @@
           </tr>
                  
           <tr>
-            <td>Wachtwoord</td><td><input
-              type="text"
-              class="form-control"
-              value="{{ user.password }}"
-              placeholder="Jouw wachtwoord"
-            /></td>
+            <td>Wachtwoord</td>
+            <td>
+              <input
+                type="password"
+                class="form-control"
+                [(ngModel)]="user.password"
+                name="password"
+                #passwordInput="ngModel"
+                placeholder="Jouw wachtwoord"
+                required
+                pattern="^(?=.*[A-Z]).{8,}$"
+                minlength="8"
+                [ngClass]="{ 'is-invalid': passwordInput.invalid && passwordInput.touched }"
+              />
+              <div *ngIf="passwordInput.invalid && passwordInput.touched" class="invalid-feedback">
+                <small *ngIf="passwordInput.errors?.['required']">Wachtwoord is verplicht.</small>
+                <small *ngIf="passwordInput.errors?.['pattern']">
+                  Wachtwoord moet minimaal 1 hoofdletter bevatten en minimaal 8 tekens lang zijn.
+                </small>
+                <small *ngIf="passwordInput.errors?.['minlength']">
+                  Wachtwoord moet minimaal 8 tekens lang zijn.
+                </small>
+              </div>
+            </td>
           </tr>
+          
+          
           <tr>
             <td>Geslacht</td>
             <td>
-              <select>
+              <select [(ngModel)]="user.gender" name="gender" #genderInput="ngModel">                
                 <option value="{{user.gender}}">{{user.gender}}</option>
                 <option *ngFor="let gen of userGenders" value="{{gen}}">{{gen}}</option>
               </select>
@@ -97,7 +117,7 @@
           <tr>
             <td>Rol</td>
             <td>
-              <select>
+              <select [(ngModel)]="user.role" name="role" #roleInput="ngModel">
                 <option value="{{user.role}}">{{user.role}}</option>
                 <option *ngFor="let role of userRoles" value="{{role}}">{{role}}</option>
               </select>
@@ -107,7 +127,7 @@
           <tr>
             <td>Is actief</td>
             <td>
-              <select>
+              <select [(ngModel)]="user.isActive" name="isActive" #isActiveInput="ngModel">
                 <option value="{{user.isActive}}">{{user.isActive}}</option>
                 <option *ngFor="let ac of userActive" value="{{ac}}">{{ac}}</option>
               </select>
@@ -118,6 +138,8 @@
               <input
               type="text"
               class="form-control"
+              [(ngModel)]="user.profileImgUrl"
+              name="profileImgUrl"
               value="{{ user.profileImgUrl }}"
               placeholder="Jouw profielfoto"
             />
@@ -125,7 +147,8 @@
           </tr>
         </table>
       </form>
-      <pre>{{ user | json }}
+      <pre
+      >{{ user | json }}
       </pre>
       </div>
 

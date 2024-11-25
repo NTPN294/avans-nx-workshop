@@ -12,7 +12,7 @@
   }
   
   .dice tbody tr:nth-child(even) {
-    background-color: #ece0ea;
+    background-color: #faf1ff;
 }
 
 .dice td img{

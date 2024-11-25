@@ -19,10 +19,6 @@ export class UserService {
         console.log('UserService created');
     }
 
-    // public getUsers(): IUserInfo[] {
-    //     return this.users;
-    // }
-
     public getUsersAsync(): Observable<IUserInfo[]> {
         console.log('getUserAsync() aangeroepen');
         return this.http
@@ -33,10 +29,6 @@ export class UserService {
             tap((response) => console.log(response))
         );
     }
-
-    // public getUserById(id: Id): IUserInfo {
-    //     return this.users.filter((user) => user._id === id)[0];
-    // }
     
     getUserByIdAsync(id: string | null): Observable<IUserInfo | null> {
         console.log('getUserByIdAsync() called with id:', id);
@@ -61,4 +53,35 @@ export class UserService {
             );
     }
     
+
+    saveUserAsync(user: IUserInfo): Observable<IUserInfo> {
+        let newUser = {
+            name: user.name,
+            emailAddress: user.emailAddress,
+            password: user.password,
+            gender: user.gender,
+            role: user.role,
+            isActive: user.isActive,
+            profileImgUrl: user.profileImgUrl,
+        };
+
+        console.log(newUser);
+        console.log('Sending request to:', `${environment.dataApiUrl}/user`); 
+
+        return this.http
+            .post<ApiResponse<IUserInfo>>(`${environment.dataApiUrl}/user`, newUser)
+            .pipe(
+                tap((response) => console.log('Response from save user:', response)),
+                map((response) => {
+                    const savedUser = response.results;
+                    if (!savedUser || Array.isArray(savedUser)) {
+                        throw new Error('Failed to save user. Invalid response.');
+                    }
+                    return savedUser;
+                }),
+                tap((savedUser) => console.log('Saved user:', savedUser)),
+            );
+    }
+    
+
 }
