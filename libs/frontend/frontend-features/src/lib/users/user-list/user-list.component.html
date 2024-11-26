@@ -1,22 +1,22 @@
-<h1>Gebruikers</h1>
+<h1>Users</h1>
 
     @if (loading) {
         <p>loading data...</p>
     } @else if (users?.length === 0){
-        <p>Geen users gevonden</p>
+        <p>No users found</p>
     } @else{
         <div class="text-end mb-3">
-            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit">Nieuwe gebruiker</a>
+            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit">Add new user</a>
         </div>        <table class="dice">
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>Geslacht</th>
-                    <th>Rol</th>
-                    <th>Is actief</th>
-                    <th>Profiel foto</th>
+                    <th>Gender</th>
+                    <th>Role</th>
+                    <th>Is active</th>
+                    <th>Profile picture</th>
                 </tr>
             </thead>
             <tbody>

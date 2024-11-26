@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute,Router } from '@angular/router';
 import {UserService} from '@avans-nx-workshop/frontend-features';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 
@@ -16,7 +16,9 @@ export class UserDetailsComponent implements OnInit {
   
     constructor(
       private route: ActivatedRoute,
-      private userService: UserService
+      private userService: UserService,
+      private router: Router,
+
     ) {}
   
     ngOnInit(): void {
@@ -30,8 +32,19 @@ export class UserDetailsComponent implements OnInit {
         console.log('User ID:', this.userId);
         this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
           this.user = user;
-        }); // Waarom 'Number'?
+        }); 
       });
     }
+
+    delete(){
+      if (this.userId) {
+        this.userService.deleteUserAsync(this.userId).subscribe();
+      } else {
+        console.error('User ID is null');
+      }
+      this.router.navigate(['/user-list']);
+    }
+
+    
   }
   

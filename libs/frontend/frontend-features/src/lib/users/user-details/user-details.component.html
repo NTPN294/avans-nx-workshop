@@ -1,9 +1,15 @@
 <div class="row">
-  <h1>Gebruiker gegevens</h1>
+  <h1>User info</h1>
 </div>
 
 <div class="row justify-content-end">
   <div class="col-auto">
+    <a
+    class="btn btn-primary btn-sm purpleButton"
+    role="button"
+    (click)="delete()"
+    >Delete</a
+  >
     <a
       class="btn btn-primary btn-sm purpleButton"
       href="#"
@@ -16,7 +22,7 @@
       href="#"
       role="button"
       routerLink=".."
-      >Terug</a
+      >Back</a
     >
   </div>
 </div>
@@ -27,25 +33,25 @@
         <td>Id</td><td>{{ user?._id }}</td>
       </tr>
       <tr>
-        <td>Naam</td><td>{{user?.name}}</td>
+        <td>Name</td><td>{{user?.name}}</td>
       </tr>
       <tr>
-        <td>Email adress</td><td>{{user?.emailAddress}}</td>
+        <td>Email</td><td>{{user?.emailAddress}}</td>
       </tr>
       <tr>
-        <td>Wachtwoord</td><td>{{user?.password}}</td>
+        <td>Password</td><td>{{user?.password}}</td>
       </tr>
       <tr>
-        <td>Geslacht</td><td>{{user?.gender}}</td>
+        <td>Gender</td><td>{{user?.gender}}</td>
       </tr>
       <tr>
-        <td>Rol</td><td>{{user?.role}}</td>
+        <td>Role</td><td>{{user?.role}}</td>
       </tr>
       <tr>
-        <td>Is actief</td><td>{{user?.isActive}}</td>
+        <td>Is active</td><td>{{user?.isActive}}</td>
       </tr>
       <tr>
-        <td>Profiel foto</td><td>{{user?.profileImgUrl}}</td>
+        <td>Profile picture</td><td>{{user?.profileImgUrl}}</td>
       </tr>
     </table>
      </div>

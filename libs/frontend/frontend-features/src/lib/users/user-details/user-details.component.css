@@ -19,6 +19,7 @@
   background: purple;
   border: purple 2px solid;
   color: white;
+  margin-left: 5px;
 }
 
 .purpleButton:hover {

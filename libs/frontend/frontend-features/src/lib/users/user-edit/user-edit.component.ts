@@ -54,9 +54,14 @@ export class UserEditComponent implements OnInit {
     }
   
     save() {
+      if (this.userId === 'new') {
       this.userService.saveUserAsync(this.user).subscribe();
-
-      this.router.navigate(['..'], { relativeTo: this.route });
+      } else{
+        if (this.userId) {
+          this.userService.updateUserAsync(this.userId, this.user).subscribe();
+        }
+      }
+      this.router.navigate(['/user-list']);
     }
   }
   

@@ -1,19 +1,18 @@
     
       @if(user){
-        <h1>Gebruiker gegevens aanpassen</h1>      
+        <h1>Edit user info</h1>      
       } @else{
-        <h1>Nieuwe gebruiker aanmaken</h1>      
+        <h1>Create new user</h1>      
       }
             <div class="row justify-content-end">
         <div class="col-auto">
           <button
             class="btn btn-primary btn-sm float-right purpleButton"
-            href="#"
             role="button"
             (click)="save()"
             [disabled]="userForm.invalid" 
           >
-            opslaan
+            Save
           </button>
           <a
           class="btn btn-outline-secondary btn-sm float-right grayButton"
@@ -21,7 +20,7 @@
           role="button"
           [routerLink]="user._id === 'Nieuwe gebruiker' ? '/user-list' : '..'"
         >
-          Terug
+          Back
         </a>
         
         </div>
@@ -34,7 +33,7 @@
             <td><strong>Id</strong></td><td><strong>{{ user._id }}</strong></td>
           </tr>
           <tr>
-            <td>Naam</td>
+            <td>Name</td>
             <td>
               <input
                 type="text"
@@ -48,13 +47,13 @@
                 minlength="3"
               />
               <div *ngIf="nameInput.invalid && nameInput.touched" class="invalid-feedback">
-                <small *ngIf="nameInput.errors?.['required']">Naam is verplicht.</small>
-                <small *ngIf="nameInput.errors?.['minlength']">Naam moet minstens 3 tekens hebben.</small>
+                <small *ngIf="nameInput.errors?.['required']">Name is required.</small>
+                <small *ngIf="nameInput.errors?.['minlength']">Name has to be atleast 3 characters.</small>
               </div>
             </td>
           </tr>
           <tr>
-            <td>Email adres</td>
+            <td>Email</td>
             <td>
               <input
                 type="email"
@@ -68,16 +67,16 @@
                 [ngClass]="{ 'is-invalid': emailInput.invalid && emailInput.touched }"
               />
               <div *ngIf="emailInput.invalid && emailInput.touched" class="invalid-feedback">
-                <small *ngIf="emailInput.errors?.['required']">Email is verplicht.</small>
+                <small *ngIf="emailInput.errors?.['required']">Email is required.</small>
                 <small *ngIf="emailInput.errors?.['pattern']">
-                  Voer een geldig emailadres in (bijv. email&#64;domein.com).
+                  Enter a valid email (ex. email&#64;domain.com).
                 </small>
                               </div>
             </td>
           </tr>
                  
           <tr>
-            <td>Wachtwoord</td>
+            <td>Password</td>
             <td>
               <input
                 type="password"
@@ -92,12 +91,12 @@
                 [ngClass]="{ 'is-invalid': passwordInput.invalid && passwordInput.touched }"
               />
               <div *ngIf="passwordInput.invalid && passwordInput.touched" class="invalid-feedback">
-                <small *ngIf="passwordInput.errors?.['required']">Wachtwoord is verplicht.</small>
+                <small *ngIf="passwordInput.errors?.['required']">Wachtwoord is required.</small>
                 <small *ngIf="passwordInput.errors?.['pattern']">
-                  Wachtwoord moet minimaal 1 hoofdletter bevatten en minimaal 8 tekens lang zijn.
+                  Passwords requires 1 uppercase letter and atleast 8 characters.
                 </small>
                 <small *ngIf="passwordInput.errors?.['minlength']">
-                  Wachtwoord moet minimaal 8 tekens lang zijn.
+                  Password requires atleast 8 characters.
                 </small>
               </div>
             </td>
@@ -105,7 +104,7 @@
           
           
           <tr>
-            <td>Geslacht</td>
+            <td>Gender</td>
             <td>
               <select [(ngModel)]="user.gender" name="gender" #genderInput="ngModel">                
                 <option value="{{user.gender}}">{{user.gender}}</option>
@@ -115,7 +114,7 @@
           </tr>
 
           <tr>
-            <td>Rol</td>
+            <td>Role</td>
             <td>
               <select [(ngModel)]="user.role" name="role" #roleInput="ngModel">
                 <option value="{{user.role}}">{{user.role}}</option>
@@ -125,7 +124,7 @@
           </tr>
           
           <tr>
-            <td>Is actief</td>
+            <td>Is active</td>
             <td>
               <select [(ngModel)]="user.isActive" name="isActive" #isActiveInput="ngModel">
                 <option value="{{user.isActive}}">{{user.isActive}}</option>
@@ -134,7 +133,7 @@
             </td>
           </tr>
           <tr>
-            <td>Profiel foto</td><td>
+            <td>Profile picture</td><td>
               <input
               type="text"
               class="form-control"
@@ -147,9 +146,7 @@
           </tr>
         </table>
       </form>
-      <pre
-      >{{ user | json }}
-      </pre>
+     
       </div>
 
 

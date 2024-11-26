@@ -11,6 +11,7 @@ export const appRoutes: Route[] = [
     {path: 'user-list/:id', component: UserDetailsComponent},
     {path: 'user-list/new', component: UserEditComponent},
     {path: 'user-list/:id/edit', component: UserEditComponent},
+    {path:'models',component:UserListComponent},
 
     {path:'',pathMatch:'full', redirectTo: ''},
 ];

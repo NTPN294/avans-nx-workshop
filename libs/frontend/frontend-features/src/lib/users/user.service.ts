@@ -83,5 +83,45 @@ export class UserService {
             );
     }
     
+    deleteUserAsync(id: string): Observable<void> {
+        console.log('deleteUserAsync() called with id:', id);
+    
+        if (!id) {
+            console.error('Invalid ID provided for deletion');
+            return of(); 
+        }
+    
+        return this.http
+            .delete<void>(`${environment.dataApiUrl}/user/${id}`)
+            .pipe(
+                tap(() => console.log(`User with ID ${id} deleted successfully`)),
+                tap(() => console.log('DELETE request sent to:', `${environment.dataApiUrl}/user/${id}`))
+            );
+    }
+    
+    updateUserAsync(id: string, user: Partial<IUserInfo>): Observable<IUserInfo> {
+        console.log('updateUserAsync() called with id:', id);
+        console.log('Updated user data:', user);
+    
+        if (!id) {
+            console.error('Invalid ID provided for update');
+            throw new Error('User ID is required to update user');
+        }
+    
+        return this.http
+            .put<ApiResponse<IUserInfo>>(`${environment.dataApiUrl}/user/${id}`, user)
+            .pipe(
+                tap((response) => console.log('Response from update user:', response)),
+                map((response) => {
+                    const updatedUser = response.results;
+                    if (!updatedUser || Array.isArray(updatedUser)) {
+                        throw new Error('Failed to update user. Invalid response.');
+                    }
+                    return updatedUser;
+                }),
+                tap((updatedUser) => console.log('Updated user:', updatedUser)),
+            );
+    }
+    
 
 }

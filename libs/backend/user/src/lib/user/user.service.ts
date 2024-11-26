@@ -48,4 +48,9 @@ export class UserService {
         this.logger.log(`Update user ${user.name}`);
         return this.userModel.findByIdAndUpdate({ _id }, user);
     }
+
+    async delete(_id: string): Promise<void> {
+        this.logger.log(`Delete user with id ${_id}`);
+        await this.userModel.findByIdAndDelete({ _id });
+    }
 }
