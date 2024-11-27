@@ -1316,9 +1316,21 @@
                     "maximumError": "4kb"
                   }
                 ],
+                "fileReplacements": [
+                  {
+                    "replace": "libs/shared/util-env/src/lib/environment.ts",
+                    "with": "libs/shared/util-env/src/lib/environment.production.ts"
+                  }
+                ],
                 "outputHashing": "all"
               },
               "development": {
+                "fileReplacements": [
+                  {
+                    "replace": "libs/shared/util-env/src/lib/environment.ts",
+                    "with": "libs/shared/util-env/src/lib/environment.development.ts"
+                  }
+                ],
                 "buildOptimizer": false,
                 "optimization": false,
                 "vendorChunk": true,
