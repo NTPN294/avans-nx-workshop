@@ -5679,3 +5679,14 @@
 [NX Daemon Server] - 2024-11-26T21:10:15.048Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX Daemon Server] - 2024-11-26T21:10:15.048Z - Time taken for 'total execution time for createProjectGraph()' 31.41410000063479ms
 [NX Daemon Server] - 2024-11-26T21:12:46.238Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-27T08:14:56.603Z - Started listening on: \\.\pipe\nx\C:\Users\ntpn2\AppData\Local\Temp\d375990175\d.sock
+[NX Daemon Server] - 2024-11-27T08:14:56.607Z - [WATCHER]: Subscribed to changes within: C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (native)
+[NX Daemon Server] - 2024-11-27T08:14:56.611Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-27T08:14:56.613Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-27T08:14:56.613Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-27T08:14:56.615Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-27T08:14:56.616Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-27T08:14:56.617Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-11-27T08:14:56.617Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-27T08:14:56.617Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (sources)
+[NX Daemon Server] - 2024-11-27T08:14:56.617Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (outputs)

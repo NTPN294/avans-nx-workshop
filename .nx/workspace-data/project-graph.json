@@ -9198,9 +9198,9 @@
       "type": "npm",
       "name": "npm:cross-spawn",
       "data": {
-        "version": "7.0.3",
+        "version": "7.0.6",
         "packageName": "cross-spawn",
-        "hash": "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
+        "hash": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA=="
       }
     },
     "npm:css-declaration-sorter": {
