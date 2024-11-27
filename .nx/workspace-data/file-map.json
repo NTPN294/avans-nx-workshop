@@ -62,48 +62,8 @@
         "hash": "8731589497805983804"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "4566917484430375526"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6192629144332209564"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11966908335120871298"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "135344717789917661"
-      },
-      {
-        "file": "package.json",
-        "hash": "15778902229138092211"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "12583676383231028948"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
-      },
-      {
-        "file": ".github/workflows/azure-static-web-apps-white-bay-0e232d503.yml",
-        "hash": "4368763607497018752"
-      },
-      {
-        "file": "Nx-workshop.postman_collection.json",
-        "hash": "13796819436055774183"
+        "file": "nx.json",
+        "hash": "13805931557394538217"
       },
       {
         "file": "tsconfig.base.json",
@@ -118,12 +78,52 @@
         "hash": "3407785570333453138"
       },
       {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12583676383231028948"
+      },
+      {
+        "file": "package.json",
+        "hash": "15778902229138092211"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": ".github/workflows/azure-static-web-apps-white-bay-0e232d503.yml",
+        "hash": "4368763607497018752"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6192629144332209564"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": "Nx-workshop.postman_collection.json",
+        "hash": "13796819436055774183"
+      },
+      {
         "file": "migrations.json",
         "hash": "4597419159832879830"
       },
       {
-        "file": "nx.json",
-        "hash": "13805931557394538217"
+        "file": ".gitignore",
+        "hash": "11966908335120871298"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "135344717789917661"
       }
     ],
     "projectFileMap": {
