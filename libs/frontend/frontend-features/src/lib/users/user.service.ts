@@ -8,7 +8,7 @@ import {
     UserRole
 } from '@avans-nx-workshop/shared/api';
 import { map, tap, Observable, of } from 'rxjs';
-import { environment } from '@avans-nx-workshop/shared/util-env';
+import { environment} from '@avans-nx-workshop/shared/util-env';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
