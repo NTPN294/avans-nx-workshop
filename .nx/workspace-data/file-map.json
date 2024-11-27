@@ -58,72 +58,72 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".eslintrc.json",
-        "hash": "4566917484430375526"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "135344717789917661"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "12583676383231028948"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10532813622864413443"
-      },
-      {
-        "file": ".github/workflows/azure-static-web-apps-white-bay-0e232d503.yml",
-        "hash": "7128291301015768655"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11966908335120871298"
-      },
-      {
-        "file": "libs/share-a-meal/readme.txt",
-        "hash": "8731589497805983804"
+        "file": "nx.json",
+        "hash": "13805931557394538217"
       },
       {
         "file": "package.json",
         "hash": "9651267934966884554"
       },
       {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6192629144332209564"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
+        "file": "Nx-workshop.postman_collection.json",
+        "hash": "13796819436055774183"
       },
       {
         "file": ".editorconfig",
         "hash": "11532813898455409296"
       },
       {
-        "file": "README.md",
-        "hash": "1955868086715526908"
+        "file": "package-lock.json",
+        "hash": "12583676383231028948"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11966908335120871298"
       },
       {
         "file": "jest.config.ts",
         "hash": "3407785570333453138"
       },
       {
-        "file": "nx.json",
-        "hash": "13805931557394538217"
-      },
-      {
-        "file": "Nx-workshop.postman_collection.json",
-        "hash": "13796819436055774183"
-      },
-      {
         "file": "migrations.json",
         "hash": "4597419159832879830"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "135344717789917661"
+      },
+      {
+        "file": "README.md",
+        "hash": "1955868086715526908"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6192629144332209564"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": ".github/workflows/azure-static-web-apps-white-bay-0e232d503.yml",
+        "hash": "7128291301015768655"
+      },
+      {
+        "file": "libs/share-a-meal/readme.txt",
+        "hash": "8731589497805983804"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10532813622864413443"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
       }
     ],
     "projectFileMap": {
@@ -1016,7 +1016,7 @@
         },
         {
           "file": "apps/data-api/src/app/app.module.ts",
-          "hash": "9099115897276646365",
+          "hash": "12767641097104541272",
           "deps": [
             "npm:@nestjs/common",
             "backend-features-meal",

@@ -9,7 +9,6 @@ import { Logger } from '@nestjs/common';
 
 @Module({
     imports: [
-        
         BackendFeaturesMealModule,
         AuthModule,
         MongooseModule.forRoot(environment.MONGO_DB_CONNECTION_STRING, {
