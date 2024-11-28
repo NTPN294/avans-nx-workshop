@@ -11,7 +11,7 @@ import { Logger } from '@nestjs/common';
     imports: [
         BackendFeaturesMealModule,
         AuthModule,
-        MongooseModule.forRoot("mongodb+srv://ntpn294:Avans1234@ntpnavans.g3clv.mongodb.net/avans", {
+        MongooseModule.forRoot(environment.MONGO_DB_CONNECTION_STRING, {
             connectionFactory: (connection) => {
               connection.on('connected', () => {
                 Logger.verbose(

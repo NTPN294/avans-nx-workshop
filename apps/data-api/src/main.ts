@@ -12,8 +12,10 @@ import {
 } from '@avans-nx-workshop/backend/dto';
 import { AppModule } from './app/app.module';
 import { CorsOptions } from '@nestjs/common/interfaces/external/cors-options.interface';
+import { environment } from '@avans-nx-workshop/shared/util-env';
 
 async function bootstrap() {
+    console.log(environment.MONGO_DB_CONNECTION_STRING);
     const app = await NestFactory.create(AppModule);
     const globalPrefix = 'api';
     app.setGlobalPrefix(globalPrefix);
