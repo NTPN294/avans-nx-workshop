@@ -6,5 +6,5 @@ export const environment: IEnvironment = {
     ROOT_DOMAIN_URL: 'https://3diceapi-f0cwe4d7fqgefxc8.germanywestcentral-01.azurewebsites.net',
     dataApiUrl: 'https://3diceapi-f0cwe4d7fqgefxc8.germanywestcentral-01.azurewebsites.net/api',
 
-    MONGO_DB_CONNECTION_STRING: 'mongodb+srv://ntpn294:Avans1234@ntpnavans.g3clv.mongodb.net/avans'
+    MONGO_DB_CONNECTION_STRING: 'mongodb+srv://ntpn294:Avans1234@ntpnavans.g3clv.mongodb.net/avans' 
 };
