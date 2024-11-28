@@ -56,7 +56,7 @@ jobs:
             - name: Download artifact from build job
               uses: actions/download-artifact@v4
               with:
-                  name: my-app
+                  name: Clientside
 
             - name: Unzip artifact for deployment
               run: unzip my-app-release.zip
@@ -97,7 +97,7 @@ jobs:
               id: deploy-to-webapp
               uses: azure/webapps-deploy@v3
               with:
-                  app-name: 'nx-workshop'
+                  app-name: '3DiceApi'
                   slot-name: 'Production'
                   publish-profile: ${{ secrets.DATA_API_PUBLISHPROFILE }}
                   package: .
