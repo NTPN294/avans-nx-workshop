@@ -4,9 +4,6 @@
     "license": "MIT",
     "scripts": {
         "build": "nx run-many -t build",
-        "build:my-app": "nx run my-app:build:production",
-        "build:data-api": "nx run data-api:build:production",
-        "build:all": "npm run build:my-app && npm run build:data-api",
         "test": "nx run-many -t test"
     },
     "engines": {

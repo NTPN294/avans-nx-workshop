@@ -1,0 +1,32 @@
+<h1>Posts</h1>
+
+    @if (loading) {
+        <p>loading data...</p>
+    } @else if (posts?.length === 0){
+        <p>No posts found</p>
+    } @else{
+        <div class="text-end mb-3">
+            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit">Add new post</a>
+        </div>        
+        <table class="dice">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                    <th>Likes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let post of posts">
+                    <td>{{ post._id }}</td>
+                    <td><a class="purple" routerLink="{{post._id}}">
+                        {{post.title}}</a></td>
+                    <td>{{ post.description }}</td>
+                    <td>{{ post.date}}</td>
+                    <td>{{ post.likes }}</td>
+                </tr>
+            </tbody>
+            </table>
+    }

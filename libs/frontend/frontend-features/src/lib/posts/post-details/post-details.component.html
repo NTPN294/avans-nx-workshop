@@ -1,0 +1,50 @@
+<div class="row">
+  <h1>{{post?.title}}</h1>
+</div>
+
+<div class="row justify-content-end">
+  <div class="col-auto">
+    <a
+    class="btn btn-primary btn-sm purpleButton"
+    role="button"
+    (click)="delete()"
+    >Delete</a
+  >
+    <a
+      class="btn btn-primary btn-sm purpleButton"
+      href="#"
+      role="button"
+      routerLink="edit"
+      >Edit</a
+    >
+    <a
+      class="btn btn-outline-secondary btn-sm grayButton"
+      role="button"
+      href="#"
+      routerLink=".."
+      >Back</a
+    >
+  </div>
+</div>
+
+  <div class="row">
+    <table class="dice">
+      <tr>
+        <td>Id</td><td>{{ post?._id }}</td>
+      </tr>
+      <tr>
+        <td>Title</td><td>{{post?.title}}</td>
+      </tr>
+      <tr>
+        <td>Description</td><td>{{post?.description}}</td>
+      </tr>
+      <tr>
+        <td>Date</td><td>{{post?.date}}</td>
+      </tr>
+      <tr>
+        <td>Likes</td><td>{{post?.likes}}</td>
+      </tr>
+     
+    </table>
+     </div>
+

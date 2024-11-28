@@ -1,0 +1,81 @@
+    
+      @if(post){
+        <h1>Edit post info</h1>      
+      } @else{
+        <h1>Create new post</h1>      
+      }
+            <div class="row justify-content-end">
+        <div class="col-auto">
+          <button
+            class="btn btn-primary btn-sm float-right purpleButton"
+            role="button"
+            (click)="save()"
+            [disabled]="postForm.invalid" 
+          >
+            Save
+          </button>
+          <a
+          class="btn btn-outline-secondary btn-sm float-right grayButton"
+          href="#"
+          role="button"
+          [routerLink]="post._id === 'Nieuwe gebruiker' ? '/post-list' : '..'"
+        >
+          Back
+        </a>
+        
+        </div>
+        </div>
+
+      <div>
+        <form #postForm="ngForm" name="postForm">
+        <table class="dice">
+          <tr>
+            <td><strong>Id</strong></td><td><strong>{{ post._id }}</strong></td>
+          </tr>
+          <tr>
+            <td>Title</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                [(ngModel)]="post.title"
+                name="title"
+                #titleInput="ngModel"
+                placeholder="your title"
+                [ngClass]="{ 'is-invalid': titleInput.invalid && titleInput.touched }"
+                required
+                minlength="3"
+              />
+              <div *ngIf="titleInput.invalid && titleInput.touched" class="invalid-feedback">
+                <small *ngIf="titleInput.errors?.['required']">Title is required.</small>
+                <small *ngIf="titleInput.errors?.['minlength']">Title has to be atleast 3 characters.</small>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Description</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                [(ngModel)]="post.description"
+                name="description"
+                #descriptionInput="ngModel"
+                placeholder="your description"
+                [ngClass]="{ 'is-invalid': descriptionInput.invalid && descriptionInput.touched }"
+                required
+=             />
+              <div *ngIf="descriptionInput.invalid && descriptionInput.touched" class="invalid-feedback">
+                <small *ngIf="descriptionInput.errors?.['required']">Description is required.</small>
+              </div>
+            </td>
+          </tr>
+      
+        </table>
+      </form>
+     
+      </div>
+
+
+  

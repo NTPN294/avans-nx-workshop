@@ -805,6 +805,64 @@
         "tags": []
       }
     },
+    "posts": {
+      "name": "posts",
+      "type": "lib",
+      "data": {
+        "root": "libs/backend/post",
+        "name": "posts",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/backend/post/src",
+        "projectType": "library",
+        "tags": [],
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "libs/backend/post/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ]
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/backend/post/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            },
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "users": {
       "name": "users",
       "type": "lib",
@@ -16230,6 +16288,38 @@
       {
         "source": "data-api-e2e",
         "target": "npm:axios",
+        "type": "static"
+      }
+    ],
+    "posts": [
+      {
+        "source": "posts",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "posts",
+        "target": "api",
+        "type": "static"
+      },
+      {
+        "source": "posts",
+        "target": "dto",
+        "type": "static"
+      },
+      {
+        "source": "posts",
+        "target": "npm:@nestjs/mongoose",
+        "type": "static"
+      },
+      {
+        "source": "posts",
+        "target": "npm:mongoose",
+        "type": "static"
+      },
+      {
+        "source": "posts",
+        "target": "npm:class-validator",
         "type": "static"
       }
     ],

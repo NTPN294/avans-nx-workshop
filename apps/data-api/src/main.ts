@@ -16,7 +16,6 @@ import { environment } from '@avans-nx-workshop/shared/util-env';
 
 async function bootstrap() {
     console.log("ENVIROMENT: " + environment);
-    console.log("ENVIROMENT HARDCODE: " + "mongodb+srv://ntpn294:Avans1234@ntpnavans.g3clv.mongodb.net/avans");
     console.log("DB STRING: " + environment.MONGO_DB_CONNECTION_STRING);
 
 
