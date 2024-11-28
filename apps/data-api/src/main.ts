@@ -15,7 +15,8 @@ import { CorsOptions } from '@nestjs/common/interfaces/external/cors-options.int
 import { environment } from '@avans-nx-workshop/shared/util-env';
 
 async function bootstrap() {
-    console.log(environment.MONGO_DB_CONNECTION_STRING);
+    console.log("ENVIROMENT: " + environment);
+    console.log("DB STRING: " + environment.MONGO_DB_CONNECTION_STRING);
     const app = await NestFactory.create(AppModule);
     const globalPrefix = 'api';
     app.setGlobalPrefix(globalPrefix);
