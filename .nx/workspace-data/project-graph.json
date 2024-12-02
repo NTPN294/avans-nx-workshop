@@ -16053,6 +16053,26 @@
       },
       {
         "source": "frontend-common",
+        "target": "npm:@angular/forms",
+        "type": "static"
+      },
+      {
+        "source": "frontend-common",
+        "target": "npm:@angular/router",
+        "type": "static"
+      },
+      {
+        "source": "frontend-common",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "frontend-common",
+        "target": "util-env",
+        "type": "static"
+      },
+      {
+        "source": "frontend-common",
         "target": "npm:jest-preset-angular",
         "type": "static"
       }
@@ -16496,6 +16516,11 @@
       },
       {
         "source": "data-api",
+        "target": "posts",
+        "type": "static"
+      },
+      {
+        "source": "data-api",
         "target": "auth",
         "type": "static"
       },
@@ -16544,6 +16569,11 @@
       {
         "source": "my-app",
         "target": "frontend-features",
+        "type": "static"
+      },
+      {
+        "source": "my-app",
+        "target": "frontend-common",
         "type": "static"
       },
       {

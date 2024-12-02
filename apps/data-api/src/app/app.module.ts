@@ -30,7 +30,8 @@ import { Logger } from '@nestjs/common';
           }),
           
         UsersModule,
-        PostsModule
+        PostsModule,
+        AuthModule
     ],
     controllers: [],
     providers: []

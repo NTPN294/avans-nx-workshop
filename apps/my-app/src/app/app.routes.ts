@@ -2,6 +2,7 @@ import { Route } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AboutComponent } from './components/about/about.component';
 import { PostListComponent, UserDetailsComponent, UserEditComponent, UserListComponent, PostDetailComponent, PostEditComponent } from '@avans-nx-workshop/frontend-features';
+import { LoginComponent } from '@avans-nx-workshop/frontend-common';
 
 export const appRoutes: Route[] = [
     //urls
@@ -17,5 +18,6 @@ export const appRoutes: Route[] = [
     {path: 'post-list/new', component: PostEditComponent},
     {path: 'post-list/:id/edit', component: PostEditComponent},
 
+    {path: 'login', component: LoginComponent},
     {path:'',pathMatch:'full', redirectTo: ''},
 ];

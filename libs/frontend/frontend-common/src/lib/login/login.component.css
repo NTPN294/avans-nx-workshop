@@ -1,0 +1,27 @@
+
+.purpleButton {
+  background: purple;
+  border: purple 2px solid;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 50%;
+}
+
+.purpleButton:hover {
+  background: white;
+  color: purple;
+  border: purple 2px solid;
+}
+
+.purpleButton:disabled{
+  background: purple;
+  color: white;
+  border: purple 2px solid;
+  opacity: 0.5;
+}
+
+.purple{
+  color:purple;
+  text-decoration: none;
+}
