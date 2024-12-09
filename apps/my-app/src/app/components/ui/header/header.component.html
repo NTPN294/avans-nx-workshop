@@ -14,7 +14,10 @@
     <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
   </form>
 
- <a class="navText" routerLink="login">
+ <a class="navText" routerLink="login" *ngIf="!loggedIn">
   Login
+ </a>
+ <a class="navText" routerLink="account" *ngIf="loggedIn">
+  Account
  </a>
 </div>

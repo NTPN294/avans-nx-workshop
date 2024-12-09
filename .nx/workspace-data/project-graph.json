@@ -16053,12 +16053,22 @@
       },
       {
         "source": "frontend-common",
-        "target": "npm:@angular/forms",
+        "target": "frontend-features",
+        "type": "static"
+      },
+      {
+        "source": "frontend-common",
+        "target": "api",
         "type": "static"
       },
       {
         "source": "frontend-common",
         "target": "npm:@angular/router",
+        "type": "static"
+      },
+      {
+        "source": "frontend-common",
+        "target": "npm:@angular/forms",
         "type": "static"
       },
       {

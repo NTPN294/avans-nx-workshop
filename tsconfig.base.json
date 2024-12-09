@@ -25,11 +25,11 @@
             "@avans-nx-workshop/backend/neo4j": [
                 "libs/backend/neo4j/src/index.ts"
             ],
+            "@avans-nx-workshop/backend/post": [
+                "libs/backend/post/src/index.ts"
+            ],
             "@avans-nx-workshop/backend/user": [
                 "libs/backend/user/src/index.ts"
-            ],
-            "@avans-nx-workshop/backend/post":[
-                "libs/backend/post/src/index.ts"
             ],
             "@avans-nx-workshop/common-ui": [
                 "libs/frontend/common-ui/src/index.ts"

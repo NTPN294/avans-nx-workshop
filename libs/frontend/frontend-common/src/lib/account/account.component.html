@@ -1,0 +1,32 @@
+<div class="container borderAccount">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img src="{{user?.profileImgUrl}}" class="img-fluid" alt="Profile Image">
+        <h3>{{user?.name}}</h3>
+      </div>
+
+      <div class="col-md-6" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-md-3 d-flex flex-column justify-content-between">
+                <p><strong>Email</strong></p>
+                <p><strong>Password</strong></p>
+                <p><strong>Gender</strong></p>
+                <p><strong>Role</strong></p>
+                <p><strong>Is active</strong></p>
+                </div>
+                <div class="col-md-3 d-flex flex-column justify-content-between">
+                      <p>{{user?.emailAddress}}</p>
+                      <p>{{user?.password}}</p>
+                      <p>{{user?.gender}}</p>
+                      <p>{{user?.role}}</p>
+                      <p>{{user?.isActive}}</p>
+                    </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <button class="purpleButton mt-3" (click)="edit()">Edit</button>
+            <button class="purpleButton mt-3" (click)="logOut()">Log out</button>
+        </div>
+      </div>
+     
+  </div>
+  

@@ -31,7 +31,7 @@ export class UserEditComponent implements OnInit {
       private userService: UserService
     ) {}
   
-    ngOnInit(): void {
+    ngOnInit(): void {      
       this.route.paramMap.subscribe((params) => {
         this.userId = params.get('id');
         if (this.userId === 'new') {
@@ -39,6 +39,11 @@ export class UserEditComponent implements OnInit {
         }
         if (this.userId) {
           // Bestaande user
+          let userIdCookie = getCookie('userId');
+          if (userIdCookie !== this.userId) {
+            this.router.navigate(['/user-list']);
+          }
+
           this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
             if (user) {
               this.user = user;
@@ -65,3 +70,8 @@ export class UserEditComponent implements OnInit {
     }
   }
   
+  function getCookie(name: string): string | null {
+    const cookies = document.cookie.split('; ');
+    const cookie = cookies.find((row) => row.startsWith(name + '='));
+    return cookie ? cookie.split('=')[1] : null;
+}

@@ -13,6 +13,7 @@ import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 export class UserDetailsComponent implements OnInit {
     userId: string | null = null;
     user: IUserInfo | null = null;
+    isOwner: boolean = false;
   
     constructor(
       private route: ActivatedRoute,
@@ -32,7 +33,13 @@ export class UserDetailsComponent implements OnInit {
         console.log('User ID:', this.userId);
         this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
           this.user = user;
+          let userIdCookie = getCookie('userId');
+          if (userIdCookie === this.userId) {
+            this.isOwner = true;
+          }
         }); 
+
+
       });
     }
 
@@ -47,4 +54,10 @@ export class UserDetailsComponent implements OnInit {
 
     
   }
+
+  function getCookie(name: string): string | null {
+    const cookies = document.cookie.split('; ');
+    const cookie = cookies.find((row) => row.startsWith(name + '='));
+    return cookie ? cookie.split('=')[1] : null;
+}
   

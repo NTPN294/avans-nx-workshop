@@ -28,6 +28,12 @@
   border: purple 2px solid;
 }
 
+.purpleButton:disabled{
+  background: purple !important;
+  color: white !important;
+  border: purple 2px solid !important;
+}
+
 
 .grayButton{
   background: white;

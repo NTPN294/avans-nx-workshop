@@ -1,0 +1,29 @@
+.borderAccount{
+    border: 2px solid purple;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+
+.purpleButton {
+    background: purple;
+    border: purple 2px solid;
+    color: white;
+    margin-left: 5px;
+    width: 80%;
+    border-radius: 6px;
+  }
+  
+  .purpleButton:hover {
+    background: white;
+    color: purple;
+    border: purple 2px solid;
+  }
+  
+  .purpleButton:disabled{
+    background: purple !important;
+    color: white !important;
+    border: purple 2px solid !important;
+  }
