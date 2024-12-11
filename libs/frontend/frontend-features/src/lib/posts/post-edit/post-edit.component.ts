@@ -24,7 +24,6 @@ export class PostEditComponent implements OnInit {
     };
 
     model: Model = {
-      _id: 'New Model',
       title: '',
       description: '',
       genres: [],
@@ -99,7 +98,17 @@ export class PostEditComponent implements OnInit {
     }
       }
 
-    saveModel(){}
+    saveModel(){
+      this.post.models.push(this.model);
+      this.closeModel();
+      this.model = {
+        title: '',
+        description: '',
+        genres: [],
+        files: [],
+        images: [],
+      }
+    }
 
     toggleGenreSelection(event: any, genre: string) {
       if (event.target.checked) {
@@ -111,5 +120,32 @@ export class PostEditComponent implements OnInit {
         }
       }
     }
+
+    onFileSelected(event: Event): void {
+      const input = event.target as HTMLInputElement;
+      if (input.files) {
+        this.model.files = Array.from(input.files).map((file) => file.name);
+      }
+    }
+
+    onImageSelected(event: Event): void {
+      const input = event.target as HTMLInputElement;
+      if (input.files) {
+        this.model.images = Array.from(input.files).map((file) => file.name);
+      }
+    }
+
+    editModel(index: number){
+      this.model = this.post.models[index];
+      const modal = document.getElementById('myModal');
+      if (modal) {
+        modal.style.display = 'block';
+      }
+    }
+
+    deleteModel(index: number){
+      this.post.models.splice(index, 1);
+    }
+    
   }
   

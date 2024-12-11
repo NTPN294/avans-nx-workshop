@@ -1,5 +1,28 @@
 
 <h1>Post</h1>
+
+<div class="row justify-content-end">
+  <div class="col-auto">
+    <button
+      class="btn btn-primary btn-sm float-right purpleButton"
+      role="button"
+      (click)="save()"
+      [disabled]="postForm.invalid" 
+    >
+      Save
+    </button>
+    <a
+    class="btn btn-outline-secondary btn-sm float-right grayButton"
+    href="#"
+    role="button"
+    [routerLink]="post._id === 'New post' ? '/post-list' : '../../'"
+  >
+    Back
+  </a>
+  
+  </div>
+  </div>
+
 <div class="modal" id="myModal">
   <div class="modal-dialog custom-modal-dialog">
     <div class="modal-content">
@@ -55,6 +78,7 @@
                 type="file"
                 multiple
                 [(ngModel)]="model.files"
+                (change)="onFileSelected($event)"
                 #modelFiles="ngModel"
                 required
                 />
@@ -71,6 +95,7 @@
                 type="file"
                 multiple
                 [(ngModel)]="model.images"
+                (change)="onImageSelected($event)"
                 #modelImages="ngModel"
                 required
                 />
@@ -154,12 +179,29 @@
       </tr>
     </table>
 
+    <div *ngIf="post.models.length > 0">
+      <table class="dice">
+        <tr>
+          <td><strong>Title</strong></td>
+          <td><strong>Description</strong></td>
+          <td><strong>Actions</strong></td>
+        </tr>
+        <tr *ngFor="let model of post.models; let i = index">
+          <td>{{ model.title }}</td>
+          <td>{{ model.description }}</td>
+          <td>
+            <button class="grayButton" (click)="editModel(i)">Edit</button>
+            <button class="purpleButton" (click)="deleteModel(i)">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
     <div style="margin-top: 50px;">
       <p><strong>Models</strong></p>
       <button class="purpleButton" (click)="openModel()">Add model</button>
     </div>
 
-    <!-- Modal Form -->
     <form #modelForm="ngForm" name="modelForm">
       <div class="modal" id="myModal">
         <div class="modal-dialog">
@@ -203,7 +245,7 @@
 
             <!-- Modal Footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary grayButton" (click)="closeModel()">Close</button>
+              <button type="button" class="btn btn-secondary grayButton" (click)="closeModel()" style="margin-right: 5px;">Close</button>
               <button type="button" class="btn btn-primary purpleButton" (click)="saveModel()" [disabled]="modelForm.invalid">Save changes</button>
             </div>
 

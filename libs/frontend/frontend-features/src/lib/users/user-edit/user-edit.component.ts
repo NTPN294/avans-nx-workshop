@@ -12,7 +12,7 @@ import { TokenService } from '@avans-nx-workshop/frontend-common';
 export class UserEditComponent implements OnInit {
     userId: string | null = null;
     user: IUserInfo = {
-      _id: 'Nieuwe gebruiker',
+      _id: 'New user',
       name: '',
       emailAddress: '',
       password: '',
