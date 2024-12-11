@@ -1,15 +1,15 @@
-import { IsNotEmpty, IsString, IsBoolean, IsOptional, IsDate, IsNumber } from 'class-validator';
+import { IsNotEmpty, IsString, IsOptional, IsDate, IsNumber, ValidateNested, IsArray } from 'class-validator';
+import { Type } from 'class-transformer';
 import {
-    // ICreateUser,
     IUpdatePost,
     IUpsertPost,
     Id,
-    UserGender,
-    UserRole
+    Comment,
+    Model,
+    Genre
 } from '@avans-nx-workshop/shared/api';
-import { Meal } from '@avans-nx-workshop/backend/features';
 
-export class CreatePostDto{
+export class CreatePostDto {
     @IsString()
     @IsNotEmpty()
     title!: string;
@@ -19,8 +19,58 @@ export class CreatePostDto{
     description!: string;
 }
 
+export class CommentDto {
+    @IsString()
+    @IsNotEmpty()
+    _id!: string;
+
+    @IsString()
+    @IsNotEmpty()
+    comment!: string;
+
+    @IsNumber()
+    @IsNotEmpty()
+    rating!: number;
+
+    @IsDate()
+    @IsNotEmpty()
+    date!: Date;
+}
+
+export class ModelDto {
+    @IsString()
+    @IsNotEmpty()
+    _id!: string;
+
+    @IsString()
+    @IsNotEmpty()
+    title!: string;
+
+    @IsString()
+    @IsNotEmpty()
+    description!: string;
+
+    @IsArray()
+    @IsNotEmpty()
+    files!: string[];
+
+    @IsArray()
+    @IsNotEmpty()
+    images!: string[];
+
+    @IsArray()
+    @IsNotEmpty()
+    genres!: Genre[];
+}
+
 export class UpsertPostDto implements IUpsertPost {
-    _id!: Id;
+    @IsString()
+    @IsNotEmpty()
+    _id!: string;
+
+    @IsString()
+    @IsNotEmpty()
+    ownerId!: string;
 
     @IsString()
     @IsNotEmpty()
@@ -37,12 +87,48 @@ export class UpsertPostDto implements IUpsertPost {
     @IsNumber()
     @IsNotEmpty()
     likes!: number;
+
+    @IsArray()
+    @ValidateNested({ each: true })
+    @Type(() => CommentDto)
+    comments!: CommentDto[];
+
+    @IsArray()
+    @ValidateNested({ each: true })
+    @Type(() => ModelDto)
+    models!: ModelDto[];
 }
 
 export class UpdatePostDto implements IUpdatePost {
-    _id?: string | undefined;
+    @IsString()
+    @IsOptional()
+    _id?: string;
 
     @IsString()
     @IsOptional()
-    title!: string;
+    title?: string;
+
+    @IsString()
+    @IsOptional()
+    description?: string;
+
+    @IsDate()
+    @IsOptional()
+    date?: Date;
+
+    @IsNumber()
+    @IsOptional()
+    likes?: number;
+
+    @IsArray()
+    @ValidateNested({ each: true })
+    @Type(() => CommentDto)
+    @IsOptional()
+    comments?: CommentDto[];
+
+    @IsArray()
+    @ValidateNested({ each: true })
+    @Type(() => ModelDto)
+    @IsOptional()
+    models?: ModelDto[];
 }

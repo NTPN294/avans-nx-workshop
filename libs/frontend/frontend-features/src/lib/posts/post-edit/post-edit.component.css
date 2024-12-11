@@ -5,7 +5,7 @@
   
 .dice th, td {
   text-align: left;
-  padding: 10px;
+  padding: 10px 0;
   overflow: hidden;  
   word-wrap: break-word; 
   white-space: normal; 
@@ -19,6 +19,7 @@
 .purpleButton{
   background: purple;
   border: purple 2px solid;
+  border-radius: 6px;
   color: white;
 }
 .purpleButton:hover {
@@ -50,3 +51,11 @@
   border: 1px solid red;
 }
 
+.invalid-feedback {
+  display: block;
+  color: red; /* Or any other desired color for the error message */
+}
+
+.custom-modal-dialog {
+  max-width: 40%; 
+}

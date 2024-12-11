@@ -2,7 +2,7 @@ import { Component, OnInit,ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import {UserService} from '@avans-nx-workshop/frontend-features';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
-
+import { TokenService } from '@avans-nx-workshop/frontend-common';
 @Component({
     selector: 'avans-nx-workshop-user-edit',
     templateUrl: './user-edit.component.html',
@@ -28,7 +28,8 @@ export class UserEditComponent implements OnInit {
     constructor(
       private route: ActivatedRoute,
       private router: Router,
-      private userService: UserService
+      private userService: UserService,
+      private tokenService: TokenService
     ) {}
   
     ngOnInit(): void {      
@@ -39,7 +40,7 @@ export class UserEditComponent implements OnInit {
         }
         if (this.userId) {
           // Bestaande user
-          let userIdCookie = getCookie('userId');
+          let userIdCookie = this.tokenService.getCookie('userId');
           if (userIdCookie !== this.userId) {
             this.router.navigate(['/user-list']);
           }
@@ -70,8 +71,3 @@ export class UserEditComponent implements OnInit {
     }
   }
   
-  function getCookie(name: string): string | null {
-    const cookies = document.cookie.split('; ');
-    const cookie = cookies.find((row) => row.startsWith(name + '='));
-    return cookie ? cookie.split('=')[1] : null;
-}

@@ -25,7 +25,6 @@ export class LoginService {
 
                       // Save the token in a cookie with the name 'JWTToken'
                       document.cookie = `JWTToken=${token}; path=/; secure; samesite=Strict;`;
-                      document.cookie= `userId=${response.results._id}; path=/; secure; samesite=Strict;`;
                     return response;
                 })
             );

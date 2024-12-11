@@ -5,7 +5,7 @@
   
 .dice th, td {
   text-align: left;
-  padding: 10px;
+  padding: 10px 0;
   overflow: hidden;  
   word-wrap: break-word; 
   white-space: normal; 

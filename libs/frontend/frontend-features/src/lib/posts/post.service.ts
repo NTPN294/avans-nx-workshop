@@ -3,6 +3,9 @@ import { Injectable } from '@angular/core';
 import {
     IPost,
     ApiResponse,
+    Comment,
+    Model,
+    Genre
 } from '@avans-nx-workshop/shared/api';
 import { map, tap, Observable, of } from 'rxjs';
 import { environment} from '@avans-nx-workshop/shared/util-env';
@@ -53,10 +56,13 @@ export class PostService {
 
     savePostAsync(post: IPost): Observable<IPost> {
         let newpost = {
+            ownerId: post.ownerId,
             title: post.title,
             description: post.description,
             date: post.date,
             likes: post.likes,
+            comments: post.comments,
+            models: post.models
         };
 
         console.log(newpost);

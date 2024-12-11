@@ -2,7 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute,Router } from '@angular/router';
 import {UserService} from '@avans-nx-workshop/frontend-features';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
-
+import {TokenService} from '@avans-nx-workshop/frontend-common';
 @Component({
     selector: 'avans-nx-workshop-user-details',
     templateUrl: './user-details.component.html',
@@ -19,6 +19,7 @@ export class UserDetailsComponent implements OnInit {
       private route: ActivatedRoute,
       private userService: UserService,
       private router: Router,
+      private tokenService: TokenService
 
     ) {}
   
@@ -33,7 +34,7 @@ export class UserDetailsComponent implements OnInit {
         console.log('User ID:', this.userId);
         this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
           this.user = user;
-          let userIdCookie = getCookie('userId');
+          let userIdCookie = this.tokenService.getCookie('userId');
           if (userIdCookie === this.userId) {
             this.isOwner = true;
           }
@@ -55,9 +56,5 @@ export class UserDetailsComponent implements OnInit {
     
   }
 
-  function getCookie(name: string): string | null {
-    const cookies = document.cookie.split('; ');
-    const cookie = cookies.find((row) => row.startsWith(name + '='));
-    return cookie ? cookie.split('=')[1] : null;
-}
+
   

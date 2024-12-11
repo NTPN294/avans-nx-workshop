@@ -5484,6 +5484,15 @@
         "hash": "sha512-d2SIqiJIf/7NSILeNNWSdRvTTpHSouGgisGHwf5PVDC7z4/yXZw/wPO9eJhegnxFlqk6n2LW4QBTmMzbqjAfHA=="
       }
     },
+    "npm:@ng-bootstrap/ng-bootstrap": {
+      "type": "npm",
+      "name": "npm:@ng-bootstrap/ng-bootstrap",
+      "data": {
+        "version": "17.0.1",
+        "packageName": "@ng-bootstrap/ng-bootstrap",
+        "hash": "sha512-utbm8OXIoqVVYGVzQkOS773ymbjc+UMkXv8lyi7hTqLhCQs0rZ0yA74peqVZRuOGXLHgcSTA7fnJhA80iQOblw=="
+      }
+    },
     "npm:@ngtools/webpack": {
       "type": "npm",
       "name": "npm:@ngtools/webpack",
@@ -12675,15 +12684,6 @@
         "hash": "sha512-BFRuQUqc7x2NWxfJBCyUrN8iYUYznzL9JROmRz1gZ6KlOIgmoD+njPVbb+VNn2nGMKggMsK79iUNErillsrx7w=="
       }
     },
-    "npm:loose-envify": {
-      "type": "npm",
-      "name": "npm:loose-envify",
-      "data": {
-        "version": "1.4.0",
-        "packageName": "loose-envify",
-        "hash": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="
-      }
-    },
     "npm:luxon": {
       "type": "npm",
       "name": "npm:luxon",
@@ -14367,24 +14367,6 @@
         "hash": "sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA=="
       }
     },
-    "npm:react": {
-      "type": "npm",
-      "name": "npm:react",
-      "data": {
-        "version": "18.3.1",
-        "packageName": "react",
-        "hash": "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ=="
-      }
-    },
-    "npm:react-dom": {
-      "type": "npm",
-      "name": "npm:react-dom",
-      "data": {
-        "version": "18.3.1",
-        "packageName": "react-dom",
-        "hash": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="
-      }
-    },
     "npm:react-is": {
       "type": "npm",
       "name": "npm:react-is",
@@ -14671,15 +14653,6 @@
         "version": "1.4.1",
         "packageName": "sax",
         "hash": "sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg=="
-      }
-    },
-    "npm:scheduler": {
-      "type": "npm",
-      "name": "npm:scheduler",
-      "data": {
-        "version": "0.23.2",
-        "packageName": "scheduler",
-        "hash": "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ=="
       }
     },
     "npm:secure-compare": {
@@ -16026,6 +15999,11 @@
       },
       {
         "source": "frontend-features",
+        "target": "frontend-common",
+        "type": "static"
+      },
+      {
+        "source": "frontend-features",
         "target": "npm:rxjs",
         "type": "static"
       },
@@ -16439,6 +16417,11 @@
       {
         "source": "dto",
         "target": "npm:class-validator",
+        "type": "static"
+      },
+      {
+        "source": "dto",
+        "target": "npm:class-transformer",
         "type": "static"
       },
       {
@@ -21703,16 +21686,6 @@
     "npm:@module-federation/data-prefetch": [
       {
         "source": "npm:@module-federation/data-prefetch",
-        "target": "npm:react",
-        "type": "static"
-      },
-      {
-        "source": "npm:@module-federation/data-prefetch",
-        "target": "npm:react-dom",
-        "type": "static"
-      },
-      {
-        "source": "npm:@module-federation/data-prefetch",
         "target": "npm:@module-federation/runtime",
         "type": "static"
       },
@@ -22376,6 +22349,38 @@
       },
       {
         "source": "npm:@nestjs/testing",
+        "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:@ng-bootstrap/ng-bootstrap": [
+      {
+        "source": "npm:@ng-bootstrap/ng-bootstrap",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ng-bootstrap/ng-bootstrap",
+        "target": "npm:@angular/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ng-bootstrap/ng-bootstrap",
+        "target": "npm:@angular/forms",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ng-bootstrap/ng-bootstrap",
+        "target": "npm:@popperjs/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ng-bootstrap/ng-bootstrap",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ng-bootstrap/ng-bootstrap",
         "target": "npm:tslib",
         "type": "static"
       }
@@ -31450,13 +31455,6 @@
         "type": "static"
       }
     ],
-    "npm:loose-envify": [
-      {
-        "source": "npm:loose-envify",
-        "target": "npm:js-tokens",
-        "type": "static"
-      }
-    ],
     "npm:lru-cache": [
       {
         "source": "npm:lru-cache",
@@ -33746,30 +33744,6 @@
         "type": "static"
       }
     ],
-    "npm:react": [
-      {
-        "source": "npm:react",
-        "target": "npm:loose-envify",
-        "type": "static"
-      }
-    ],
-    "npm:react-dom": [
-      {
-        "source": "npm:react-dom",
-        "target": "npm:react",
-        "type": "static"
-      },
-      {
-        "source": "npm:react-dom",
-        "target": "npm:loose-envify",
-        "type": "static"
-      },
-      {
-        "source": "npm:react-dom",
-        "target": "npm:scheduler",
-        "type": "static"
-      }
-    ],
     "npm:read-cache": [
       {
         "source": "npm:read-cache",
@@ -34114,13 +34088,6 @@
       {
         "source": "npm:sass-loader",
         "target": "npm:neo-async",
-        "type": "static"
-      }
-    ],
-    "npm:scheduler": [
-      {
-        "source": "npm:scheduler",
-        "target": "npm:loose-envify",
         "type": "static"
       }
     ],

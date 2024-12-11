@@ -3,6 +3,8 @@ import { Document, Schema as MongooseSchema } from 'mongoose';
 // import { v4 as uuid } from 'uuid';
 import {
     IPost,
+    Comment,
+    Model
 } from '@avans-nx-workshop/shared/api';
 import { IsMongoId } from 'class-validator';
 
@@ -18,6 +20,12 @@ export class Post implements IPost {
         type: String
     })
     title!: string;
+
+    @Prop({
+        required: true,
+        type: String
+    })
+    ownerId!: string;
    
     @Prop({
         required: true,
@@ -38,6 +46,19 @@ export class Post implements IPost {
         default: 0
     })
     likes!: number;
+
+    @Prop({
+        required: false,
+        type: Array
+    })
+    comments!: Comment[];
+
+    @Prop({
+        required: false,
+        type: Array
+    })
+    models!: Model[];
+
 
 }
 

@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { TokenService } from '@avans-nx-workshop/frontend-common';
 
 @Component({
     selector: 'avans-nx-workshop-header',
@@ -10,20 +11,26 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 export class HeaderComponent implements OnInit{
     loggedIn: boolean = false;
 
-    constructor() {
+    constructor(private tokenService: TokenService) {
     }
 
     ngOnInit(): void {
-        let token = getCookie('JWTToken');
+        console.log("HeaderComponent initialized");
+        let token = this.tokenService.getCookie('JWTToken');
+
         if (token) {
+            const jwtObject = this.tokenService.parseJwt(token);
+            if (jwtObject) {
+            console.log(jwtObject['exp']);
+            if (this.tokenService.isJwtExpired(jwtObject['exp'] as number)) {
+                console.error("JWT Token is expired");
+                return
+            }
             this.loggedIn = true;
-    }
+          }
+        }
+    
 }
 
 }
 
-function getCookie(name: string): string | null {
-    const cookies = document.cookie.split('; ');
-    const cookie = cookies.find((row) => row.startsWith(name + '='));
-    return cookie ? cookie.split('=')[1] : null;
-}

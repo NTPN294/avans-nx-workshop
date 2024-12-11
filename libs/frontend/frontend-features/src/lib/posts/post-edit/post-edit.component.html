@@ -1,81 +1,218 @@
-    
-      @if(post){
-        <h1>Edit post info</h1>      
-      } @else{
-        <h1>Create new post</h1>      
-      }
-            <div class="row justify-content-end">
-        <div class="col-auto">
-          <button
-            class="btn btn-primary btn-sm float-right purpleButton"
-            role="button"
-            (click)="save()"
-            [disabled]="postForm.invalid" 
-          >
-            Save
-          </button>
-          <a
-          class="btn btn-outline-secondary btn-sm float-right grayButton"
-          href="#"
-          role="button"
-          [routerLink]="post._id === 'Nieuwe gebruiker' ? '/post-list' : '..'"
-        >
-          Back
-        </a>
-        
-        </div>
-        </div>
 
-      <div>
-        <form #postForm="ngForm" name="postForm">
-        <table class="dice">
-          <tr>
-            <td><strong>Id</strong></td><td><strong>{{ post._id }}</strong></td>
-          </tr>
-          <tr>
-            <td>Title</td>
-            <td>
-              <input
-                type="text"
-                class="form-control"
-                [(ngModel)]="post.title"
-                name="title"
-                #titleInput="ngModel"
-                placeholder="your title"
-                [ngClass]="{ 'is-invalid': titleInput.invalid && titleInput.touched }"
-                required
-                minlength="3"
-              />
-              <div *ngIf="titleInput.invalid && titleInput.touched" class="invalid-feedback">
-                <small *ngIf="titleInput.errors?.['required']">Title is required.</small>
-                <small *ngIf="titleInput.errors?.['minlength']">Title has to be atleast 3 characters.</small>
-              </div>
-            </td>
-          </tr>
-
-          <tr>
-            <td>Description</td>
-            <td>
-              <input
-                type="text"
-                class="form-control"
-                [(ngModel)]="post.description"
-                name="description"
-                #descriptionInput="ngModel"
-                placeholder="your description"
-                [ngClass]="{ 'is-invalid': descriptionInput.invalid && descriptionInput.touched }"
-                required
-=             />
-              <div *ngIf="descriptionInput.invalid && descriptionInput.touched" class="invalid-feedback">
-                <small *ngIf="descriptionInput.errors?.['required']">Description is required.</small>
-              </div>
-            </td>
-          </tr>
+<h1>Post</h1>
+<div class="modal" id="myModal">
+  <div class="modal-dialog custom-modal-dialog">
+    <div class="modal-content">
       
-        </table>
-      </form>
-     
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Add model</h4>
       </div>
 
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <form #modelForm="ngForm" name="modelForm">
+          <table>
+            <tr>
+              <td>Title</td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="modelTitle"
+                  [(ngModel)]="model.title"
+                  #modelTitle="ngModel"
+                  minlength="3"
+                  required
+                />
+                <div *ngIf="modelTitle.invalid && (modelTitle.dirty || modelTitle.touched)" class="invalid-feedback">
+                  <small *ngIf="modelTitle.errors?.['required']">Title is required.</small>
+                  <small *ngIf="modelTitle.errors?.['minlength']">Title must be at least 3 characters long.</small>
+                </div>
+              </td>
+            </tr>
 
-  
+            <tr>
+              <td>Description</td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="modelDescription"
+                  [(ngModel)]="model.description"
+                  #modelDescription="ngModel"
+                  required
+                />
+                <div *ngIf="modelDescription.invalid && (modelDescription.dirty || modelDescription.touched)" class="invalid-feedback">
+                  <small *ngIf="modelDescription.errors?.['required']">Description is required.</small>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Files</td>
+              <td>
+                <input
+                type="file"
+                multiple
+                [(ngModel)]="model.files"
+                #modelFiles="ngModel"
+                required
+                />
+                <div *ngIf="modelFiles.invalid && (modelFiles.dirty || modelFiles.touched)" class="invalid-feedback">
+                  <small *ngIf="modelFiles.errors?.['required']">Files are required.</small>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Images</td>
+              <td>
+                <input
+                type="file"
+                multiple
+                [(ngModel)]="model.images"
+                #modelImages="ngModel"
+                required
+                />
+                <div *ngIf="modelImages.invalid && (modelImages.dirty || modelImages.touched)" class="invalid-feedback">
+                  <small *ngIf="modelImages.errors?.['required']">Images are required.</small>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Genre</td>
+              <td>
+                <div *ngFor="let genre of GenreList">
+                  <input
+                    type="checkbox"
+                    [value]="genre"
+                    (change)="toggleGenreSelection($event, genre)"
+                  /> {{ genre }}
+                </div>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary grayButton" (click)="closeModel()">Close</button>
+        <button type="button" class="btn btn-primary purpleButton" (click)="saveModel()" [disabled]="modelForm.invalid">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Main form in parent component -->
+<div>
+  <form #postForm="ngForm" name="postForm">
+    <table class="dice">
+      <tr>
+        <td><strong>Id</strong></td><td><strong>{{ post._id }}</strong></td>
+      </tr>
+      <tr>
+        <td>Title</td>
+        <td>
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="post.title"
+            name="title"
+            #titleInput="ngModel"
+            placeholder="your title"
+            [ngClass]="{ 'is-invalid': titleInput.invalid && titleInput.touched }"
+            required
+            minlength="3"
+          />
+          <div *ngIf="titleInput.invalid && titleInput.touched" class="invalid-feedback">
+            <small *ngIf="titleInput.errors?.['required']">Title is required.</small>
+            <small *ngIf="titleInput.errors?.['minlength']">Title has to be at least 3 characters.</small>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Description</td>
+        <td>
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="post.description"
+            name="description"
+            #descriptionInput="ngModel"
+            placeholder="your description"
+            [ngClass]="{ 'is-invalid': descriptionInput.invalid && descriptionInput.touched }"
+            required
+          />
+          <div *ngIf="descriptionInput.invalid && descriptionInput.touched" class="invalid-feedback">
+            <small *ngIf="descriptionInput.errors?.['required']">Description is required.</small>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <div style="margin-top: 50px;">
+      <p><strong>Models</strong></p>
+      <button class="purpleButton" (click)="openModel()">Add model</button>
+    </div>
+
+    <!-- Modal Form -->
+    <form #modelForm="ngForm" name="modelForm">
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Add model</h4>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <table>
+                <tr>
+                  <td>Title</td>
+                  <td>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="modelTitle"
+                      [(ngModel)]="model.title"
+                      required
+                    />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Description</td>
+                  <td>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="modelDescription"
+                      [(ngModel)]="model.description"
+                      required
+                    />
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary grayButton" (click)="closeModel()">Close</button>
+              <button type="button" class="btn btn-primary purpleButton" (click)="saveModel()" [disabled]="modelForm.invalid">Save changes</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </form>
+  </form>
+</div>
+
+<pre>{{ post | json }}</pre>
+<pre>{{model | json}}</pre>

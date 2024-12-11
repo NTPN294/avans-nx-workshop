@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {UserService} from '@avans-nx-workshop/frontend-features';
 import { IUserInfo, UserRole, UserGender } from '@avans-nx-workshop/shared/api';
 import { Router } from '@angular/router';
+import { TokenService } from '@avans-nx-workshop/frontend-common';
 
 @Component({
     selector: 'avans-nx-workshop-account',
@@ -15,18 +16,19 @@ export class AccountComponent implements OnInit {
     userId: string | null = null;
     constructor(
         private userService: UserService,
-        private router: Router
+        private router: Router,
+        private tokenService: TokenService
     ) { }
 
     ngOnInit() { 
-        this.userId = getCookie('userId');
+        this.userId = this.tokenService.getCookie('userId');
         this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
             this.user = user;
           });     
         }
 
         logOut() {
-            deleteAllCookies();
+            this.tokenService.deleteAllCookies();
             this.router.navigate(['/login']).then(() => {
                 window.location.reload();
               });        
@@ -38,18 +40,5 @@ export class AccountComponent implements OnInit {
 }
 
 
-function getCookie(name: string): string | null {
-    const cookies = document.cookie.split('; ');
-    const cookie = cookies.find((row) => row.startsWith(name + '='));
-    return cookie ? cookie.split('=')[1] : null;
-}
 
-function deleteAllCookies(): void {
-    const cookies = document.cookie.split(";");
-  
-    for (const cookie of cookies) {
-      const [name] = cookie.split("=");
-      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-    }
-  }
   
