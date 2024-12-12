@@ -6,7 +6,7 @@
         <p>No posts found</p>
     } @else{
         <div class="text-end mb-3">
-            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit">Add new post</a>
+            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit" *ngIf="loggedIn">Add new post</a>
         </div>        
         <table class="dice">
             <thead>

@@ -1,7 +1,3 @@
-/**
- * This is not a production server yet!
- * This is only a minimal backend to get started.
- */
 
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
@@ -13,6 +9,8 @@ import {
 import { AppModule } from './app/app.module';
 import { CorsOptions } from '@nestjs/common/interfaces/external/cors-options.interface';
 import { environment } from '@avans-nx-workshop/shared/util-env';
+import multer from 'multer';
+import * as express from 'express';
 
 async function bootstrap() {
     console.log("ENVIROMENT: " + environment);
@@ -25,6 +23,11 @@ async function bootstrap() {
 
     const corsOptions: CorsOptions = {};
     app.enableCors(corsOptions);
+
+    const upload = multer({
+        limits: { fileSize: 50 * 1024 * 1024 }, // 50MB limit
+        // Add other multer options here if needed
+    });
 
     app.useGlobalInterceptors(new ApiResponseInterceptor());
     app.useGlobalPipes(new ValidationPipe());

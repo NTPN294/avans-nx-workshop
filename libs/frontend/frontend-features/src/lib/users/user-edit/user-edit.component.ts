@@ -39,12 +39,17 @@ export class UserEditComponent implements OnInit {
           return;
         }
         if (this.userId) {
-          // Bestaande user
-          let userIdCookie = this.tokenService.getCookie('userId');
-          if (userIdCookie !== this.userId) {
-            this.router.navigate(['/user-list']);
-          }
 
+          let JWTToken = this.tokenService.getCookie('JWTToken');
+          if(JWTToken){
+          let JWTTokenParsed= this.tokenService.parseJwt(JWTToken);
+          if (JWTTokenParsed){
+            let userIdCookie = JWTTokenParsed['user_id'];
+            if (userIdCookie !== this.userId) {
+                this.router.navigate(['/user-list']);
+            }
+          }
+        }
           this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
             if (user) {
               this.user = user;

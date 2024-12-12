@@ -18,7 +18,6 @@ export enum Genre {
 
 
 export interface Model{
-    _id?: string;
     title: string;
     description: string;
     files: string[];

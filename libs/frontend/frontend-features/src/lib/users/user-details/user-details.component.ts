@@ -34,10 +34,17 @@ export class UserDetailsComponent implements OnInit {
         console.log('User ID:', this.userId);
         this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
           this.user = user;
-          let userIdCookie = this.tokenService.getCookie('userId');
-          if (userIdCookie === this.userId) {
-            this.isOwner = true;
+          let JWTToken = this.tokenService.getCookie('JWTToken');
+          if(JWTToken){
+          let JWTTokenParsed= this.tokenService.parseJwt(JWTToken);
+          if (JWTTokenParsed){
+            let userIdCookie = JWTTokenParsed['user_id'];
+            if (userIdCookie === this.userId) {
+              this.isOwner = true;
+            }
           }
+          }
+          
         }); 
 
 

@@ -78,9 +78,9 @@
                 type="file"
                 multiple
                 [(ngModel)]="model.files"
+                name="modelFiles"
                 (change)="onFileSelected($event)"
                 #modelFiles="ngModel"
-                required
                 />
                 <div *ngIf="modelFiles.invalid && (modelFiles.dirty || modelFiles.touched)" class="invalid-feedback">
                   <small *ngIf="modelFiles.errors?.['required']">Files are required.</small>
@@ -95,9 +95,10 @@
                 type="file"
                 multiple
                 [(ngModel)]="model.images"
+                name="modelImages"
                 (change)="onImageSelected($event)"
                 #modelImages="ngModel"
-                required
+                
                 />
                 <div *ngIf="modelImages.invalid && (modelImages.dirty || modelImages.touched)" class="invalid-feedback">
                   <small *ngIf="modelImages.errors?.['required']">Images are required.</small>

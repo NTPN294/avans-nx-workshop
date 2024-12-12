@@ -107,9 +107,18 @@ export class PostService {
             console.error('Invalid ID provided for update');
             throw new Error('Post ID is required to update post');
         }
+
+        let newPost={
+            "title": post.title, 
+            "ownerId": post.ownerId,
+            "description": post.description,
+            "likes": post.likes,
+            "comments": post.comments,
+            "models": post.models,
+        }
     
         return this.http
-            .put<ApiResponse<IPost>>(`${environment.dataApiUrl}/post/${id}`, post)
+            .put<ApiResponse<IPost>>(`${environment.dataApiUrl}/post/${id}`, newPost)
             .pipe(
                 tap((response) => console.log('Response from update post:', response)),
                 map((response) => {
@@ -123,5 +132,33 @@ export class PostService {
             );
     }
     
+    saveFilesAsync(postId: string, files: File[]): Observable<string[]> {
+        console.log('saveFilesAsync() called with files:', files);
+
+        if (!postId || !files.length) {
+            console.error('Invalid post ID or files provided for upload');
+            return of([]); // Return empty observable or appropriate fallback
+        }
+
+        const formData = new FormData();
+
+        files.forEach((file, index) => {
+            formData.append(`files[${index}]`, file, file.name);
+        });
+
+        console.log('Sending files to:', `${environment.dataApiUrl}/upload/${postId}`);
+        
+        return this.http.post<ApiResponse<{ path: string }[]>>(`${environment.dataApiUrl}/upload/${postId}`, formData)
+            .pipe(
+                tap((response) => console.log('Files uploaded successfully:', response)),
+                map((response) => {
+                    if (!response.results) {
+                        throw new Error('Failed to upload files. Invalid response.');
+                    }
+                    return response.results.map(fileInfo => fileInfo + "");
+                }),
+                tap((filePaths) => console.log('Saved file paths:', filePaths))
+            );
+    }
 
 }

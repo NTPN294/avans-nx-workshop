@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString, IsOptional, IsDate, IsNumber, ValidateNested, IsArray } from 'class-validator';
+import { IsNotEmpty, IsString, IsOptional, IsDate, IsNumber, ValidateNested, IsArray, IsDateString } from 'class-validator';
 import { Type } from 'class-transformer';
 import {
     IUpdatePost,
@@ -38,10 +38,6 @@ export class CommentDto {
 }
 
 export class ModelDto {
-    @IsString()
-    @IsNotEmpty()
-    _id!: string;
-
     @IsString()
     @IsNotEmpty()
     title!: string;

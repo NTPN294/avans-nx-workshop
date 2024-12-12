@@ -28,6 +28,9 @@
             "@avans-nx-workshop/backend/post": [
                 "libs/backend/post/src/index.ts"
             ],
+            "@avans-nx-workshop/backend/upload": [
+                "libs/backend/upload/src/index.ts"
+            ],
             "@avans-nx-workshop/backend/user": [
                 "libs/backend/user/src/index.ts"
             ],

@@ -43,6 +43,14 @@ export class PostEditComponent implements OnInit {
     ngOnInit(): void {
       this.GenreList = this.GenreList.filter(item => isNaN(Number(item)));
 
+      let JWTToken = this.tokenService.getCookie('JWTToken');
+      if (JWTToken) {
+        let decodedToken = this.tokenService.parseJwt(JWTToken);
+        console.log(decodedToken);
+        if (decodedToken) {
+        this.post.ownerId = decodedToken['user_id'] as string;
+      }}
+
       this.route.paramMap.subscribe((params) => {
         this.postId = params.get('id');
         if (this.postId === 'new') {
@@ -63,16 +71,9 @@ export class PostEditComponent implements OnInit {
   
     save() {
       if (this.postId === 'new') {
-      let JWTToken = this.tokenService.getCookie('JWTToken');
-      if (JWTToken) {
-        let decodedToken = this.tokenService.parseJwt(JWTToken);
-        console.log(decodedToken);
-        if (decodedToken) {
-        this.post.ownerId = decodedToken['user_id'] as string;
-      }}
-
       this.postService.savePostAsync(this.post).subscribe();
-      } else{
+      } 
+      else{
         if (this.postId) {
           this.postService.updatePostAsync(this.postId, this.post).subscribe();
         }
@@ -87,10 +88,6 @@ export class PostEditComponent implements OnInit {
     }
     }
 
-    removeModel(index: number){
-
-    }
-
     closeModel(){
       const modal = document.getElementById('myModal');
     if (modal) {
@@ -100,7 +97,10 @@ export class PostEditComponent implements OnInit {
 
     saveModel(){
       this.post.models.push(this.model);
-      this.closeModel();
+      const modal = document.getElementById('myModal');
+      if (modal) {
+        modal.style.display = 'none';
+      }      
       this.model = {
         title: '',
         description: '',
@@ -108,6 +108,8 @@ export class PostEditComponent implements OnInit {
         files: [],
         images: [],
       }
+
+
     }
 
     toggleGenreSelection(event: any, genre: string) {
@@ -123,15 +125,31 @@ export class PostEditComponent implements OnInit {
 
     onFileSelected(event: Event): void {
       const input = event.target as HTMLInputElement;
+      this.model.files = [];
       if (input.files) {
-        this.model.files = Array.from(input.files).map((file) => file.name);
+        Array.from(input.files).forEach((file) => {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            const base64 = e.target!.result as string;
+            this.model.files.push(base64);
+          };
+          reader.readAsDataURL(file);
+          });
       }
-    }
+    }    
 
     onImageSelected(event: Event): void {
       const input = event.target as HTMLInputElement;
+      this.model.images = [];
       if (input.files) {
-        this.model.images = Array.from(input.files).map((file) => file.name);
+        Array.from(input.files).forEach((file) => {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            const base64 = e.target!.result as string;
+            this.model.images.push(base64);
+          };
+          reader.readAsDataURL(file);
+          });
       }
     }
 
@@ -141,6 +159,7 @@ export class PostEditComponent implements OnInit {
       if (modal) {
         modal.style.display = 'block';
       }
+      this.post.models.splice(index, 1);
     }
 
     deleteModel(index: number){
