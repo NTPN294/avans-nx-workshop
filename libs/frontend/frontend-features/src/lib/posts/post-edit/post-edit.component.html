@@ -103,7 +103,12 @@
                 <div *ngIf="modelImages.invalid && (modelImages.dirty || modelImages.touched)" class="invalid-feedback">
                   <small *ngIf="modelImages.errors?.['required']">Images are required.</small>
                 </div>
+                
               </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><small>Files have a combined 50mb limit</small></td>
             </tr>
             <tr>
               <td>Genre</td>

@@ -9,8 +9,8 @@ import {
 import { AppModule } from './app/app.module';
 import { CorsOptions } from '@nestjs/common/interfaces/external/cors-options.interface';
 import { environment } from '@avans-nx-workshop/shared/util-env';
-import multer from 'multer';
-import * as express from 'express';
+import * as bodyParser from 'body-parser';
+
 
 async function bootstrap() {
     console.log("ENVIROMENT: " + environment);
@@ -24,10 +24,8 @@ async function bootstrap() {
     const corsOptions: CorsOptions = {};
     app.enableCors(corsOptions);
 
-    const upload = multer({
-        limits: { fileSize: 50 * 1024 * 1024 }, // 50MB limit
-        // Add other multer options here if needed
-    });
+    app.use(bodyParser.json({ limit: '50mb' })); // Adjust the size as needed
+    app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
     app.useGlobalInterceptors(new ApiResponseInterceptor());
     app.useGlobalPipes(new ValidationPipe());

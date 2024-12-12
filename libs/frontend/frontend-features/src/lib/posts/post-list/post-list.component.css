@@ -35,3 +35,29 @@
     color: purple;
     border: purple 2px solid;
   }
+
+  .postGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .postGridItem{
+
+  }
+
+  .postGridItem img {
+    border-radius: 8px 8px 0px 0px; 
+    width:100%;
+    height: 300px;
+    object-fit: cover; 
+}
+
+
+  .postGridItemText{
+    background:purple;
+    color:white;
+    padding: 10px;
+    border-radius: 0px 0px 8px 8px;
+    height: 105px;
+  }

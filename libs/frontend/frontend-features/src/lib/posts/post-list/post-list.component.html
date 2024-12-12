@@ -6,27 +6,19 @@
         <p>No posts found</p>
     } @else{
         <div class="text-end mb-3">
-            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit" *ngIf="loggedIn">Add new post</a>
+            <a class="btn btn-primary btn-sm purpleButton" role="button" [routerLink]="loggedIn ? 'new/edit' : '/login'" >Make a post!</a>
         </div>        
-        <table class="dice">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Title</th>
-                    <th>Description</th>
-                    <th>Date</th>
-                    <th>Likes</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let post of posts">
-                    <td>{{ post._id }}</td>
-                    <td><a class="purple" routerLink="{{post._id}}">
-                        {{post.title}}</a></td>
-                    <td>{{ post.description }}</td>
-                    <td>{{ post.date}}</td>
-                    <td>{{ post.likes }}</td>
-                </tr>
-            </tbody>
-            </table>
+
+        <div class="postGrid">
+            <div *ngFor="let post of posts" class="postGridItem">
+                <div routerLink="{{post._id}}" style="cursor:pointer;">
+                <img src="{{post.models[0].images[0]}}">
+                <div class="postGridItemText">
+                    <h3>{{post.title}}</h3>
+               <p>{{post.description}}</p>
+                </div>
+                </div>          
+            </div>
+        </div>
+
     }

@@ -44,24 +44,32 @@ export class PostEditComponent implements OnInit {
       this.GenreList = this.GenreList.filter(item => isNaN(Number(item)));
 
       let JWTToken = this.tokenService.getCookie('JWTToken');
+      let userIdCookie: string;
       if (JWTToken) {
         let decodedToken = this.tokenService.parseJwt(JWTToken);
         console.log(decodedToken);
         if (decodedToken) {
-        this.post.ownerId = decodedToken['user_id'] as string;
-      }}
+          userIdCookie = decodedToken['user_id'] as string;
+      }} else {
+        this.router.navigate(['/post-list']);
+      }
 
       this.route.paramMap.subscribe((params) => {
         this.postId = params.get('id');
         if (this.postId === 'new') {
+          this.post.ownerId = userIdCookie;
           return;
         }
         if (this.postId) {
           this.postService.getPostByIdAsync(this.postId).subscribe((post) => {
             if (post) {
               this.post = post;
+
+              if (this.post.ownerId !== userIdCookie) {
+                this.router.navigate(['/post-list']);
+              }
+              
             }
-           
           });
 
         } else {

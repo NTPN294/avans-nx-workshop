@@ -49,6 +49,8 @@ export class UserEditComponent implements OnInit {
                 this.router.navigate(['/user-list']);
             }
           }
+        } else {
+          this.router.navigate(['/user-list']);
         }
           this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
             if (user) {
