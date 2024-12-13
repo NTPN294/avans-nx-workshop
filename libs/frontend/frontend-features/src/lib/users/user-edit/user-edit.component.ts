@@ -20,6 +20,8 @@ export class UserEditComponent implements OnInit {
       role: UserRole.Unknown,
       isActive: true,
       profileImgUrl: '',
+      following: [],
+      likedPosts: [],
     };
         userRoles = Object.values(UserRole);;
     userGenders = Object.values(UserGender);

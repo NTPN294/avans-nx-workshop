@@ -138,13 +138,18 @@ export class PostEditComponent implements OnInit {
         Array.from(input.files).forEach((file) => {
           const reader = new FileReader();
           reader.onload = (e) => {
-            const base64 = e.target!.result as string;
-            this.model.files.push(base64);
+            const base64WithMeta = e.target!.result as string;
+    
+            const base64Data = base64WithMeta.replace(/^data:([A-Za-z-+/]+);base64,/, '');
+    
+            this.model.files.push(base64Data);
           };
           reader.readAsDataURL(file);
-          });
+        });
       }
-    }    
+    }
+    
+
 
     onImageSelected(event: Event): void {
       const input = event.target as HTMLInputElement;

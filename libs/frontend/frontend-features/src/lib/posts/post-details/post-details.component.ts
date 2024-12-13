@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute,Router } from '@angular/router';
-import {PostService} from '@avans-nx-workshop/frontend-features';
-import { IPost } from '@avans-nx-workshop/shared/api';
+import {PostService, UserService} from '@avans-nx-workshop/frontend-features';
+import { IPost, IUserInfo } from '@avans-nx-workshop/shared/api';
 import { TokenService } from '@avans-nx-workshop/frontend-common';
 @Component({
     selector: 'avans-nx-workshop-post-details',
@@ -15,12 +15,21 @@ export class PostDetailComponent implements OnInit {
     post: IPost | null = null;
     ownerId: string;
     isOwner:boolean = false;
+    formattedDate: string = '';
+
+    commentText: string = '';
+    ratings: number[] = [1, 2, 3, 4, 5]; 
+    selectedRating: number = 1;
+
+    user: IUserInfo | null = null;
+    
   
     constructor(
       private route: ActivatedRoute,
       private postService: PostService,
       private router: Router,
-      private tokenService: TokenService
+      private tokenService: TokenService,
+      private userService: UserService,
 
     ) {
       this.ownerId='';
@@ -40,6 +49,16 @@ export class PostDetailComponent implements OnInit {
             this.post = post;
             this.ownerId = post.ownerId;
 
+            const dateConverted = new Date(this.post.date);
+            const options: Intl.DateTimeFormatOptions = {
+              day: "2-digit",
+              month: "long",
+              year: "numeric",
+              timeZone: "UTC",
+            };
+            this.formattedDate = dateConverted.toLocaleDateString("en-GB", options);
+
+
             let JWTToken = this.tokenService.getCookie('JWTToken');
             if (JWTToken) {
               let decodedToken = this.tokenService.parseJwt(JWTToken);
@@ -48,6 +67,11 @@ export class PostDetailComponent implements OnInit {
                 console.log("Is Owner: ", this.isOwner);
             }
           }
+
+          this.userService.getUserByIdAsync(this.post.ownerId).subscribe((user) => {
+            this.user = user;
+          });
+
         }
         }); 
       });
@@ -62,6 +86,81 @@ export class PostDetailComponent implements OnInit {
       this.router.navigate(['/post-list']);
     }
 
+    downloadFiles(i: number): void {
+      let files = this.post?.models[i].files;
+      if (files) {
+        files.forEach((base64) => {
+          // Strip the base64 part directly (assuming the data is just base64 without MIME type)
+          const base64Data = base64;
     
-  }
+          // Decode the base64 string to binary data
+          const binaryString = atob(base64Data);
+          const byteNumbers = new Uint8Array(binaryString.length);
+          for (let i = 0; i < binaryString.length; i++) {
+            byteNumbers[i] = binaryString.charCodeAt(i);
+          }
+    
+          // Create a Blob with the binary data and set the MIME type to "application/octet-stream"
+          const fileBlob = new Blob([byteNumbers], { type: 'application/octet-stream' });
+    
+          // Create a URL for the Blob object
+          const blobURL = URL.createObjectURL(fileBlob);
+    
+          // Create an <a> element
+          const link = document.createElement('a');
+          link.href = blobURL;
+          link.download = 'file.stl'; // The filename to use for the download
+          link.style.display = 'none'; // Hide the link
+    
+          // Append the link to the body, trigger the download, then remove it
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+    
+          // Cleanup Blob URL to free up memory
+          URL.revokeObjectURL(blobURL);
+        });
+      }
+    }
+    
+
+    likePost(){
+      console.log(this.postId);
+      console.log(this.user?._id);
+
+      if (this.user?.likedPosts.includes(this.postId as string)){
+        alert('You have already liked this post.');
+        return;
+      }
+
+      this.postService.likePostAsync(this.postId as string ,this.user?._id as string).subscribe();
+
+      alert('You have liked this post.');
+    }
+    
+    
+   
+  
+    submitComment(): void {
+      console.log(this.commentText + " - " + this.selectedRating);
+      this.postService.commentPostAsync(this.postId as string, this.commentText, this.selectedRating, this.user?._id as string).subscribe();
+    }
+
+    getUserName(id: string): string {
+      let user = this.userService.getUserByIdAsync(id);
+      return this.user?.name || "Unknown";
+    }
+
+    formatDate(date: Date): string {
+      const dateConverted = new Date(date);
+      const options: Intl.DateTimeFormatOptions = {
+        day: "2-digit",
+        month: "long",
+        year: "numeric",
+        timeZone: "UTC",
+      };
+      return dateConverted.toLocaleDateString("en-GB", options);
+    }
+
+}
   

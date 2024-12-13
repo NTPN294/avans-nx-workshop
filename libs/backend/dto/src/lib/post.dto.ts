@@ -35,6 +35,9 @@ export class CommentDto {
     @IsDate()
     @IsNotEmpty()
     date!: Date;
+
+    @IsString()
+    userId!: string;
 }
 
 export class ModelDto {

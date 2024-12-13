@@ -53,4 +53,24 @@ export class UserService {
         this.logger.log(`Delete user with id ${_id}`);
         await this.userModel.findByIdAndDelete({ _id });
     }
+
+    async follow(userId: string, followId: string): Promise<void> {
+        this.logger.log(`User ${userId} is following ${followId}`);
+        const follow = await this.userModel.findById(followId);
+        if (!follow) {
+            throw new HttpException('User not found', 404);
+        }
+        follow.following.push(userId);
+        await follow.save();
+    }
+
+    async unfollow(userId: string, followId: string): Promise<void> {
+        this.logger.log(`User ${userId} is unfollowing ${followId}`);
+        const follow = await this.userModel.findById(followId);
+        if (!follow) {
+            throw new HttpException('User not found', 404);
+        }
+        follow.following = follow.following.filter((id) => id !== userId);
+        await follow.save();
+    }
 }

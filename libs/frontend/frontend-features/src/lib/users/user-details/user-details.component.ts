@@ -14,6 +14,8 @@ export class UserDetailsComponent implements OnInit {
     userId: string | null = null;
     user: IUserInfo | null = null;
     isOwner: boolean = false;
+    isFollowing: boolean = false;
+    currentUserId: string | null = null;
   
     constructor(
       private route: ActivatedRoute,
@@ -38,15 +40,26 @@ export class UserDetailsComponent implements OnInit {
           if(JWTToken){
           let JWTTokenParsed= this.tokenService.parseJwt(JWTToken);
           if (JWTTokenParsed){
-            let userIdCookie = JWTTokenParsed['user_id'];
+            let userIdCookie = JWTTokenParsed['user_id'] as string;
+            this.currentUserId = userIdCookie;
+            console.log('User ID from JWT:', this.currentUserId);
             if (userIdCookie === this.userId) {
               this.isOwner = true;
             }
+
+            this.userService.getUserByIdAsync(this.currentUserId).subscribe((currentUser) => {
+              if(currentUser){
+                this.isFollowing = currentUser.following.includes(this.userId as string);
+                console.log("following:", currentUser.following);
+                console.log('Is following:', this.isFollowing);
+              }
+            });
+
+
           }
           }
           
-        }); 
-
+        });        
 
       });
     }
@@ -60,6 +73,28 @@ export class UserDetailsComponent implements OnInit {
       this.router.navigate(['/user-list']);
     }
 
+    follow(): void {
+      this.userService.follow(this.userId as string, this.currentUserId as string).subscribe(
+        () => {
+          location.reload();
+        },
+        error => {
+          console.error('Follow action failed', error);
+        }
+      );
+    }
+    
+
+    unfollow(){
+      this.userService.unfollow(this.userId as string, this.currentUserId as string).subscribe(
+        () => {
+          location.reload();
+        },
+        error => {
+          console.error('Follow action failed', error);
+        }
+      );
+    }
     
   }
 

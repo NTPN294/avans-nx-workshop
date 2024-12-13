@@ -16463,11 +16463,6 @@
         "source": "posts",
         "target": "npm:class-validator",
         "type": "static"
-      },
-      {
-        "source": "posts",
-        "target": "users",
-        "type": "static"
       }
     ],
     "users": [

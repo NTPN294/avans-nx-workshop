@@ -64,48 +64,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
+        "file": "Nx-workshop.postman_collection.json",
+        "hash": "13796819436055774183"
       },
       {
-        "file": ".prettierrc",
-        "hash": "6192629144332209564"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "4597419159832879830"
-      },
-      {
-        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
-        "hash": "5593147106476180282"
-      },
-      {
-        "file": "README.md",
-        "hash": "1955868086715526908"
-      },
-      {
-        "file": "nx.json",
-        "hash": "12356073506338140533"
-      },
-      {
-        "file": "package.json",
-        "hash": "3459036750224455988"
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
       },
       {
         "file": "jest.config.ts",
         "hash": "3407785570333453138"
       },
       {
-        "file": "Nx-workshop.postman_collection.json",
-        "hash": "13796819436055774183"
+        "file": "migrations.json",
+        "hash": "4597419159832879830"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "4566917484430375526"
+        "file": ".prettierrc",
+        "hash": "6192629144332209564"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
       },
       {
         "file": "libs/share-a-meal/readme.txt",
@@ -116,20 +96,40 @@
         "hash": "11966908335120871298"
       },
       {
-        "file": "package-lock.json",
-        "hash": "12602058955558447675"
-      },
-      {
         "file": "tsconfig.base.json",
         "hash": "14106923805229684246"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
-      },
-      {
         "file": ".prettierignore",
         "hash": "135344717789917661"
+      },
+      {
+        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
+        "hash": "5593147106476180282"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12356073506338140533"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": "package.json",
+        "hash": "3459036750224455988"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12602058955558447675"
+      },
+      {
+        "file": "README.md",
+        "hash": "1955868086715526908"
       }
     ],
     "projectFileMap": {
@@ -334,7 +334,7 @@
         },
         {
           "file": "libs/backend/user/src/lib/user/user.controller.ts",
-          "hash": "17976726705823457692",
+          "hash": "9634285113139933909",
           "deps": [
             "npm:@nestjs/common",
             "api",
@@ -353,7 +353,7 @@
         },
         {
           "file": "libs/backend/user/src/lib/user/user.schema.ts",
-          "hash": "9590244266726312373",
+          "hash": "8364717921360376842",
           "deps": [
             "npm:@nestjs/mongoose",
             "npm:mongoose",
@@ -374,7 +374,7 @@
         },
         {
           "file": "libs/backend/user/src/lib/user/user.service.ts",
-          "hash": "12466277607272870586",
+          "hash": "12398439979899553134",
           "deps": [
             "npm:@nestjs/common",
             "npm:mongoose",
@@ -427,7 +427,7 @@
         },
         {
           "file": "libs/backend/post/src/lib/post/post.controller.ts",
-          "hash": "4147256115537013056",
+          "hash": "12625290531874963670",
           "deps": [
             "npm:@nestjs/common",
             "api",
@@ -446,23 +446,21 @@
         },
         {
           "file": "libs/backend/post/src/lib/post/post.service.ts",
-          "hash": "16284175823709521011",
+          "hash": "17888356240258030564",
           "deps": [
             "npm:@nestjs/common",
             "npm:mongoose",
             "npm:@nestjs/mongoose",
-            "users",
             "api",
             "dto"
           ]
         },
         {
           "file": "libs/backend/post/src/lib/posts.module.ts",
-          "hash": "14094755339344626384",
+          "hash": "2458073718596353237",
           "deps": [
             "npm:@nestjs/common",
-            "npm:@nestjs/mongoose",
-            "users"
+            "npm:@nestjs/mongoose"
           ]
         },
         {
@@ -656,11 +654,11 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/posts/post-details/post-details.component.css",
-          "hash": "9474562678008249933"
+          "hash": "10153196456713054051"
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/posts/post-details/post-details.component.html",
-          "hash": "16039732135542087015"
+          "hash": "9271309160685662836"
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/posts/post-details/post-details.component.spec.ts",
@@ -671,7 +669,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/posts/post-details/post-details.component.ts",
-          "hash": "17333276769705496548",
+          "hash": "8845511869109571789",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -696,7 +694,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/posts/post-edit/post-edit.component.ts",
-          "hash": "16876305148111244464",
+          "hash": "3494309035477620176",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -731,7 +729,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/posts/post.service.ts",
-          "hash": "5732534557337885166",
+          "hash": "16982066618361764205",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -746,7 +744,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.html",
-          "hash": "7673146182066495264"
+          "hash": "2124610650801543699"
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.spec.ts",
@@ -757,7 +755,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/users/user-details/user-details.component.ts",
-          "hash": "18439850586540356552",
+          "hash": "8101282948209883903",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -782,7 +780,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/users/user-edit/user-edit.component.ts",
-          "hash": "15589444506399807852",
+          "hash": "15752538314000241242",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -816,7 +814,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/users/user.service.ts",
-          "hash": "820922079957402270",
+          "hash": "4625486538223876092",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1147,7 +1145,7 @@
         },
         {
           "file": "apps/my-app/src/app/components/about/about.component.html",
-          "hash": "14505213973386432449"
+          "hash": "536101791910921372"
         },
         {
           "file": "apps/my-app/src/app/components/about/about.component.spec.ts",
@@ -1235,8 +1233,8 @@
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/my-app/src/assets/3dice.png",
-          "hash": "15500647842025695356"
+          "file": "apps/my-app/src/assets/3dice.jpg",
+          "hash": "3669654220425268799"
         },
         {
           "file": "apps/my-app/src/favicon.ico",
@@ -1562,7 +1560,7 @@
         },
         {
           "file": "libs/backend/dto/src/lib/post.dto.ts",
-          "hash": "3391954797992832349",
+          "hash": "2393272113050936068",
           "deps": [
             "npm:class-validator",
             "npm:class-transformer",
@@ -1571,7 +1569,7 @@
         },
         {
           "file": "libs/backend/dto/src/lib/user.dto.ts",
-          "hash": "1616553415934173535",
+          "hash": "17176159729947919542",
           "deps": [
             "npm:class-validator",
             "api",
@@ -1630,11 +1628,11 @@
         },
         {
           "file": "libs/shared/api/src/lib/models/post.interface.ts",
-          "hash": "10684867864157457368"
+          "hash": "10526870849000794194"
         },
         {
           "file": "libs/shared/api/src/lib/models/user.interface.ts",
-          "hash": "2325184143034395561",
+          "hash": "9878609439873559659",
           "deps": [
             "share-a-meal-common"
           ]

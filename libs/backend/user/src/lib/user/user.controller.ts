@@ -54,4 +54,20 @@ export class UserController {
         await this.userService.delete(id);
         console.log(`User with id: ${id} deleted`);
     }
+
+    @Put(':id/follow/:followId')
+    async follow(
+        @Param('id') id: string,
+        @Param('followId') followId: string
+    ): Promise<void> {
+        await this.userService.follow(id, followId);
+    }
+
+    @Put(':id/unfollow/:followId')
+    async unfollow(
+        @Param('id') id: string,
+        @Param('followId') followId: string
+    ): Promise<void> {
+        await this.userService.unfollow(id, followId);
+    }
 }

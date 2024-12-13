@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString, IsBoolean, IsOptional } from 'class-validator';
+import { IsNotEmpty, IsString, IsBoolean, IsOptional, IsArray } from 'class-validator';
 import {
     // ICreateUser,
     IUpdateUser,
@@ -58,6 +58,12 @@ export class UpsertUserDto implements IUpsertUser {
     @IsString()
     @IsNotEmpty()
     gender: UserGender = UserGender.Unknown;
+
+    @IsArray()
+    following: string[] = [];
+
+    @IsArray()
+    likedPosts: string[] = [];
 }
 
 export class UpdateUserDto implements IUpdateUser {

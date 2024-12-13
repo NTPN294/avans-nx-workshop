@@ -37,6 +37,8 @@ export interface IUserInfo extends IUserRegistration {
     role: UserRole;
     gender: UserGender;
     isActive: boolean;
+    following: string[];
+    likedPosts: string[];
 }
 
 /**

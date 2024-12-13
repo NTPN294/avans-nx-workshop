@@ -1,25 +1,10 @@
-.dice {
-  width: 100%;
-  table-layout: fixed; 
-}
-  
-.dice th, td {
-  text-align: left;
-  padding: 10px;
-  overflow: hidden;  
-  word-wrap: break-word; 
-  white-space: normal; 
-}
-
-.dice tr:nth-child(even) {
-  background-color: #faf1ff;
-}
 
 .purpleButton {
   background: purple;
   border: purple 2px solid;
   color: white;
   margin-left: 5px;
+  border-radius: 6px;
 }
 
 .purpleButton:hover {
@@ -53,4 +38,68 @@
   background: gray;
   border: gray 2px solid;
   color: white;
+}
+
+.postText{
+  border: 2px solid purple;
+  border-radius: 0px 0px 12px 12px;
+  padding: 10px;
+  
+}
+
+.postImageContainer{
+  display: flex;
+  justify-content: center;
+  background: black;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.postImage{
+  height: 500px;
+}
+
+.postLink{
+  color: purple;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.postLink:hover{
+  color: rgb(237, 89, 248);
+}
+
+.postFooter{
+  background: purple;
+  color: white;
+  margin-bottom: -10px;
+  padding-bottom:10px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.postFooterLink:hover{
+  color: pink;
+}
+
+.postFooter a{
+  color: white;
+  text-decoration: underline;
+
+}
+
+.comment{
+  border: 2px solid purple;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.commentText{
+  width: 100%;
+}
+
+.commentItems{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px
 }

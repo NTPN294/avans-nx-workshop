@@ -161,4 +161,29 @@ export class PostService {
             );
     }
 
+
+    likePostAsync(postId: string, userId:string): Observable<void> {
+        const url = `${environment.dataApiUrl}/post/${postId}/${userId}`;
+
+        return this.http
+            .put<void>(url, {})
+            .pipe(
+                tap(() => console.log(`Post with ID ${postId} liked by user ${userId} successfully`)),
+                tap(() => console.log('POST request sent to:', url))
+            );
+    }
+
+    commentPostAsync(postId: string, comment: String, rating: number, userId:String): Observable<IPost> {
+        const url = `${environment.dataApiUrl}/post/${postId}/comment/${comment}/${rating}/${userId}`;
+
+        return this.http
+            .put<IPost>(url, comment)
+            .pipe(
+                tap((response) => console.log('Response from update post:', response)),
+                map((response) => {
+                    return response;
+                }),
+                tap((updatedPost) => console.log('Updated post:', updatedPost)),
+            );
+    }
 }

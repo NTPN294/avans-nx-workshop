@@ -1,7 +1,3 @@
-<div class="row">
-  <h1>{{post?.title}}</h1>
-</div>
-
 <div class="row justify-content-end">
   <div class="col-auto">
     <a
@@ -29,24 +25,66 @@
   </div>
 </div>
 
-  <div class="row">
-    <table class="dice">
-      <tr>
-        <td>Id</td><td>{{ post?._id }}</td>
-      </tr>
-      <tr>
-        <td>Title</td><td>{{post?.title}}</td>
-      </tr>
-      <tr>
-        <td>Description</td><td>{{post?.description}}</td>
-      </tr>
-      <tr>
-        <td>Date</td><td>{{post?.date}}</td>
-      </tr>
-      <tr>
-        <td>Likes</td><td>{{post?.likes}}</td>
-      </tr>
-     
-    </table>
-     </div>
+
+<div class="row" style="margin-top: 50px;">
+  <div class="postImageContainer">
+    <img class="postImage" src="{{ post?.models?.[0]?.images?.[0] || 'No image available' }}">
+  </div>
+
+  <div class="postText">
+  <div>
+    <h1>{{post?.title}}</h1>
+  </div> 
+  <div>
+    <p>{{post?.description}}</p>
+  </div>
+
+  <div *ngFor="let model of post?.models; let i = index" class="row" style="margin-top: 50px;">
+    <div class="col">
+      <p><strong>{{model.title}}</strong></p>
+      <p>{{model.description}}</p>
+    </div>
+
+    <div class="col">
+      <a (click)="downloadFiles(i)" class="postLink">Download files</a>
+  </div>
+
+  <div class="postFooter">
+    <br>
+    Author: 
+    <a routerLink="/user-list/{{user?._id}}" class="postFooterLink">{{user?.name}}</a>
+    <br>
+    Date: {{formattedDate}} - <a class="postFooterLink" (click)="likePost()" >Like post: </a> {{post?.likes}}
+  </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="comment">
+    <h3>Write a comment</h3>
+    <textarea placeholder="Enter your comment..." rows="4" class="commentText" [(ngModel)]="commentText"></textarea>
+
+    <div class="rating">
+      <label *ngFor="let rating of ratings" class="radio-label" style="margin:20px 0px;">
+        <input type="radio" [value]="rating" name="rating" [(ngModel)]="selectedRating" />
+        {{ rating }}
+      </label>
+    </div>
+    
+    <button (click)="submitComment()" class="purpleButton">Submit Comment</button>
+  </div>
+</div>
+
+<div class="row" class="commentItems">
+  <div class="comment" *ngFor="let comment of post?.comments"> 
+    <div>
+      <a routerLink="/user-list/{{comment.userId}}" class="postLink"><strong>{{ getUserName(comment.userId) }}</strong></a>
+      <p>{{comment.comment}}</p>
+      <p>{{formatDate(comment.date)}} - Stars 1/{{comment.rating}}</p>
+    </div>
+  </div>
+</div>
+
+
+
 

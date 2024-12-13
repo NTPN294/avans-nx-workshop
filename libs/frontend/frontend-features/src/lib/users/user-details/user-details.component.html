@@ -21,6 +21,25 @@
   Edit
 </a>
 
+<a
+  class="btn btn-primary btn-sm purpleButton"
+  role="button"
+  (click)="follow()"
+  *ngIf="!isOwner && !isFollowing"
+>
+  Follow
+</a>
+
+<a
+  class="btn btn-primary btn-sm purpleButton"
+  role="button"
+  (click)="unfollow()"
+  *ngIf="!isOwner && isFollowing"
+>
+  Unfollow
+</a>
+
+
     <a
       class="btn btn-outline-secondary btn-sm grayButton"
       href="#"

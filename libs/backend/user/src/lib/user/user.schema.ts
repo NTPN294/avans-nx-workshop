@@ -71,6 +71,16 @@ export class User implements IUser {
     isActive = true;
 
     @Prop({
+        default: []
+    })
+    following: string[] = [];
+
+    @Prop({
+        default: []
+    })
+    likedPosts: string[] = [];
+
+    @Prop({
         default: [],
         type: [MongooseSchema.Types.ObjectId],
         ref: 'Meal'

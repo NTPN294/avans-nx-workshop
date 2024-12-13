@@ -124,4 +124,25 @@ export class UserService {
     }
     
 
+    follow(userId: string, followerId: string): Observable<void> {
+        return this.http
+        .put<ApiResponse<void>>(`${environment.dataApiUrl}/user/${userId}/follow/${followerId}`, null)
+        .pipe(
+            tap((response) => console.log('Response from update user:', response)),
+            map((response) => {
+            }),
+            tap((updatedUser) => console.log('Updated user:', updatedUser)),
+        );
+    }
+
+    unfollow(userId: string, followerId: string): Observable<void> {
+        return this.http
+        .put<ApiResponse<void>>(`${environment.dataApiUrl}/user/${userId}/unfollow/${followerId}`, null)
+        .pipe(
+            tap((response) => console.log('Response from update user:', response)),
+            map((response) => {
+            }),
+            tap((updatedUser) => console.log('Updated user:', updatedUser)),
+        );
+    }
 }

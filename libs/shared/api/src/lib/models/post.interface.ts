@@ -1,9 +1,10 @@
 
 export interface Comment{
-    _id: string;
+    _id?: string;
     comment: string;
     rating: number;
     date: Date;
+    userId: string;
 }
 
 export enum Genre {

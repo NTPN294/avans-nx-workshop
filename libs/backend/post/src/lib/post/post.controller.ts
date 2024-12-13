@@ -46,4 +46,22 @@ export class PostController {
         console.log(`Post with id: ${id} deleted`);
     }
 
+    @Put(':id/:userId')
+    async likePost(
+        @Param('id') id: string,
+        @Param('userId') userId: string
+    ): Promise<void> {
+        await this.postService.likePost(id, userId);
+    }
+
+    @Put(':id/comment/:comment/:rating/:userId')
+    async commentPost(
+        @Param('id') postId: string,
+        @Param('comment') comment: string,
+        @Param('rating') rating: number,
+        @Param('userId') userId: string
+    ): Promise<void> {
+        await this.postService.commentPost(postId, comment, rating, userId);
+    }
+
 }
