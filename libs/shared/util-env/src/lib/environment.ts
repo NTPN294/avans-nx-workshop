@@ -6,5 +6,10 @@ export const environment: IEnvironment = {
     ROOT_DOMAIN_URL: 'dummy',
     dataApiUrl: 'dummy',
 
-    MONGO_DB_CONNECTION_STRING: 'dummy'
+    MONGO_DB_CONNECTION_STRING: 'dummy',
+
+    NEO4J_DB_HOST: 'dummy',
+    NEO4J_DB_PORT: 0,
+    NEO4J_DB_USER: 'dummy',
+    NEO4J_DB_PASSWORD: 'dummy'
 };

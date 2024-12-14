@@ -19,9 +19,23 @@
         "webpackConfig": "apps/rcmnd-api/webpack.config.js"
       },
       "configurations": {
-        "development": {},
-        "production": {}
-      }
+        "development": {
+            "fileReplacements": [
+                {
+                    "replace": "libs/shared/util-env/src/lib/environment.ts",
+                    "with": "libs/shared/util-env/src/lib/environment.development.ts"
+                }
+            ]
+        },
+        "production": {
+            "fileReplacements": [
+                {
+                    "replace": "libs/shared/util-env/src/lib/environment.ts",
+                    "with": "libs/shared/util-env/src/lib/environment.production.ts"
+                }
+            ]
+        }
+    }
     },
     "serve": {
       "executor": "@nx/js:node",
@@ -38,6 +52,7 @@
         }
       }
     },
+    
     "lint": {
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],

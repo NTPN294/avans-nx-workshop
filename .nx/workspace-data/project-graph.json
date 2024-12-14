@@ -1184,8 +1184,22 @@
               "webpackConfig": "apps/rcmnd-api/webpack.config.js"
             },
             "configurations": {
-              "development": {},
-              "production": {}
+              "development": {
+                "fileReplacements": [
+                  {
+                    "replace": "libs/shared/util-env/src/lib/environment.ts",
+                    "with": "libs/shared/util-env/src/lib/environment.development.ts"
+                  }
+                ]
+              },
+              "production": {
+                "fileReplacements": [
+                  {
+                    "replace": "libs/shared/util-env/src/lib/environment.ts",
+                    "with": "libs/shared/util-env/src/lib/environment.production.ts"
+                  }
+                ]
+              }
             },
             "parallelism": true,
             "cache": true,
@@ -16612,6 +16626,11 @@
       {
         "source": "rcmnd-api",
         "target": "npm:nest-neo4j",
+        "type": "static"
+      },
+      {
+        "source": "rcmnd-api",
+        "target": "util-env",
         "type": "static"
       },
       {
