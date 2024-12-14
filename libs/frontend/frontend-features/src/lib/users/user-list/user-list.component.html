@@ -4,10 +4,14 @@
         <p>loading data...</p>
     } @else if (users?.length === 0){
         <p>No users found</p>
+        <div class="text-end mb-3">
+            <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit">Register now!</a>
+        </div>     
     } @else{
         <div class="text-end mb-3">
             <a class="btn btn-primary btn-sm purpleButton" role="button" routerLink="new/edit">Register now!</a>
-        </div>        <table class="dice">
+        </div>        
+        <table class="dice">
             <thead>
                 <tr>
                     <th>Id</th>

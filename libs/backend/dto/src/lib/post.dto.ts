@@ -38,6 +38,9 @@ export class CommentDto {
 
     @IsString()
     userId!: string;
+
+    @IsString()
+    userName!: string;
 }
 
 export class ModelDto {

@@ -69,6 +69,7 @@
                 <div *ngIf="modelDescription.invalid && (modelDescription.dirty || modelDescription.touched)" class="invalid-feedback">
                   <small *ngIf="modelDescription.errors?.['required']">Description is required.</small>
                 </div>
+                
               </td>
             </tr>
             <tr>
@@ -82,9 +83,11 @@
                 (change)="onFileSelected($event)"
                 #modelFiles="ngModel"
                 />
+                <small>  (Only add .stl files)</small>
                 <div *ngIf="modelFiles.invalid && (modelFiles.dirty || modelFiles.touched)" class="invalid-feedback">
                   <small *ngIf="modelFiles.errors?.['required']">Files are required.</small>
                 </div>
+                <br>
               </td>
             </tr>
 
@@ -262,5 +265,3 @@
   </form>
 </div>
 
-<pre>{{ post | json }}</pre>
-<pre>{{model | json}}</pre>

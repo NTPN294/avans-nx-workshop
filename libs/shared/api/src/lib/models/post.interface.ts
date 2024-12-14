@@ -5,6 +5,7 @@ export interface Comment{
     rating: number;
     date: Date;
     userId: string;
+    userName?: string;
 }
 
 export enum Genre {

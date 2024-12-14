@@ -4,9 +4,20 @@
         <p>loading data...</p>
     } @else if (posts?.length === 0){
         <p>No posts found</p>
-    } @else{
         <div class="text-end mb-3">
             <a class="btn btn-primary btn-sm purpleButton" role="button" [routerLink]="loggedIn ? 'new/edit' : '/login'" >Make a post!</a>
+        </div>   
+    } @else{
+        <div class="text-end mb-3">
+
+            <select id="dropdown" name="options" class="purpleDropdown"(change)="onOptionChange($event)">
+                <option value="Recent">Recent</option>
+                <option value="Popular">Popular</option>
+                <option value="Recommended">Recommended</option>
+              </select>
+
+            <a class="btn btn-primary btn-sm purpleButton" role="button" [routerLink]="loggedIn ? 'new/edit' : '/login'" >Make a post!</a>
+            
         </div>        
 
         <div class="postGrid">

@@ -82,11 +82,18 @@ export class PostService {
             throw new HttpException('Post not found', 404);
         }
 
+        const user = await this.userModel.findById(userId).exec();
+        if (!user) {
+            this.logger.debug('User not found');
+            throw new HttpException('User not found', 404);
+        }
+
         let newComment = {
             comment: comment,
             rating: rating,
             date: new Date(),
-            userId: userId
+            userId: userId,
+            userName: user.name,
         }
     
         post.comments.push(newComment);

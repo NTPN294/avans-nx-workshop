@@ -78,5 +78,20 @@ export class UserEditComponent implements OnInit {
       }
       this.router.navigate(['/user-list']);
     }
+
+    onImageSelected(event: Event): void {
+      const input = event.target as HTMLInputElement;
+      this.user.profileImgUrl = '';
+      if (input.files) {
+        Array.from(input.files).forEach((file) => {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            const base64 = e.target!.result as string;
+            this.user.profileImgUrl = base64;
+          };
+          reader.readAsDataURL(file);
+          });
+      }
+    }
   }
   

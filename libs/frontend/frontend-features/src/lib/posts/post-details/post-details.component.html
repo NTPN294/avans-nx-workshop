@@ -78,9 +78,9 @@
 <div class="row" class="commentItems">
   <div class="comment" *ngFor="let comment of post?.comments"> 
     <div>
-      <a routerLink="/user-list/{{comment.userId}}" class="postLink"><strong>{{ getUserName(comment.userId) }}</strong></a>
+      <a routerLink="/user-list/{{comment.userId}}" class="postLink"><strong>{{ comment.userName }}</strong></a>
       <p>{{comment.comment}}</p>
-      <p>{{formatDate(comment.date)}} - Stars 1/{{comment.rating}}</p>
+      <p>{{formatDate(comment.date)}} - Stars {{comment.rating}}/5</p>
     </div>
   </div>
 </div>

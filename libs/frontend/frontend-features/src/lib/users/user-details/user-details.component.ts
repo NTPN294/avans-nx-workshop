@@ -70,10 +70,15 @@ export class UserDetailsComponent implements OnInit {
       } else {
         console.error('User ID is null');
       }
+      this.tokenService.deleteAllCookies();
       this.router.navigate(['/user-list']);
     }
 
     follow(): void {
+      if (!this.currentUserId) {
+        alert('Please log in first');
+        return;
+      }
       this.userService.follow(this.userId as string, this.currentUserId as string).subscribe(
         () => {
           location.reload();

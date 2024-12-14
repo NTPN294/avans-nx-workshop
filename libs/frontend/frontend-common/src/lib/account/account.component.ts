@@ -21,10 +21,28 @@ export class AccountComponent implements OnInit {
     ) { }
 
     ngOnInit() { 
-        this.userId = this.tokenService.getCookie('userId');
-        this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
-            this.user = user;
-          });     
+
+        let token = this.tokenService.getCookie('JWTToken');
+        if (token) {
+            const jwtObject = this.tokenService.parseJwt(token);
+            if (jwtObject) {
+            console.log(jwtObject['exp']);
+            if (this.tokenService.isJwtExpired(jwtObject['exp'] as number)) {
+                console.error("JWT Token is expired");
+                this.tokenService.deleteAllCookies();
+                this.router.navigate(['/login']).then(() => {
+                    window.location.reload();
+                  });
+                return
+            } else{
+                this.userId = jwtObject['user_id'] as string;
+                this.userService.getUserByIdAsync(this.userId).subscribe((user) => {
+                    this.user = user;
+                  });   
+            }
+            }}
+
+          
         }
 
         logOut() {

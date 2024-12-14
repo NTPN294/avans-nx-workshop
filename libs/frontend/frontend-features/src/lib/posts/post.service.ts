@@ -175,7 +175,6 @@ export class PostService {
 
     commentPostAsync(postId: string, comment: String, rating: number, userId:String): Observable<IPost> {
         const url = `${environment.dataApiUrl}/post/${postId}/comment/${comment}/${rating}/${userId}`;
-
         return this.http
             .put<IPost>(url, comment)
             .pipe(

@@ -135,12 +135,11 @@
           <tr>
             <td>Profile picture</td><td>
               <input
-              type="text"
+              type="file"
               class="form-control"
               [(ngModel)]="user.profileImgUrl"
               name="profileImgUrl"
-              value="{{ user.profileImgUrl }}"
-              placeholder="Jouw profielfoto"
+              (change)="onImageSelected($event)"
             />
             </td>
           </tr>

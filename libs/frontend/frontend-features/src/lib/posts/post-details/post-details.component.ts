@@ -22,7 +22,7 @@ export class PostDetailComponent implements OnInit {
     selectedRating: number = 1;
 
     user: IUserInfo | null = null;
-    
+    currentUserId: String | null = null;
   
     constructor(
       private route: ActivatedRoute,
@@ -58,12 +58,12 @@ export class PostDetailComponent implements OnInit {
             };
             this.formattedDate = dateConverted.toLocaleDateString("en-GB", options);
 
-
             let JWTToken = this.tokenService.getCookie('JWTToken');
             if (JWTToken) {
               let decodedToken = this.tokenService.parseJwt(JWTToken);
               if (decodedToken) {
                 this.isOwner = this.ownerId === decodedToken['user_id'];
+                this.currentUserId = decodedToken['user_id'] as String;
                 console.log("Is Owner: ", this.isOwner);
             }
           }
@@ -72,6 +72,8 @@ export class PostDetailComponent implements OnInit {
             this.user = user;
           });
 
+          
+          
         }
         }); 
       });
@@ -125,30 +127,37 @@ export class PostDetailComponent implements OnInit {
     
 
     likePost(){
-      console.log(this.postId);
-      console.log(this.user?._id);
-
-      if (this.user?.likedPosts.includes(this.postId as string)){
-        alert('You have already liked this post.');
+      if (!this.currentUserId) {
+        alert('Please log in first');
         return;
       }
 
-      this.postService.likePostAsync(this.postId as string ,this.user?._id as string).subscribe();
+      console.log(this.postId);
+      console.log(this.user?._id);
 
-      alert('You have liked this post.');
+      this.userService.getUserByIdAsync(this.currentUserId as string).subscribe((currentUser) => {
+        if (currentUser?.likedPosts.includes(this.postId as string)) {
+          alert('You have already liked this post.');
+          return;
+        }
+
+        this.postService.likePostAsync(this.postId as string, this.currentUserId as string).subscribe(() => {
+          alert('You have liked this post.');
+        });
+      });
     }
     
     
    
   
     submitComment(): void {
-      console.log(this.commentText + " - " + this.selectedRating);
-      this.postService.commentPostAsync(this.postId as string, this.commentText, this.selectedRating, this.user?._id as string).subscribe();
-    }
+      if (!this.currentUserId) {
+        alert('Please log in first');
+        return;
+      }
 
-    getUserName(id: string): string {
-      let user = this.userService.getUserByIdAsync(id);
-      return this.user?.name || "Unknown";
+      console.log(this.commentText + " - " + this.selectedRating);
+      this.postService.commentPostAsync(this.postId as string, this.commentText, this.selectedRating, this.currentUserId).subscribe();
     }
 
     formatDate(date: Date): string {

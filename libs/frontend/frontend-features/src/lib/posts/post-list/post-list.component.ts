@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnDestroy, OnInit, ViewEncapsulation, ChangeDetectorRef } from '@angular/core';
 import {IPost } from '@avans-nx-workshop/shared/api';
 import {PostService} from '@avans-nx-workshop/frontend-features';
 import { Subscription } from 'rxjs';
@@ -14,10 +14,12 @@ export class PostListComponent implements OnInit, OnDestroy {
     sub: Subscription = new Subscription();
     loading: boolean = true;
     loggedIn: boolean = false;
+    selectedOption: string = 'Recent';
 
     constructor(
       private postService: PostService,
       private tokenService: TokenService,
+      private cdr: ChangeDetectorRef,
     ) {}
     ngOnInit(): void {
         this.sub?.add(
@@ -51,5 +53,20 @@ export class PostListComponent implements OnInit, OnDestroy {
           
 
         console.log("postList on destroy")
+      }
+
+      onOptionChange(event: Event): void {
+        const selectElement = event.target as HTMLSelectElement;
+        this.selectedOption = selectElement.value;
+        console.log('Selected Option:', this.selectedOption);
+        if(this.selectedOption === 'Recent') {
+          this.posts?.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+          
+        } else if (this.selectedOption === 'Popular') {
+          this.posts?.sort((a, b) => b.likes - a.likes);
+        }
+        console.log(this.posts);
+        this.cdr.detectChanges();
+ 
       }
 }
