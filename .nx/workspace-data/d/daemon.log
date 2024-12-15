@@ -24851,3 +24851,56 @@ Error: EPERM: operation not permitted, rename 'C:\Users\ntpn2\Documents\code\jaa
 [NX Daemon Server] - 2024-12-15T08:21:17.711Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (sources)
 [NX Daemon Server] - 2024-12-15T08:21:17.711Z - [WATCHER]: Stopping the watcher for C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (outputs)
 [NX Daemon Server] - 2024-12-15T08:21:17.717Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-12-15T08:21:24.767Z - Started listening on: \\.\pipe\nx\C:\Users\ntpn2\AppData\Local\Temp\d375990175\d.sock
+[NX Daemon Server] - 2024-12-15T08:21:24.771Z - [WATCHER]: Subscribed to changes within: C:\Users\ntpn2\Documents\code\jaar2\avans-nx-workshop (native)
+[NX Daemon Server] - 2024-12-15T08:21:24.772Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-15T08:21:24.773Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-15T08:21:24.774Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-15T08:21:24.775Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-15T08:21:24.941Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-15T08:21:24.941Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-15T08:21:24.941Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-15T08:21:24.949Z - Time taken for 'loadNxPlugins' 164.02450000000002ms
+[NX Daemon Server] - 2024-12-15T08:21:24.988Z - Time taken for 'build-project-configs' 28.849099999999964ms
+[NX Daemon Server] - 2024-12-15T08:21:25.060Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-15T08:21:25.061Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-15T08:21:25.062Z - Time taken for 'total for creating and serializing project graph' 285.78009999999995ms
+[NX Daemon Server] - 2024-12-15T08:21:25.062Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-15T08:21:25.062Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 286. Response time: 1.
+[NX Daemon Server] - 2024-12-15T08:21:25.108Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-15T08:21:25.108Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-15T08:21:25.108Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2024-12-15T08:21:25.134Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-12-15T08:21:25.134Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-12-15T08:21:25.134Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-12-15T08:21:25.889Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-15T08:21:30.148Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-15T08:21:57.875Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-15T08:23:30.997Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-15T08:23:30.998Z - [WATCHER]: apps/rcmnd-api/src/app/app.module.ts was modified
+[NX Daemon Server] - 2024-12-15T08:23:31.107Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-15T08:23:31.107Z - [REQUEST]: apps/rcmnd-api/src/app/app.module.ts
+[NX Daemon Server] - 2024-12-15T08:23:31.107Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-15T08:23:31.112Z - Time taken for 'hash changed files from watcher' 0.37140000000363216ms
+[NX Daemon Server] - 2024-12-15T08:23:31.134Z - Time taken for 'build-project-configs' 18.700700000001234ms
+[NX Daemon Server] - 2024-12-15T08:23:31.494Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-15T08:23:31.494Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-15T08:23:31.494Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-15T08:23:31.494Z - Time taken for 'total execution time for createProjectGraph()' 354.5225999999966ms
+[NX Daemon Server] - 2024-12-15T08:23:36.912Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-15T08:23:36.912Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-15T08:23:36.913Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-15T08:23:36.915Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-15T08:23:36.916Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-15T08:23:36.917Z - Time taken for 'total for creating and serializing project graph' 0.37460000001010485ms
+[NX Daemon Server] - 2024-12-15T08:23:36.917Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-15T08:23:36.917Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-12-15T08:23:36.958Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-15T08:23:36.958Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-15T08:23:36.958Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2024-12-15T08:23:36.970Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-12-15T08:23:36.970Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-12-15T08:23:36.970Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-15T08:23:37.808Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-15T08:23:42.510Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-15T08:23:51.328Z - Closed a connection. Number of open connections: 0

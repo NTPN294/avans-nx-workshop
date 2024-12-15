@@ -64,64 +64,44 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "6009877957398575576"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "4597419159832879830"
-      },
-      {
-        "file": "Nx-workshop.postman_collection.json",
-        "hash": "13796819436055774183"
-      },
-      {
         "file": ".eslintignore",
         "hash": "13404745306227114823"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "17721602646156054381"
-      },
-      {
-        "file": "README.md",
-        "hash": "1955868086715526908"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "135344717789917661"
-      },
-      {
-        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
-        "hash": "3957814961654710310"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "9778055871174934929"
-      },
-      {
-        "file": "package.json",
-        "hash": "5882872138071016056"
       },
       {
         "file": ".eslintrc.json",
         "hash": "4566917484430375526"
       },
       {
+        "file": "jest.config.ts",
+        "hash": "3407785570333453138"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9778055871174934929"
+      },
+      {
         "file": ".editorconfig",
         "hash": "11532813898455409296"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "135344717789917661"
       },
       {
         "file": ".gitignore",
         "hash": "11966908335120871298"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3407785570333453138"
+        "file": "nx.json",
+        "hash": "6009877957398575576"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "17721602646156054381"
+      },
+      {
+        "file": "package.json",
+        "hash": "5882872138071016056"
       },
       {
         "file": ".prettierrc",
@@ -130,6 +110,26 @@
       {
         "file": "libs/share-a-meal/readme.txt",
         "hash": "8731589497805983804"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "4597419159832879830"
+      },
+      {
+        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
+        "hash": "3957814961654710310"
+      },
+      {
+        "file": "README.md",
+        "hash": "1955868086715526908"
+      },
+      {
+        "file": "Nx-workshop.postman_collection.json",
+        "hash": "13796819436055774183"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
       }
     ],
     "projectFileMap": {
@@ -321,7 +321,7 @@
         },
         {
           "file": "libs/backend/neo4j/src/lib/neo4j-posts.service.ts",
-          "hash": "249839307699357954",
+          "hash": "9692897198419708219",
           "deps": [
             "api",
             "npm:@nestjs/common",
@@ -357,7 +357,7 @@
         },
         {
           "file": "libs/backend/neo4j/src/lib/queries.ts",
-          "hash": "15773392214958520223",
+          "hash": "6462656980073047730",
           "deps": [
             "api"
           ]
@@ -693,7 +693,7 @@
         },
         {
           "file": "libs/frontend/frontend-features/src/lib/posts/post-list/post-list.component.ts",
-          "hash": "6396829958021437431",
+          "hash": "6221242688508042262",
           "deps": [
             "npm:@angular/core",
             "api",

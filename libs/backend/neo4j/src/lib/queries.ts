@@ -124,11 +124,10 @@ export const queries = {
 
     getRecommendations(userId: string) {
         return `
-         MATCH (u:User { mongoDbId: '${userId}' })-[:LIKES]->(p:Post)
-        MATCH (otherUsers:User)-[:LIKES]->(p)
-        WHERE otherUsers.mongoDbId <> '${userId}'          
-MATCH (otherPosts:Post)<-[:LIKES]-(otherUsers)
-        RETURN otherPosts
+         MATCH (u:User {mongoDbId: '${userId}'}) - [:LIKES] - (p: Post) 
+         MATCH (u2: User) - [:LIKES] - (p) MATCH (p2: Post) - [:LIKES] - (u2) 
+         RETURN DISTINCT p2.mongoDbId 
         `;
+        
     }
 };

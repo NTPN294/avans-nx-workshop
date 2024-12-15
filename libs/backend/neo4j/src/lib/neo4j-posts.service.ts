@@ -54,7 +54,7 @@ export class Neo4JPostService {
         const result = await this.neo4jService.read(
             queries.getRecommendations(userId)
         );
-        return result.records.map((record) => record.get(0).properties);
+        return result.records.map((record) => record.get(0));
     }
 
 }

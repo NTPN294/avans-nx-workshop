@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit, ViewEncapsulation, ChangeDetectorRef } from '@angular/core';
-import { IPost } from '@avans-nx-workshop/shared/api';
+import { Id, IPost } from '@avans-nx-workshop/shared/api';
 import { PostService } from '@avans-nx-workshop/frontend-features';
 import { Subscription } from 'rxjs';
 import { TokenService } from '@avans-nx-workshop/frontend-common';
@@ -106,10 +106,11 @@ export class PostListComponent implements OnInit, OnDestroy {
         }
         this.postService.getRecommendedPostsAsync(this.currentUserId).subscribe(
             (rcmndIds) => {
-              this.recommendedPostIds = Array.from(new Set(rcmndIds.map((post: any) => post.mongoDbId)));               
-               console.log('Recommended post ids:', this.recommendedPostIds);
-                this.filteredPosts = this.posts?.filter((post) => this.recommendedPostIds.includes(post._id));
-
+                const recommendedPostIds = rcmndIds;
+                console.log('Recommended Post Ids:', recommendedPostIds);
+                
+                this.filteredPosts = this.posts?.filter((post: any) => recommendedPostIds.includes(post._id));
+                         
             },
             (error) => {
                 console.error('Error fetching recommended posts:', error);
