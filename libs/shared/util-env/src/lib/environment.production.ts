@@ -15,4 +15,5 @@ export const environment: IEnvironment = {
     NEO4J_DB_PORT: 7687,
     NEO4J_DB_USER: 'neo4j',
     NEO4J_DB_PASSWORD: 'tw1ilJ6dP8YNY6y5ntrP-6vOBmy16FLvHKYSSgBiA1o' 
+    
 };

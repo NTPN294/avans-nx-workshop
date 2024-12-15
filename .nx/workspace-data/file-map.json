@@ -64,72 +64,72 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".eslintignore",
-        "hash": "13404745306227114823"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "4566917484430375526"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3407785570333453138"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "9778055871174934929"
-      },
-      {
         "file": ".editorconfig",
         "hash": "11532813898455409296"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "135344717789917661"
       },
       {
         "file": ".gitignore",
         "hash": "11966908335120871298"
       },
       {
-        "file": "nx.json",
-        "hash": "6009877957398575576"
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "17721602646156054381"
-      },
-      {
-        "file": "package.json",
-        "hash": "5882872138071016056"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6192629144332209564"
+        "file": "package-lock.json",
+        "hash": "9778055871174934929"
       },
       {
         "file": "libs/share-a-meal/readme.txt",
         "hash": "8731589497805983804"
       },
       {
-        "file": "migrations.json",
-        "hash": "4597419159832879830"
-      },
-      {
-        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
-        "hash": "3957814961654710310"
+        "file": "jest.config.ts",
+        "hash": "3407785570333453138"
       },
       {
         "file": "README.md",
         "hash": "1955868086715526908"
       },
       {
+        "file": "tsconfig.base.json",
+        "hash": "17721602646156054381"
+      },
+      {
         "file": "Nx-workshop.postman_collection.json",
         "hash": "13796819436055774183"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
+        "file": "migrations.json",
+        "hash": "4597419159832879830"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
+        "hash": "3957814961654710310"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6192629144332209564"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6009877957398575576"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "135344717789917661"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": "package.json",
+        "hash": "5882872138071016056"
       }
     ],
     "projectFileMap": {
