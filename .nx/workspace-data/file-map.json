@@ -64,8 +64,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
+        "file": "package.json",
+        "hash": "3459036750224455988"
       },
       {
         "file": ".eslintignore",
@@ -76,60 +76,60 @@
         "hash": "4566917484430375526"
       },
       {
+        "file": "package-lock.json",
+        "hash": "15456381185142998222"
+      },
+      {
         "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
         "hash": "3957814961654710310"
       },
       {
-        "file": ".gitignore",
-        "hash": "11966908335120871298"
+        "file": "tsconfig.base.json",
+        "hash": "17721602646156054381"
       },
       {
         "file": ".prettierignore",
         "hash": "135344717789917661"
       },
       {
-        "file": ".prettierrc",
-        "hash": "6192629144332209564"
+        "file": "nx.json",
+        "hash": "6009877957398575576"
       },
       {
-        "file": "Nx-workshop.postman_collection.json",
-        "hash": "13796819436055774183"
-      },
-      {
-        "file": "README.md",
-        "hash": "1955868086715526908"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3407785570333453138"
+        "file": ".gitignore",
+        "hash": "11966908335120871298"
       },
       {
         "file": "jest.preset.js",
         "hash": "7473220183190921152"
       },
       {
-        "file": "libs/share-a-meal/readme.txt",
-        "hash": "8731589497805983804"
+        "file": "Nx-workshop.postman_collection.json",
+        "hash": "13796819436055774183"
       },
       {
         "file": "migrations.json",
         "hash": "4597419159832879830"
       },
       {
-        "file": "nx.json",
-        "hash": "6009877957398575576"
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15456381185142998222"
+        "file": "jest.config.ts",
+        "hash": "3407785570333453138"
       },
       {
-        "file": "package.json",
-        "hash": "3459036750224455988"
+        "file": "libs/share-a-meal/readme.txt",
+        "hash": "8731589497805983804"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "17721602646156054381"
+        "file": "README.md",
+        "hash": "1955868086715526908"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6192629144332209564"
       }
     ],
     "projectFileMap": {
@@ -478,7 +478,7 @@
         },
         {
           "file": "libs/shared/util-env/src/lib/environment.production.ts",
-          "hash": "12209285289571782103"
+          "hash": "13546456088737593978"
         },
         {
           "file": "libs/shared/util-env/src/lib/environment.ts",

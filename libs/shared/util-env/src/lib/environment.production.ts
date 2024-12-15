@@ -8,8 +8,8 @@ export const environment: IEnvironment = {
 
     MONGO_DB_CONNECTION_STRING: 'mongodb+srv://ntpn294:Avans1234@ntpnavans.g3clv.mongodb.net/avans',
 
-    NEO4J_ROOT_DOMAIN_URL: 'http://rcmnd-api-g4dxdkcqd4fsaghr.germanywestcentral-01.azurewebsites.net',
-    NEO4J_dataApiUrl: 'http://rcmnd-api-g4dxdkcqd4fsaghr.germanywestcentral-01.azurewebsites.net/api',
+    NEO4J_ROOT_DOMAIN_URL: 'https://rcmnd-api-g4dxdkcqd4fsaghr.germanywestcentral-01.azurewebsites.net',
+    NEO4J_dataApiUrl: 'https://rcmnd-api-g4dxdkcqd4fsaghr.germanywestcentral-01.azurewebsites.net/api',
 
     NEO4J_DB_HOST: '4e5b2d8a.databases.neo4j.io',
     NEO4J_DB_PORT: 7687,
