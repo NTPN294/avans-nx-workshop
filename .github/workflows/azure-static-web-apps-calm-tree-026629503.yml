@@ -126,8 +126,11 @@ jobs:
             - name: Unzip artifact for deployment
               run: unzip rcmnd-api-zip-release.zip
 
+            - name: Change Directory to the extracted location
+              run: cd ${GITHUB_WORKSPACE}/package.json
+
             - name: Install dependencies
-              run: npm install --force
+              run: npm install --legacy-peer-deps
 
             - name: 'Deploy to Azure Web App'
               id: deploy-to-webapp
