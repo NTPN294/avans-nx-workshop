@@ -62,5 +62,73 @@ export const queries = {
         DELETE r
         RETURN u, f;
         `;
+    },
+
+
+    getAllPosts: 'MATCH (n:Post) RETURN n',
+    createPost(post: any){
+        const comments = JSON.stringify(post.comments || []);
+    const models = JSON.stringify(post.models || []);
+
+        return `
+        CREATE (p:Post {
+            title: '${post.title}',
+            ownerId: '${post.ownerId}', 
+            description: '${post.description}',
+            date: '${post.date}',
+            likes: '${post.likes}',
+            comments: '${comments}',
+            models: '${models}',
+            mongoDbId: '${post.mongoDbId}'
+        }) 
+        WITH p
+        MATCH (u:User { mongoDbId: '${post.ownerId}' })
+        CREATE (u)-[:CREATED]->(p)
+        RETURN p;
+    `;
+    },
+
+    updatePost(id: string, post: any) {
+        const comments = JSON.stringify(post.comments || []);
+        const models = JSON.stringify(post.models || []);
+
+        return `
+        MATCH (p:Post { mongoDbId: '${id}' })
+        SET p.title = '${post.title}',
+            p.ownerId = '${post.ownerId}',
+            p.description = '${post.description}',
+            p.date = '${post.date}',
+            p.likes = '${post.likes}',
+            p.comments = '${comments}',
+            p.models = '${models}'
+        RETURN p;
+        `;
+    },
+
+    deletePost(id: string) {
+        return `
+        MATCH (p:Post { mongoDbId: '${id}' })
+        DETACH DELETE p
+        RETURN 'Post with mongoDbId ${id} has been deleted';
+        `;
+    },
+
+    likePost(postId: string, userId: string) {
+        return `
+        MATCH (p:Post { mongoDbId: '${postId}' })
+        MATCH (u:User { mongoDbId: '${userId}' })
+        MERGE (u)-[:LIKES]->(p)
+        RETURN p;
+        `;
+    },
+
+    getRecommendations(userId: string) {
+        return `
+         MATCH (u:User { mongoDbId: '${userId}' })-[:LIKES]->(p:Post)
+        MATCH (otherUsers:User)-[:LIKES]->(p)
+        WHERE otherUsers.mongoDbId <> '${userId}'          
+MATCH (otherPosts:Post)<-[:LIKES]-(otherUsers)
+        RETURN otherPosts
+        `;
     }
 };

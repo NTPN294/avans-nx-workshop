@@ -16655,6 +16655,11 @@
       },
       {
         "source": "rcmnd-api",
+        "target": "npm:body-parser",
+        "type": "static"
+      },
+      {
+        "source": "rcmnd-api",
         "target": "npm:@nx/webpack",
         "type": "static"
       }
@@ -16745,6 +16750,11 @@
       {
         "source": "my-app",
         "target": "frontend-common",
+        "type": "static"
+      },
+      {
+        "source": "my-app",
+        "target": "api",
         "type": "static"
       },
       {

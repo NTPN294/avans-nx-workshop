@@ -22,18 +22,10 @@ export class CreatePostDto {
 export class CommentDto {
     @IsString()
     @IsNotEmpty()
-    _id!: string;
-
-    @IsString()
-    @IsNotEmpty()
     comment!: string;
 
-    @IsNumber()
-    @IsNotEmpty()
     rating!: number;
 
-    @IsDate()
-    @IsNotEmpty()
     date!: Date;
 
     @IsString()
@@ -114,7 +106,6 @@ export class UpdatePostDto implements IUpdatePost {
     @IsOptional()
     description?: string;
 
-    @IsDate()
     @IsOptional()
     date?: Date;
 

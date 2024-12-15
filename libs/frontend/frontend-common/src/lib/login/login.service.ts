@@ -13,7 +13,7 @@ export class LoginService {
         let token = '';
         console.log('loginAsync() called with email:', emailAddress, 'and password:', password);
         return this.http
-            .post<any>(environment.dataApiUrl + '/auth/login', { emailAddress, password })
+            .post<any>(environment.dataApiUrl + '/auth/login', { emailAddress: emailAddress.toLowerCase(), password: password })
             .pipe(
                 tap((response) => console.log('Response from API:', response)),
                 map((response) => {

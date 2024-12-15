@@ -4,10 +4,10 @@ import {IUser} from '@avans-nx-workshop/shared/api';
 import { CreateUserDto, UpdateUserDto } from '@avans-nx-workshop/backend/dto';
 
 @Controller('users')
-export class Neo4JExampleController {
+export class Neo4JUserController {
     constructor(private readonly neo4jService: Neo4JUserService) {}
 
-    @Get('')
+    @Get()
     async getAllUsers(): Promise<any> {
         const results = await this.neo4jService.findAll();
         return results;

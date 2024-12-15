@@ -1,9 +1,7 @@
 .borderAccount{
-    border: 2px solid purple;
-    padding: 10px;
+    border: 5px solid purple;
     margin-top: 100px;
     border-radius: 10px;
-    padding-bottom: 50px;
 }
 
 
@@ -28,6 +26,16 @@
     border: purple 2px solid !important;
   }
 
+  .imageBackground{
+    background: purple;
+    color:white;
+  }
+
   .accountImage{
     height: 100%;
+    border-radius: 12px;
+  }
+
+  .userContent{
+    padding: 20px;
   }

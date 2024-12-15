@@ -1,3 +1,66 @@
-<h1 style="color:purple">3Dice</h1>
 
-<p>carousel komt hier</p>
+<div class="row">
+    <h1 class="purpleText">Recent Post</h1>
+
+    <div class="postImageContainer carousel slide" data-bs-ride="carousel" id="demo">
+        <div class="carousel-inner">
+          <div *ngFor="let post of posts; let postIndex = index">
+            <div *ngFor="let model of post.models; let modelIndex = index">
+              <div *ngFor="let image of model.images; let imageIndex = index">
+                <div 
+                  class="carousel-item" 
+                  [class.active]="postIndex === 0 && modelIndex === 0 && imageIndex === 0">
+                  <img 
+                    src="{{ image || 'No image available' }}" 
+                    class="postImage d-block mx-auto" 
+                    alt="..."
+                    routerLink="/post-list/{{post._id}}"
+                    style="cursor:pointer;"
+                    >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="row interText align-items-center">
+    <div class="col">
+        <h1>Welcome to 3Dice!</h1>
+        <p>Get ready to find your favorite models for your next project!</p>
+    </div>
+    <div class="col d-flex justify-content-end align-items-center">
+        <button 
+        class="loginButton me-5"
+        routerLink="/login"
+        >Login</button>
+    </div>
+</div>
+
+<div class="row">
+    <h1  class="purpleText">Popular post</h1>
+</div>
+
+<div class="row">
+   <div class="popularPostGrid">
+    <div *ngFor="let post of posts" class="postGridItem">
+        <div routerLink="/post-list/{{post._id}}" style="cursor:pointer;">
+        <img src="{{post.models[0].images[0]}}">
+        <div class="postGridItemText">
+            <h3>{{post.title}}</h3>
+       <p>{{post.description}}</p>
+        </div>
+        </div>          
+    </div>
+   </div>
+</div>

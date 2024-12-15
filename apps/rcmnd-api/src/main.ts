@@ -8,6 +8,7 @@ import { ApiResponseInterceptor } from '@avans-nx-workshop/backend/dto';
 import { AppModule } from './app/app.module';
 import { CorsOptions } from '@nestjs/common/interfaces/external/cors-options.interface';
 import {environment} from '@avans-nx-workshop/shared/util-env'
+import * as bodyParser from 'body-parser';
 
 async function bootstrap() {
     Logger.log(
@@ -19,6 +20,9 @@ async function bootstrap() {
 
     const corsOptions: CorsOptions = {};
     app.enableCors(corsOptions);
+
+    app.use(bodyParser.json({ limit: '50mb' })); // Adjust the size as needed
+    app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
     app.useGlobalInterceptors(new ApiResponseInterceptor());
 

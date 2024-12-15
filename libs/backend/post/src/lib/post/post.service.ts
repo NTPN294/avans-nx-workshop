@@ -37,7 +37,7 @@ export class PostService {
         return createdItem;
     }
 
-    async update(_id: string, post: UpdatePostDto): Promise<IPost | null> {
+    async update(_id: string, post: UpdatePostDto): Promise<IPost | null> {        
         this.logger.log(`Update post ${post.title}`);
         return this.postModel.findByIdAndUpdate({ _id }, post);
     }

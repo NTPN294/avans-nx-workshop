@@ -21,7 +21,7 @@
         </div>        
 
         <div class="postGrid">
-            <div *ngFor="let post of posts" class="postGridItem">
+            <div *ngFor="let post of filteredPosts" class="postGridItem">
                 <div routerLink="{{post._id}}" style="cursor:pointer;">
                 <img src="{{post.models[0].images[0]}}">
                 <div class="postGridItemText">

@@ -82,7 +82,12 @@
                 name="modelFiles"
                 (change)="onFileSelected($event)"
                 #modelFiles="ngModel"
+                id="modelFiles"
+                class="hidden-file-input"
                 />
+
+                <label for="modelFiles" class="custom-file-label">Choose Files</label>
+
                 <small>  (Only add .stl files)</small>
                 <div *ngIf="modelFiles.invalid && (modelFiles.dirty || modelFiles.touched)" class="invalid-feedback">
                   <small *ngIf="modelFiles.errors?.['required']">Files are required.</small>
@@ -101,8 +106,11 @@
                 name="modelImages"
                 (change)="onImageSelected($event)"
                 #modelImages="ngModel"
-                
+                id="modelImages"
+                class="hidden-file-input"
                 />
+                <label for="modelImages" class="custom-file-label">Choose Files</label>
+
                 <div *ngIf="modelImages.invalid && (modelImages.dirty || modelImages.touched)" class="invalid-feedback">
                   <small *ngIf="modelImages.errors?.['required']">Images are required.</small>
                 </div>
@@ -121,7 +129,8 @@
                     type="checkbox"
                     [value]="genre"
                     (change)="toggleGenreSelection($event, genre)"
-                  /> {{ genre }}
+                    [checked]="selectedGenres.includes(genre)"                  
+                    /> {{ genre }}
                 </div>
               </td>
             </tr>
@@ -132,7 +141,8 @@
       <!-- Modal Footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary grayButton" (click)="closeModel()">Close</button>
-        <button type="button" class="btn btn-primary purpleButton" (click)="saveModel()" [disabled]="modelForm.invalid">Save changes</button>
+        <button type="button" class="btn btn-primary purpleButton" (click)="saveModel()" [disabled]="modelForm.invalid" *ngIf="!editMode">Save changes</button>
+        <button type="button" class="btn btn-primary purpleButton" (click)="saveModel2()" [disabled]="modelForm.invalid" *ngIf="editMode">Save changes2</button>
       </div>
     </div>
   </div>

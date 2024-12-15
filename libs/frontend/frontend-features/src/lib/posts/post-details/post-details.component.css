@@ -42,6 +42,7 @@
 
 .postText{
   border: 2px solid purple;
+  border-top: none;
   border-radius: 0px 0px 12px 12px;
   padding: 10px;
   
@@ -71,9 +72,9 @@
 .postFooter{
   background: purple;
   color: white;
-  margin-bottom: -10px;
-  padding-bottom:10px;
   border-radius: 0px 0px 12px 12px;
+  margin-top:-10px;
+  padding-bottom:20px;
 }
 
 .postFooterLink:hover{
@@ -98,8 +99,3 @@
   width: 100%;
 }
 
-.commentItems{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px
-}

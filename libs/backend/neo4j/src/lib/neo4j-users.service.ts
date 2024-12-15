@@ -14,10 +14,7 @@ export class Neo4JUserService {
         const results = await this.neo4jService.read(
             queries.getAllUsers
         );
-        const users = results.records.map(
-            (record: any) => record._fields[0].start.properties
-        );
-        return users;
+        return results.records.map((record) => record.get(0).properties);
     }
 
     async createUser(user: IUser): Promise<any> {

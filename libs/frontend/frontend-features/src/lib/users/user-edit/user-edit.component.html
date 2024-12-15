@@ -132,7 +132,10 @@
               [(ngModel)]="user.profileImgUrl"
               name="profileImgUrl"
               (change)="onImageSelected($event)"
-            />
+              id="modelImages"
+              class="hidden-file-input"
+              />
+              <label for="modelImages" class="custom-file-label">Choose File</label>
             </td>
           </tr>
         </table>

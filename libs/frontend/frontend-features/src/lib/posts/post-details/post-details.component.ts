@@ -7,6 +7,7 @@ import { TokenService } from '@avans-nx-workshop/frontend-common';
     selector: 'avans-nx-workshop-post-details',
     templateUrl: './post-details.component.html',
     styleUrls: ['./post-details.component.css'],
+    
   encapsulation: ViewEncapsulation.None
 })
 
@@ -23,6 +24,7 @@ export class PostDetailComponent implements OnInit {
 
     user: IUserInfo | null = null;
     currentUserId: String | null = null;
+    genres: string = "";
   
     constructor(
       private route: ActivatedRoute,
@@ -67,6 +69,10 @@ export class PostDetailComponent implements OnInit {
                 console.log("Is Owner: ", this.isOwner);
             }
           }
+
+          let genresList = this.post.models.flatMap((model) => model.genres.map((genre) => genre as unknown as string));
+          genresList = Array.from(new Set(genresList));
+          this.genres = genresList.join(', ');
 
           this.userService.getUserByIdAsync(this.post.ownerId).subscribe((user) => {
             this.user = user;
@@ -158,6 +164,8 @@ export class PostDetailComponent implements OnInit {
 
       console.log(this.commentText + " - " + this.selectedRating);
       this.postService.commentPostAsync(this.postId as string, this.commentText, this.selectedRating, this.currentUserId).subscribe();
+
+      alert('Comment submitted!');
     }
 
     formatDate(date: Date): string {
