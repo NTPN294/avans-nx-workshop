@@ -1,5 +1,7 @@
+import { IUser } from '@avans-nx-workshop/shared/api';
 import { Injectable, Logger } from '@nestjs/common';
 import { Neo4jService } from 'nest-neo4j/dist';
+import {queries} from './queries';
 
 @Injectable()
 export class Neo4JUserService {
@@ -10,11 +12,51 @@ export class Neo4JUserService {
     async findAll(): Promise<any> {
         this.logger.log('findAll users');
         const results = await this.neo4jService.read(
-            `MATCH people=()-[:WorksIn]->(t:Team {name:'Informatica'}) RETURN people;`
+            queries.getAllUsers
         );
         const users = results.records.map(
             (record: any) => record._fields[0].start.properties
         );
         return users;
+    }
+
+    async createUser(user: IUser): Promise<any> {
+        this.logger.log('create user');
+        const result = await this.neo4jService.write(
+            queries.createUser(user)
+        );
+        return result.records[0].get(0).properties;
+    }
+
+    async updateUser(user: IUser): Promise<any>{
+        this.logger.log('update user');
+        const result = await this.neo4jService.write(
+            queries.updateUser(user)
+        );
+        return user
+    }
+
+    async deleteUser(mongoDbId: string): Promise<any>{
+        this.logger.log('delete user');
+        const result = await this.neo4jService.write(
+            queries.deleteUser(mongoDbId)
+        );
+        return result.records[0].get(0);
+    }
+
+    async follow(id: string, followId: string): Promise<any>{
+        this.logger.log('follow user');
+        const result = await this.neo4jService.write(
+            queries.follow(id, followId)
+        );
+        return result.records[0].get(0).properties;
+    }
+
+    async unfollow(id: string, followId: string): Promise<any>{
+        this.logger.log('unfollow user');
+        const result = await this.neo4jService.write(
+            queries.unfollow(id, followId)
+        );
+        return result.records[0].get(0).properties;
     }
 }

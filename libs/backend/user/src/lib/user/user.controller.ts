@@ -6,7 +6,8 @@ import {
     Post,
     Put,
     Delete,
-    UseGuards
+    UseGuards,
+    Logger
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { IUserInfo, IUser } from '@avans-nx-workshop/shared/api';

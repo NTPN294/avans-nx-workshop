@@ -14,24 +14,20 @@
         <table class="dice">
             <thead>
                 <tr>
-                    <th>Id</th>
                     <th>Name</th>
                     <th>Email</th>
                     <th>Gender</th>
                     <th>Role</th>
-                    <th>Is active</th>
                     <th>Profile picture</th>
                 </tr>
             </thead>
             <tbody>
                 <tr *ngFor="let user of users">
-                    <td>{{ user._id }}</td>
                     <td><a class="purple" routerLink="{{user._id}}">
                         {{user.name}}</a></td>
                     <td>{{ user.emailAddress }}</td>
                     <td>{{ user.gender}}</td>
                     <td>{{ user.role }}</td>
-                    <td>{{ user.isActive }}</td>
                     <td><img src="{{ user.profileImgUrl}}"/></td>
                 </tr>
             </tbody>

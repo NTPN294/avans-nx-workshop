@@ -136,7 +136,7 @@ export class PostDetailComponent implements OnInit {
       console.log(this.user?._id);
 
       this.userService.getUserByIdAsync(this.currentUserId as string).subscribe((currentUser) => {
-        if (currentUser?.likedPosts.includes(this.postId as string)) {
+        if (currentUser?.likedPosts?.includes(this.postId as string)) {
           alert('You have already liked this post.');
           return;
         }

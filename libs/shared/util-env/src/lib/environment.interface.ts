@@ -6,6 +6,9 @@ export interface IEnvironment {
 
     MONGO_DB_CONNECTION_STRING: string;
 
+    NEO4J_ROOT_DOMAIN_URL: string;
+    NEO4J_dataApiUrl: string;
+
     NEO4J_DB_HOST: string;
     NEO4J_DB_PORT: number;
     NEO4J_DB_USER: string;

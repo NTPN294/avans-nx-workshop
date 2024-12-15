@@ -37,17 +37,18 @@ export interface IUserInfo extends IUserRegistration {
     role: UserRole;
     gender: UserGender;
     isActive: boolean;
-    following: string[];
-    likedPosts: string[];
+    following?: string[];
+    likedPosts?: string[];
+    mongoDbId?: string;
 }
 
 /**
  * All user information, incl. domain entities
  */
 export interface IUser extends IUserInfo {
-    meals: IMeal[];
+    meals?: IMeal[];
 }
 
-export type ICreateUser = Pick<IUser, 'name' | 'password' | 'emailAddress'>;
+export type ICreateUser = Pick<IUser, 'name' | 'password' | 'emailAddress' >;
 export type IUpdateUser = Partial<Omit<IUser, 'id'>>;
 export type IUpsertUser = IUser;

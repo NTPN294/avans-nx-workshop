@@ -123,15 +123,7 @@
             </td>
           </tr>
           
-          <tr>
-            <td>Is active</td>
-            <td>
-              <select [(ngModel)]="user.isActive" name="isActive" #isActiveInput="ngModel">
-                <option value="{{user.isActive}}">{{user.isActive}}</option>
-                <option *ngFor="let ac of userActive" value="{{ac}}">{{ac}}</option>
-              </select>
-            </td>
-          </tr>
+         
           <tr>
             <td>Profile picture</td><td>
               <input

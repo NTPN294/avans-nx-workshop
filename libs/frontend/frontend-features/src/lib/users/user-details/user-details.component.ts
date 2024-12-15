@@ -49,7 +49,7 @@ export class UserDetailsComponent implements OnInit {
 
             this.userService.getUserByIdAsync(this.currentUserId).subscribe((currentUser) => {
               if(currentUser){
-                this.isFollowing = currentUser.following.includes(this.userId as string);
+                this.isFollowing = currentUser.following?.includes(this.userId as string) as boolean;
                 console.log("following:", currentUser.following);
                 console.log('Is following:', this.isFollowing);
               }

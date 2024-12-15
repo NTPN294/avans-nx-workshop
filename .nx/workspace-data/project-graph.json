@@ -16379,6 +16379,16 @@
         "source": "neo4j",
         "target": "npm:nest-neo4j",
         "type": "static"
+      },
+      {
+        "source": "neo4j",
+        "target": "api",
+        "type": "static"
+      },
+      {
+        "source": "neo4j",
+        "target": "dto",
+        "type": "static"
       }
     ],
     "rcmnd-api-e2e": [
