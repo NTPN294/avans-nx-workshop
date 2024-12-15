@@ -64,36 +64,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
-        "hash": "4668956420162141871"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6192629144332209564"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "3407785570333453138"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "135344717789917661"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "4597419159832879830"
-      },
-      {
-        "file": "libs/share-a-meal/readme.txt",
-        "hash": "8731589497805983804"
       },
       {
         "file": "Nx-workshop.postman_collection.json",
         "hash": "13796819436055774183"
       },
       {
-        "file": "nx.json",
-        "hash": "6009877957398575576"
+        "file": "package.json",
+        "hash": "3459036750224455988"
+      },
+      {
+        "file": "README.md",
+        "hash": "1955868086715526908"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "4597419159832879830"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "17721602646156054381"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11966908335120871298"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6192629144332209564"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12602058955558447675"
       },
       {
         "file": ".eslintignore",
@@ -104,28 +108,24 @@
         "hash": "4566917484430375526"
       },
       {
-        "file": "package.json",
-        "hash": "3459036750224455988"
+        "file": "nx.json",
+        "hash": "6009877957398575576"
       },
       {
-        "file": "package-lock.json",
-        "hash": "12602058955558447675"
+        "file": ".github/workflows/azure-static-web-apps-calm-tree-026629503.yml",
+        "hash": "1833151198412189982"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "135344717789917661"
+      },
+      {
+        "file": "libs/share-a-meal/readme.txt",
+        "hash": "8731589497805983804"
       },
       {
         "file": "jest.preset.js",
         "hash": "7473220183190921152"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11966908335120871298"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "17721602646156054381"
-      },
-      {
-        "file": "README.md",
-        "hash": "1955868086715526908"
       },
       {
         "file": ".editorconfig",
