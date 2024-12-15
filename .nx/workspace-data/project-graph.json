@@ -1181,7 +1181,8 @@
                 "apps/rcmnd-api/src/assets"
               ],
               "isolatedConfig": true,
-              "webpackConfig": "apps/rcmnd-api/webpack.config.js"
+              "webpackConfig": "apps/rcmnd-api/webpack.config.js",
+              "generatePackageJson": true
             },
             "configurations": {
               "development": {
@@ -2827,15 +2828,6 @@
         "version": "18.2.12",
         "packageName": "@angular/language-service",
         "hash": "sha512-oaiVAnGzmPZvrXdGh8XnosaqfEPbZxO2225MxbbrD49XTqUgpaS2zrz1Uf5j42e8qytA2kj8tckLq7PAMm0D1w=="
-      }
-    },
-    "npm:@angular/localize": {
-      "type": "npm",
-      "name": "npm:@angular/localize",
-      "data": {
-        "version": "18.2.13",
-        "packageName": "@angular/localize",
-        "hash": "sha512-qQaIYdDS/l1w6tr/wpOoimjpmoJU0WmB8AGbNeKLoM36K+ix6hkvn67+UgkpZtaDHZylm8GsGW1NjzpM2tr3pA=="
       }
     },
     "npm:@angular/platform-browser": {
@@ -14466,24 +14458,6 @@
         "hash": "sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA=="
       }
     },
-    "npm:react": {
-      "type": "npm",
-      "name": "npm:react",
-      "data": {
-        "version": "19.0.0",
-        "packageName": "react",
-        "hash": "sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ=="
-      }
-    },
-    "npm:react-dom": {
-      "type": "npm",
-      "name": "npm:react-dom",
-      "data": {
-        "version": "19.0.0",
-        "packageName": "react-dom",
-        "hash": "sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ=="
-      }
-    },
     "npm:react-is": {
       "type": "npm",
       "name": "npm:react-is",
@@ -14770,15 +14744,6 @@
         "version": "1.4.1",
         "packageName": "sax",
         "hash": "sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg=="
-      }
-    },
-    "npm:scheduler": {
-      "type": "npm",
-      "name": "npm:scheduler",
-      "data": {
-        "version": "0.25.0",
-        "packageName": "scheduler",
-        "hash": "sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA=="
       }
     },
     "npm:secure-compare": {
@@ -16837,11 +16802,6 @@
       },
       {
         "source": "npm:@angular-devkit/build-angular",
-        "target": "npm:@angular/localize",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular-devkit/build-angular",
         "target": "npm:jest",
         "type": "static"
       },
@@ -17589,11 +17549,6 @@
       },
       {
         "source": "npm:@angular/build",
-        "target": "npm:@angular/localize",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular/build",
         "target": "npm:less",
         "type": "static"
       },
@@ -18256,28 +18211,6 @@
       {
         "source": "npm:@angular/forms",
         "target": "npm:tslib",
-        "type": "static"
-      }
-    ],
-    "npm:@angular/localize": [
-      {
-        "source": "npm:@angular/localize",
-        "target": "npm:@babel/core",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular/localize",
-        "target": "npm:@types/babel__core",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular/localize",
-        "target": "npm:fast-glob@3.3.2",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular/localize",
-        "target": "npm:yargs",
         "type": "static"
       }
     ],
@@ -21906,16 +21839,6 @@
     "npm:@module-federation/data-prefetch": [
       {
         "source": "npm:@module-federation/data-prefetch",
-        "target": "npm:react",
-        "type": "static"
-      },
-      {
-        "source": "npm:@module-federation/data-prefetch",
-        "target": "npm:react-dom",
-        "type": "static"
-      },
-      {
-        "source": "npm:@module-federation/data-prefetch",
         "target": "npm:@module-federation/runtime",
         "type": "static"
       },
@@ -22634,11 +22557,6 @@
       {
         "source": "npm:@ng-bootstrap/ng-bootstrap",
         "target": "npm:@angular/forms",
-        "type": "static"
-      },
-      {
-        "source": "npm:@ng-bootstrap/ng-bootstrap",
-        "target": "npm:@angular/localize",
         "type": "static"
       },
       {
@@ -34020,18 +33938,6 @@
       {
         "source": "npm:raw-body",
         "target": "npm:unpipe",
-        "type": "static"
-      }
-    ],
-    "npm:react-dom": [
-      {
-        "source": "npm:react-dom",
-        "target": "npm:react",
-        "type": "static"
-      },
-      {
-        "source": "npm:react-dom",
-        "target": "npm:scheduler",
         "type": "static"
       }
     ],
