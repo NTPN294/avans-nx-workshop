@@ -120,6 +120,7 @@ jobs:
 
       - name: Unzip artifact for deployment
         run: unzip rcmnd-api-release.zip
+        working-directory: ${GITHUB_WORKSPACE}/dist/apps/rcmnd-api
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
