@@ -44,6 +44,12 @@ jobs:
               with:
                   name: data-api
                   path: data-api-release.zip
+            
+            - name: Upload rcmnd-api artifact for deployment job
+              uses: actions/upload-artifact@v4
+              with:
+                  name: rcmnd-api
+                  path: rcmnd-api-release.zip
 
     deploy-my-app:
         runs-on: ubuntu-latest
