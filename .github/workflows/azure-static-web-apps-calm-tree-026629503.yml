@@ -49,8 +49,8 @@ jobs:
             - name: Upload rcmnd-api artifact for deployment job
               uses: actions/upload-artifact@v4
               with:
-                  name: rcmnd-api
-                  path: rcmnd-api-release.zip
+                  name: rcmnd-api-zip
+                  path: rcmnd-api-zip-release.zip
 
     deploy-my-app:
         runs-on: ubuntu-latest
@@ -121,7 +121,7 @@ jobs:
             - name: Download artifact from build job
               uses: actions/download-artifact@v4
               with:
-                  name: rcmnd-api
+                  name: rcmnd-api-zip
 
             - name: Unzip artifact for deployment
               run: unzip data-api-release.zip
