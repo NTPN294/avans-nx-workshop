@@ -127,7 +127,7 @@ jobs:
               run: unzip rcmnd-api-zip-release.zip
 
             - name: Install dependencies
-              run: npm install --legacy-peer-deps
+              run: npm install --force
 
             - name: 'Deploy to Azure Web App'
               id: deploy-to-webapp
