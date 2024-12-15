@@ -149,6 +149,11 @@ export class PostEditComponent implements OnInit {
     this.model.files = [];
     if (input.files) {
       Array.from(input.files).forEach((file) => {
+        if (file.name.split('.').pop() !== 'stl') {
+          alert('Only .stl files are allowed');
+          return;
+        }
+
         const reader = new FileReader();
         reader.onload = (e) => {
           const base64WithMeta = e.target!.result as string;

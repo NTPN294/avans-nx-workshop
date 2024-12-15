@@ -25,14 +25,13 @@ jobs:
               run: |
                   npm install --legacy-peer-deps
                   npm run build --if-present
-                  # npm run test --if-present
 
             - name: Zip artifacts for deployment
               run: |
                   echo ${GITHUB_WORKSPACE}
                   cd ${GITHUB_WORKSPACE}/dist/apps/data-api/ && zip ${GITHUB_WORKSPACE}/data-api-release.zip ./* -r
                   cd ${GITHUB_WORKSPACE}/dist/apps/my-app/ && zip ${GITHUB_WORKSPACE}/my-app-release.zip ./* -r
-                  cd ${GITHUB_WORKSPACE}/dist/apps/rcmnd-api/ && zip ${GITHUB_WORKSPACE}/rcmnd-api-zip-release.zip ./* -r
+                  cd ${GITHUB_WORKSPACE}/dist/apps/rcmnd-api/ && zip ${GITHUB_WORKSPACE}/rcmnd-api-release.zip ./* -r
 
             - name: Upload my-app artifact for deployment job
               uses: actions/upload-artifact@v4
@@ -49,8 +48,8 @@ jobs:
             - name: Upload rcmnd-api artifact for deployment job
               uses: actions/upload-artifact@v4
               with:
-                  name: rcmnd-api-zip
-                  path: rcmnd-api-zip-release.zip
+                  name: rcmnd-api
+                  path: rcmnd-api-release.zip
 
     deploy-my-app:
         runs-on: ubuntu-latest
@@ -121,13 +120,10 @@ jobs:
             - name: Download artifact from build job
               uses: actions/download-artifact@v4
               with:
-                  name: rcmnd-api-zip
+                  name: rcmnd-api
 
             - name: Unzip artifact for deployment
-              run: unzip rcmnd-api-zip-release.zip
-
-            - name: Change Directory to the extracted location
-              run: cd ${GITHUB_WORKSPACE}/package.json
+              run: unzip rcmnd-api-release.zip
 
             - name: Install dependencies
               run: npm install --legacy-peer-deps
